@@ -1,0 +1,13 @@
+
+@media (min-width: 500px) {
+    .box {
+        width: fit-content !important;
+    }
+  }
+
+@media (min-width: 1024px) {
+    .content-text {
+        width: fit-content !important;
+    }
+}
+  

@@ -1,0 +1,50 @@
+.text1::before {
+    content: '';
+    position: absolute;
+    width: 62px;
+    height: 2px;
+    background-color: #333;
+    bottom: -3px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .text2::before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background-color: #333;
+    bottom: -3px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .text3::before {
+    content: '';
+    position: absolute;
+    width: 82px;
+    height: 2px;
+    background-color: #333;
+    bottom: -3px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .text1:hover,
+  .text2:hover,
+  .text3:hover {
+    padding-bottom: 0;
+
+  }
+  
+  .text1:hover::before,
+  .text2:hover::before,
+  .text3:hover::before {
+    transform: scaleX(1);
+  }
+
+

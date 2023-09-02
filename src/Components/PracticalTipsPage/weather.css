@@ -1,0 +1,30 @@
+@keyframes spin {
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+.sun {
+    animation: spin 10s linear infinite ;
+}
+
+@keyframes moveVertical {
+    0%, 100% {
+        top: -20px; 
+    }
+    50% {
+        top: 15px; 
+    }
+}
+
+.rain {
+    position: relative;
+    right: 200px;
+    z-index: 0;
+    animation: moveVertical 2s linear infinite;
+}
+
+.cloud {
+    position: relative;
+    z-index: 1;
+}

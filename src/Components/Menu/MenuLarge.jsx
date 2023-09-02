@@ -1,0 +1,200 @@
+import React, {useState} from 'react'
+import { useNavigate } from 'react-router-dom'
+
+
+import './menularge.css'
+import blackLogo from '/src/assets/wonderful-jogja-logo-black-2.svg'
+
+import photo1 from '/src/assets/menu-jogja-photo1.png'
+import photo2 from '/src/assets/menu-jogja-photo2.png'
+import photo3 from '/src/assets/menu-jogja-photo3.png'
+
+function MenuLarge() {
+
+  const navigateToMainPage = useNavigate ()
+  const navigateToJogjaPage = useNavigate ()
+  const navigateToPracticalTipsPage = useNavigate()
+  
+
+  // =========== things-to-do
+  // museum
+  const navigateToMuseumPageJogja = useNavigate()
+  // hotel
+  const navigateToHotelPageJogja = useNavigate ()
+  // Art Activities
+  const navigateToArtActivitiesPageJogja = useNavigate ()
+  // Attraction
+  const navigateToAttractionPage = useNavigate()
+
+
+  const [activeSubMenu, setActiveSubMenu] = useState('thingsToDo');
+
+  const handleMenuHover = (submenu) => {
+    setActiveSubMenu(submenu);
+  };
+
+  const handleMenuLeave = (submenu) => {
+    if (activeSubMenu === submenu) {
+      setActiveSubMenu(null);
+    }
+  };
+
+  return (
+    <div className='hidden lg:block pl-[3rem]  h-[100vh]'>
+      <div className='w-screen h-[100vh] flex'>
+        <div className='w-[33.34%] gap-10 flex flex-col'>
+            <img className='w-[220px] h-[96.25px] overflow-hidden pt-5' src={blackLogo} alt="" />
+            <h1
+            className='menu__Large'
+            onMouseEnter={() => handleMenuHover('thingsToDo')}
+            onMouseLeave={handleMenuLeave}
+            >
+              Things to do</h1>
+            <h1
+            className='menu__Large'
+            onMouseEnter={() => handleMenuHover('placesToGo')}
+            onMouseLeave={handleMenuLeave}
+              >
+              Places to go</h1>
+            <h1
+            className='menu__Large'
+            onMouseEnter={() => handleMenuHover('practicalTips')}
+            onMouseLeave={handleMenuLeave}
+            >
+              Practical tips</h1>
+
+            <div className='flex absolute gap-3 items-center bg-button2 rounded-xl w-[230px] cursor-pointer drop-shadow-md bottom-14'
+            onClick={() => navigateToMainPage('/')}>
+              <button 
+                  id='botButton' 
+                  className='text-button  text-3xl px-[6px] py-[1px] w-[3rem] h-[3rem] flex justify-center items-center z-[1] '
+                  >
+                  <ion-icon name="close-outline"></ion-icon>
+              </button>
+              <p className='font-Poppins'>Back to Main Page</p>
+            </div>
+        </div>
+
+        <div className='w-[33.34%] px-10 pt-[133px] flex flex-col  bg-button2'>
+          {activeSubMenu === 'thingsToDo' && (
+            <>
+              {
+                <div className='font-Poppins gap-8 flex flex-col text-xl' >
+                  <div onClick={() => navigateToAttractionPage('/things-to-do/attraction-jogja')} 
+                  className='flex justify-between items-center menu__text'>
+                    <p>Attraction</p>
+                    <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
+                  </div>
+                  <div onClick={() => navigateToArtActivitiesPageJogja('/things-to-do/art-activities-jogja')}
+                   className='flex justify-between items-center menu__text cursor-pointer'>
+                    <p>Art Activities</p>
+                    <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
+                  </div>
+                  <div className='flex justify-between items-center menu__text cursor-pointer'
+                    onClick={() => navigateToMuseumPageJogja ('/things-to-do/museum-jogja')}
+                  >
+                    <p>Museum</p>
+                  <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
+                  </div>
+                  <a href="" className='flex justify-between items-center menu__text'>
+                    <p>Foods</p>
+                    <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
+                  </a>
+                  <a href="" className='flex justify-between items-center menu__text'>
+                    <p>Drinks</p>
+                    <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
+                  </a>
+                  <div className='flex justify-between items-center menu__text cursor-pointer'
+                    onClick={() => navigateToHotelPageJogja ('/things-to-do/hotel-jogja')}
+                  >
+                    <p>Hotels</p>
+                    <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
+                  </div>
+                  <a href="" className='flex justify-between items-center menu__text'>
+                    <p>Souvenir</p>
+                    <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
+                  </a>
+                </div>
+              }
+            </>
+          )}
+          {activeSubMenu === 'placesToGo' && (
+            <>
+              {
+                <div className='font-Poppins gap-8 flex flex-col text-xl'>
+                  {/* ============== SEMENTARA KE MAIN PAGE DULU ======================= */}
+                  <div className='flex justify-between items-center menu__text cursor-pointer'
+                    onClick={() => navigateToJogjaPage('/')} 
+                  >
+                    <p>Jogja</p>
+                    <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
+                  </div>
+                </div>
+              }
+            </>
+          )}
+          {activeSubMenu === 'practicalTips' && (
+            <>
+              {
+                <div className='font-Poppins gap-8 flex flex-col text-xl'>
+                  <div className='flex justify-between items-center menu__text cursor-pointer'
+                    onClick={() => navigateToPracticalTipsPage ('/practical-tips-page')}
+                  >
+                    <p>FAQ about Central Java</p>
+                    <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
+                  </div>
+                  <div className='flex justify-between items-center menu__text cursor-pointer'
+                    onClick={() => navigateToPracticalTipsPage ('/practical-tips-page')}
+                  >
+                    <p>Arriving and getting around</p>
+                    <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
+                  </div>
+                  <div className='flex justify-between items-center menu__text cursor-pointer'
+                    onClick={() => navigateToPracticalTipsPage ('/practical-tips-page')}
+                  >
+                    <p>Weather in Central Java</p>
+                  <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
+                  </div>
+                  <div className='flex justify-between items-center menu__text cursor-pointer'
+                    onClick={() => navigateToPracticalTipsPage ('/practical-tips-page')}
+                  >
+                    <p>What we need?</p>
+                    <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
+                  </div>
+              </div>
+              }
+            </>
+          )}
+        </div>
+
+        <div className='w-[33.34%] overflow-hidden flex justify-center items-center'>
+          {activeSubMenu === 'thingsToDo' && (
+            <>
+              {
+                <img className='w-[100%] h-[100%]' src={photo2} alt="" />
+              }
+            </>
+          )}
+          {activeSubMenu === 'placesToGo' && (
+            <>
+              {
+                <img className='w-[100%] h-[100%]' src={photo1} alt="" />
+              }
+            </>
+          )}
+          {activeSubMenu === 'practicalTips' && (
+            <>
+              {
+                <img className='w-[100%] h-[100%]' src={photo3} alt="" />
+              }
+            </>
+          )}
+        </div>
+
+      </div>
+    </div>
+  )
+}
+
+export default MenuLarge
+

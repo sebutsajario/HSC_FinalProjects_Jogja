@@ -1,0 +1,67 @@
+[
+    
+    {   "id": 1, 
+        "name": "Museum Affandi", 
+        "position": {"lat": -7.78106 , "lng": 110.3602408}, 
+        "pic":"/src/assets/museum/affandi.jpg", 
+        "link":"#"
+    },
+    {
+        "id": 2, 
+        "name": "Benteng Vredeburg", 
+        "position": {"lat": -7.80028465 , "lng": 110.36635102726859}, 
+        "pic":"/src/assets/museum/vredeburg.jpg", 
+        "link":"#"
+    },
+    {
+        "id": 3, 
+        "name": "Museum Sonobudoyo", 
+        "position": {"lat": -7.80234425 , "lng": 110.36441291543042}, 
+        "pic":"/src/assets/museum/senobudoyo.jpg", 
+        "link":"#"
+    },
+    {
+        "id": 4, 
+        "name": "Taman Pintar", 
+        "position": {"lat": -7.8009251 , "lng": 110.3676488}, 
+        "pic":"/src/assets/museum/tamanpintar.jpg", 
+        "link":"#"
+    },
+    {
+        "id": 5, 
+        "name": "Museum Merapi", 
+        "position": {"lat": -7.6004719 , "lng": 110.4491062}, 
+        "pic":"/src/assets/museum/merapi.jpg", 
+        "link":"#"
+    },
+    {
+        "id": 6, 
+        "name": "Monumen Jogja Kembali", 
+        "position": {"lat": -7.7496238 , "lng": 110.36963439175416}, 
+        "pic":"/src/assets/museum/monjali.jpg", 
+        "link":"#"
+    },
+    {
+        "id": 7, 
+        "name": "Museum Keraton Yogyakarta", 
+        "position": {"lat": -7.80820795 , "lng": 110.36378395221467}, 
+        "pic":"/src/assets/museum/kraton.jpg", 
+        "link":"#"
+    },
+    {
+        "id": 8, 
+        "name": "Museum Ullen Sentalu", 
+        "position": {"lat": -7.59764835 , "lng": 110.42339618812312}, 
+        "pic":"/src/assets/museum/sentalu.jpg", 
+        "link":"#"
+    },
+    {
+        "id": 9, 
+        "name": "Museum Pusat TNI AU Dirgantara Mandala", 
+        "position": {"lat": -7.7897642000000005 , "lng": 110.41619378089325}, 
+        "pic":"/src/assets/museum/dirgantara.jpg", 
+        "link":"#"
+    }
+
+]
+

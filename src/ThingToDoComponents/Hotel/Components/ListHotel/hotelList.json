@@ -1,0 +1,85 @@
+[
+        
+    {
+        "id": 1,
+        "image": "/src/assets/hotel/gambar3.jpg",
+        "title": "Hotel Diana Jogja",
+        "price": "Rp. 300.000",
+        "rate": "4.8",
+        "route": "hotel-Diana-Jogja",
+        "position" : {"lat": -7.8181536 , "lng": 110.3612179}
+      },
+    {
+        "id": 2,
+        "image": "/src/assets/hotel/gambar4.jpg",
+        "title": "Burza Hotel Yogyakarta",
+        "price": "Rp. 1.300.000",
+        "rate": "5.0",
+        "route": "hotel-Burza-Yogyakarta",
+        "position" : {"lat": -7.8240632 , "lng": 110.3619968}
+      },
+    {
+        "id": 3,
+        "image": "/src/assets/hotel/gambar1.jpg",
+        "title": "Liberta Malioboro",
+        "price": "Rp. 700.000",
+        "rate": "4.7",
+        "route": "hotel-Liberta-Malioboro",
+        "position" : {"lat": -7.7915068 , "lng": 110.3569917}
+      },
+    {
+        "id": 4,
+        "image": "/src/assets/hotel/gambar7.jpg",
+        "title": "KJ Hotel Yogyakarta",
+        "price": "Rp. 300.000",
+        "rate": "4.9",
+        "route": "hotel-KJ-Yogyakarta",
+        "position" : {"lat": -7.8224374 , "lng": 110.3647706}
+      },
+    {
+        "id": 5,
+        "image": "/src/assets/hotel/gambar2.jpg",
+        "title": "Tjokro Style Yogyakarta",
+        "price": "Rp. 400.000",
+        "rate": "4.9",
+        "route": "hotel-Tjokro-Style-Yogyakarta",
+        "position" : {"lat": -7.8167179 , "lng": 110.3780268}
+      },
+    {
+        "id": 6,
+        "image": "/src/assets/hotel/gambar8.jpg",
+        "title": "Zest Hotel Yogyakarta",
+        "price": "Rp. 450.000",
+        "rate": "4.7",
+        "route": "hotel-Zest-Yogyakarta",
+        "position" : {"lat": -7.7991574 , "lng": 110.3706981}
+      },
+    {
+        "id": 7,
+        "image": "/src/assets/hotel/gambar9.jpg",
+        "title": "Ayyarta Hotel Malioboro",
+        "price": "Rp. 800.000",
+        "rate": "5.0",
+        "route": "hotel-Ayyarta-Malioboro",
+        "position" : {"lat": -7.8012782 , "lng": 110.3544266}
+      },
+    {
+        "id": 8,
+        "image": "/src/assets/hotel/gambar10.jpg",
+        "title":"Puri Pangeran Hotel",
+        "price": "Rp. 600.000",
+        "rate": "4.9",
+        "route": "hotel-Puri-Pangeran",
+        "position" : {"lat": -7.8007226 , "lng": 110.3720191}
+      },
+    {
+        "id": 9,
+        "image": "/src/assets/hotel/gambar6.jpg",
+        "title": "Kalya Hotel",
+        "price": "Rp. 150.000",
+        "rate": "4.7",
+        "route": "hotel-Kalya-Hotel",
+        "position" : {"lat": -7.8135239 , "lng": 110.3988326}
+      }
+    
+]

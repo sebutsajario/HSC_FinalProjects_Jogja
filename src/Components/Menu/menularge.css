@@ -1,0 +1,29 @@
+.menu__Large {
+    font-weight: 500;
+    width: 250px;
+}
+
+.menu__Large:hover {
+    font-weight: bold;
+}
+
+.menu__Large {
+    position: relative;
+  }
+  
+.menu__Large::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background-color: #1d764a;
+    bottom: -2px;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.7s ease-in-out;
+  }
+
+  .menu__Large:hover::before {
+    transform: scaleX(1);
+  }

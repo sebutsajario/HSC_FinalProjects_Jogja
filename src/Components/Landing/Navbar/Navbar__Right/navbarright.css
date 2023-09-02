@@ -1,0 +1,18 @@
+.icon {
+    color: white;
+}
+
+.headroom-hovered .icon {
+  color: black;
+}
+
+.headroom--pinned .icon {
+    color: black;
+  }
+
+.headroom-hovered .icon::before {
+  background-color: black; 
+}
+
+.headroom--pinned .icon::before {
+    background-color: black; }

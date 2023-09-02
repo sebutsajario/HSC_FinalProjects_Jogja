@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "title": "Attractions",
+        "src": "/src/assets/things-to-do/attraction-1.png",
+        "description" : "Experience the awe-inspiring allure of Yogyakarta, where ancient temples, vibrant arts, and genuine hospitality converge to create an unforgettable adventure for foreign explorers."
+      },
+      {
+        "id": "2",
+        "title": "Art Activities",
+        "src": "/src/assets/things-to-do/artactivities-1.png",
+        "description" : "Immerse yourself in the enchanting world of art in Yogyakarta, where a vibrant tapestry of creative workshops, galleries, and cultural experiences awaits your exploration."
+      },
+      {
+        "id": "3",
+        "title": "Museums",
+        "src": "/src/assets/things-to-do/museum-1.png",
+        "description" : "Jogja's historical museums offer a captivating journey through time, unveiling the rich tapestry of the city's past and heritage through captivating artifacts and exhibits."
+      },
+      {
+        "id": "4",
+        "title": "Hotels and Resorts",
+        "src": "/src/assets/things-to-do/hotels-1.png",
+        "description" : "Discover the perfect blend of luxury and tradition as Jogja's hotels offer a unique experience, where modern comforts harmoniously intertwine with the city's rich cultural heritage."
+      },
+      {
+        "id": "5",
+        "title": "Souvenirs",
+        "src": "/src/assets/things-to-do/souvenir-1.png",
+        "description" : "Bring home a piece of cherished memories from Jogja through its diverse range of captivating souvenirs, each encapsulating the city's cultural richness and artistic spirit."
+      },
+      {
+        "id": "6",
+        "title": "Foods",
+        "src": "/src/assets/things-to-do/food-1.png",
+        "description" : "Indulge in an array of uniquely flavorful culinary delights in Jogja, where traditional ingredients and cooking methods combine to create a taste experience unlike any other."
+      },
+      {
+        "id": "7",
+        "title": "Drinks",
+        "src": "/src/assets/things-to-do/drinks-1.png",
+        "description" : "Quench your thirst with an enticing variety of refreshing drinks in Jogja, ranging from exotic tropical blends to locally-inspired beverages, offering a sip of the city's vibrant flavors."
+      }
+]

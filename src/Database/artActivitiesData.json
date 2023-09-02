@@ -1,0 +1,96 @@
+[
+    
+    {   "id": 1, 
+        "name": "Pendhapa Art Space", 
+        "position": {"lat": -7.82854195 , "lng": 110.35732105}, 
+        "pic":"/src/assets/art-activities/PendhapaArt.jpg", 
+        "link":"#",
+        "address": "Jl. Ring Road Selatan Tegal Krapyak RT.01 Panggungharjo, Sewon, Bantul, Yogyakarta", 
+        "description": "Pendhapa Art Space atau lebih dikenal dengan sebutan PAS awalnya adalah bangunan perluasan untuk proses kreatif dari Studio Satiaji Sculpture & Artwork milik Dunadi (pematung). Studio tersebut bergerak di bidang produksi pembuatan karya seni tiga dimensi. Pendhapa Art Space mulai dibangun bertahap dan dirancang sendiri pada tahun 2006 oleh Dunadi (perupa tiga dimensi dan pemilik PAS), pada awalnya Pendhapa Art Space bernama Pendopo Sapto Aji dan merupakan gedung serbaguna yang mulai dibuka untuk umum pada tahun 2011, dan berkembang menjadi art space pada tahun 2013. Tahun 2015 memulai menginisiasi program seni secara mandiri bernama STARTUP."
+    },
+    {
+        "id": 2, 
+        "name": "Leksa Ganesha Batik Gallery", 
+        "position": {"lat": -7.8719651 , "lng": 110.351002}, 
+        "pic":"/src/assets/art-activities/LeksaGaneshaBatik2.jpg", 
+        "link":"#",
+        "address": "Jl. Parangtritis KM 8,5 Gatak, Timbulharjo, Sewon 55797 Indonesia", 
+        "description": "Benteng Vredeburg adalah saksi sejarah betapa kuatnya pengaruh Belanda dalam menjajah Indonesia. Karena posisinya yang strategis di tengah kota, tepatnya di depan Keraton Yogyakarta, Benteng Vredeburg telah merekam peristiwa-peristiwa penting dan telah mengalami perubahan fungsi dari waktu ke waktu."
+    },
+    {
+        "id": 3, 
+        "name": "Gajah Gallery Yogyakarta", 
+        "position": {"lat": -7.8241993 , "lng": 110.344032}, 
+        "pic":"/src/assets/art-activities/GajahGalleryYogyakarta.jpg", 
+        "link":"#",
+        "address": "Jln. Bugisan Selatan, Keloran, Bantul Yogyakarta 55181", 
+        "description": "Sejak 1996, Gajah Gallery telah menjadi badan pelopor di ranah seni rupa Asia Tenggara, mewakilkan seniman kawakan seperti Yunizar, Ashley Bickerton, Suzann Victor, Li Jin, dan juga seniman muda seperti Erizal As. Setelah 20 tahun berada dalam kancah seni rupa, Gajah Gallery meresmikan cabang di Yogyakarta, pusat seni Indonesia. Gajah Gallery Yogyakarta bercita- cita untuk membina pertukaran seni antara Singapura dan Indonesia, dan juga memperkenalkan dan mengembangkan nama seniman regional dalam ranah internasional."
+    },
+    {
+        "id": 4, 
+        "name": "Yanto Craft", 
+        "position": {"lat": -7.7957892 , "lng": 110.3536407}, 
+        "pic":"/src/assets/art-activities/YantoCraft.jpg", 
+        "link":"#",
+        "address": "Jl. Lintas selatan gunungkidul Jalan gua Maria tritis, Yogyakarta 55871 Indonesia", 
+        "description": "Yanto Craft adalah Toko Seni & Kerajinan"
+    },
+    {
+        "id": 5, 
+        "name": "Langgeng Art Foundation", 
+        "position": {"lat": -7.8180486 , "lng": 110.3550026}, 
+        "pic":"/src/assets/art-activities/LanggengArt Foundation.jpg", 
+        "link":"#",
+        "address": "Jln. Suryodiningratan 37, 55141 Indonesia", 
+        "description": "Langgeng Art Foundation adalah sebuah Yayasan yang bergerak di bidang seni. Didirikan oleh seorang kolektor karya seni yang cukup kondang di Yogyakarta. Galeri ini kerap menjadi tempat art exhibition para seniman-seniman lokal maupun luar kota. Juga tempat manggung band-band indie. Di lantai atas saya melihat ada beberapa sketsa dan karya seni rupa yang dipamerkan."
+    },
+    {
+        "id":6, 
+        "name": "Lana Gallery", 
+        "position": {"lat": -7.8242108 , "lng": 110.3691192}, 
+        "pic":"/src/assets/art-activities/LanaGallery.jpg", 
+        "link":"#",
+        "address": "Jl. Menukan no. 276, 55153 Indonesia", 
+        "description": "Lana Gallery. Galeri seni yang terletak di Jl. Menukan, dan menghadirkan beragam koleksi seni yang menarik"
+    },
+
+
+    {
+        "id": 7, 
+        "name": "Jogja Gallery", 
+        "position": {"lat": -7.802826 , "lng": 110.3657125}, 
+        "pic":"/src/assets/art-activities/JogjaGallery.jpg", 
+        "link":"#",
+        "address": "Jl. Pekapalan No. 7 Alun-Alun Utara, 55131 Indonesia", 
+        "description": "Jogja Gallery adalah sebuah galeri seni visual di Yogyakarta yang berdiri sejak 19 September 2006, diresmikan oleh Sri Sultan Hamengku Buwono X dan berlokasi di Jl. Perkapalan No. 7, alun-alun utara, Yogyakarta."
+    },
+
+    {
+        "id": 8, 
+        "name": "Batik Master Class", 
+        "position": {"lat": -7.7569181 , "lng": 110.4883159}, 
+        "pic":"/src/assets/art-activities/BatikMasterClass.jpg", 
+        "link":"#",
+        "address": "Bener, RT.02/RW.02, Bugisan, Kec. Prambanan, Kabupaten Klaten, Jawa Tengah 57454", 
+        "description": "Batik Master Class with Full Process by Alga Lova Tour"
+    },
+    {
+        "id": 9, 
+        "name": "Semar Gallery", 
+        "position": {"lat": -7.8574077 , "lng": 110.3554058}, 
+        "pic":"/src/assets/art-activities/SemarGallery.jpg", 
+        "link":"#",
+        "address": "Jl. Parangtritis Km 7 Cabean, Bantul 55188 Indonesia", 
+        "description": "Galeri Semar yang mengkhususkan diri dalam pembangunan kembali dan perbaikan rumah kayu tradisional khususnya rumah Jawa."
+    },
+    {
+        "id": 10, 
+        "name": "Semar Gallery", 
+        "position": {"lat": -7.8574077 , "lng": 110.3554058}, 
+        "pic":"/src/assets/art-activities/SemarGallery.jpg", 
+        "link":"#",
+        "address": "Jl. Parangtritis Km 7 Cabean, Bantul 55188 Indonesia", 
+        "description": "Galeri Semar yang mengkhususkan diri dalam pembangunan kembali dan perbaikan rumah kayu tradisional khususnya rumah Jawa."
+    }
+
+]
