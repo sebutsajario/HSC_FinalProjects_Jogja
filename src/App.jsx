@@ -17,11 +17,13 @@ import HotelPageJogja from './Pages/Things-to-do/HotelPage/HotelPage'
 import DetailHotel from './ThingToDoComponents/Hotel/Pages/DetailHotel'
 // Art Activities
 import ArtActivitiesPage from './Pages/Things-to-do/ArtActivitiesPage/ArtActivitiesPage'
+import DetailArt from './ThingToDoComponents/ArtActivities/Pages/DetailArt'
 // Attraction
 
 
 
 import './App.css'
+import SouvenirPage from './Pages/Things-to-do/SouvenirPage/SouvenirPage'
 
 
 function App() {
@@ -44,8 +46,12 @@ function App() {
             <Route path="/things-to-do/hotel-jogja/hotel-detail" element={<DetailHotel />}/>
                         {/* ========= Art Activities =========== */}
             <Route path='/things-to-do/art-activities-jogja' element={<ArtActivitiesPage />}></Route>
-            <Route path="/things-to-do/art-activities-jogja/:id" element={<DetailMuseum />}/>
+            <Route path="/things-to-do/art-activities-jogja/detail-art" element={<DetailArt />}/>
                         {/* ========= Attraction =========== */}
+
+                        {/* ========= Souvenir =========== */}
+            <Route path='/things-to-do/souvenir-jogja' element={<SouvenirPage />}></Route>
+                      
           </Routes>
       </Router>
     </>
