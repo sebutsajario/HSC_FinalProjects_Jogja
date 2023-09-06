@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
+import L, { marker } from 'leaflet'
+
 
 // ==== Database local
 import museumsData from '/src/Database/museumsData.json'
@@ -18,8 +20,14 @@ function LeafletMap() {
     setActiveCategory(categoryData);
   };
 
+  const markerIcon = new L.Icon ({
+    iconUrl:'/Assets/Leaflet/custom_marker1.png',
+    iconSize: [32, 32],
+    iconAnchor:[10,30],
+  })
 
-  const position = [-7.79 , 110.4]
+
+  const position = [-7.8 , 110.363]
   return (
     <div className='flex flex-col justify-center items-center py-5'>
       <div className='mt-5 w-[18rem] lg:w-[23rem] flex justify-between mb-2'>
@@ -41,17 +49,16 @@ function LeafletMap() {
       </div>
     <MapContainer 
       center={position} 
-      zoom={11}
+      zoom={13}
       scrollWheelZoom={false}>
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
 
-      {/* =================================== PUNYA NYA MUSEUM ========================================= */}
 
       {activeCategory.map((item, index) => (
-        <Marker key={index} position={item.position} >
+        <Marker key={index} position={item.position} icon={markerIcon} >
           <Popup>
             <div className='flex flex-col justify-center items-center' >
               <h3>{item.name}</h3>

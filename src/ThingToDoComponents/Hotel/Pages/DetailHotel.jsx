@@ -6,7 +6,7 @@ import ContactHotel from '../Components/ContactHotel'
 import ReuseNav from '/src/Components/ReuseableNav/ReuseNav'
 import Footer from '/src/Components/Footer/Footer'
 
-import ImgDetail from '/src/assets/hotel/gambar1.jpg'
+import ImgDetail from '/Assets/hotel/gambar1.jpg'
 
 
 const DetailHotel = () => {

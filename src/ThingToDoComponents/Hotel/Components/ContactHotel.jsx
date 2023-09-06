@@ -1,5 +1,5 @@
 import React from 'react'
-import Clear from '/src/assets/Weather/clear.png'
+import Clear from '/Assets/Weather/clear.png'
 
 import Visit from '/src/assets/visit.svg'
 
