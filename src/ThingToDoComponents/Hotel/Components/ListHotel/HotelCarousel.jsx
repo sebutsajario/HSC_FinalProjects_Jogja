@@ -9,7 +9,7 @@ import { Pagination } from 'swiper/modules';
 import { FreeMode } from 'swiper/modules';
 
 
-import HotelList from './hotelList.json'
+import HotelList from '/src/Database/hotelList.json'
 
 import 'swiper/css';
 import 'swiper/css/navigation';

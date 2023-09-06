@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Campfire from '/src/assets/campfire2.png'
+import Campfire from '/Assets/mainpage/campfire2.png'
 
 
 function JogjaTime() {

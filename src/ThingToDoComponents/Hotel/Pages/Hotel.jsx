@@ -3,7 +3,7 @@ import TitleHotel from '../Components/TitleHotel'
 import HotelCarousel from '../Components/ListHotel/HotelCarousel'
 import MapHotel from '../Components/MapHotel'
 
-import Gambar6 from '/src/assets/hotel/gambar6.jpg'
+import Gambar6 from '/Assets/hotel/gambar6.jpg'
 
 const Hotel = () => {
     return (

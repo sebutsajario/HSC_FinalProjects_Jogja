@@ -5,9 +5,9 @@ import { useNavigate } from 'react-router-dom'
 import './menularge.css'
 import blackLogo from '/src/assets/wonderful-jogja-logo-black-2.svg'
 
-import photo1 from '/src/assets/menu-jogja-photo1.png'
-import photo2 from '/src/assets/menu-jogja-photo2.png'
-import photo3 from '/src/assets/menu-jogja-photo3.png'
+import photo1 from '/Assets/menu/menu-jogja-photo1.png'
+import photo2 from '/Assets/menu/menu-jogja-photo2.png'
+import photo3 from '/Assets/menu/menu-jogja-photo3.png'
 
 function MenuLarge() {
 

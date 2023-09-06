@@ -1,9 +1,9 @@
 import React from 'react'
 
-// import clear_icon from '/src/assets/Weather/clear.png'
-// import cloud_icon from '/src/assets/Weather/cloud.png'
-// import drizzle_icon from '/src/assets/Weather/drizzle.png'
-import rain_icon from '/src/assets/Weather/rain.png'
+// import clear_icon from '/Assets/Weather/clear.png'
+// import cloud_icon from '/Assets/Weather/cloud.png'
+// import drizzle_icon from '/Assets/Weather/drizzle.png'
+import rain_icon from '/Assets/Weather/rain.png'
 
 const Temperature = () => {
 

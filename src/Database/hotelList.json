@@ -2,7 +2,7 @@
         
     {
         "id": 1,
-        "image": "/src/assets/hotel/gambar3.jpg",
+        "image": "/Assets/hotel/gambar3.jpg",
         "title": "Hotel Diana Jogja",
         "price": "Rp. 300.000",
         "rate": "4.8",
@@ -11,7 +11,7 @@
       },
     {
         "id": 2,
-        "image": "/src/assets/hotel/gambar4.jpg",
+        "image": "/Assets/hotel/gambar4.jpg",
         "title": "Burza Hotel Yogyakarta",
         "price": "Rp. 1.300.000",
         "rate": "5.0",
@@ -20,7 +20,7 @@
       },
     {
         "id": 3,
-        "image": "/src/assets/hotel/gambar1.jpg",
+        "image": "/Assets/hotel/gambar1.jpg",
         "title": "Liberta Malioboro",
         "price": "Rp. 700.000",
         "rate": "4.7",
@@ -29,7 +29,7 @@
       },
     {
         "id": 4,
-        "image": "/src/assets/hotel/gambar7.jpg",
+        "image": "/Assets/hotel/gambar7.jpg",
         "title": "KJ Hotel Yogyakarta",
         "price": "Rp. 300.000",
         "rate": "4.9",
@@ -38,7 +38,7 @@
       },
     {
         "id": 5,
-        "image": "/src/assets/hotel/gambar2.jpg",
+        "image": "/Assets/hotel/gambar2.jpg",
         "title": "Tjokro Style Yogyakarta",
         "price": "Rp. 400.000",
         "rate": "4.9",
@@ -47,7 +47,7 @@
       },
     {
         "id": 6,
-        "image": "/src/assets/hotel/gambar8.jpg",
+        "image": "/Assets/hotel/gambar8.jpg",
         "title": "Zest Hotel Yogyakarta",
         "price": "Rp. 450.000",
         "rate": "4.7",
@@ -56,7 +56,7 @@
       },
     {
         "id": 7,
-        "image": "/src/assets/hotel/gambar9.jpg",
+        "image": "/Assets/hotel/gambar9.jpg",
         "title": "Ayyarta Hotel Malioboro",
         "price": "Rp. 800.000",
         "rate": "5.0",
@@ -65,7 +65,7 @@
       },
     {
         "id": 8,
-        "image": "/src/assets/hotel/gambar10.jpg",
+        "image": "/Assets/hotel/gambar10.jpg",
         "title":"Puri Pangeran Hotel",
         "price": "Rp. 600.000",
         "rate": "4.9",
@@ -74,7 +74,7 @@
       },
     {
         "id": 9,
-        "image": "/src/assets/hotel/gambar6.jpg",
+        "image": "/Assets/hotel/gambar6.jpg",
         "title": "Kalya Hotel",
         "price": "Rp. 150.000",
         "rate": "4.7",
