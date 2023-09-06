@@ -1,13 +1,13 @@
 import React  from 'react'
 import { useNavigate } from 'react-router-dom'
 
-import image1 from '/src/assets/things-to-do/attraction-1.png'
-import image2 from '/src/assets/things-to-do/artactivities-1.png'
-import image3 from '/src/assets/things-to-do/museum-1.png'
-import image4 from '/src/assets/things-to-do/souvenir-1.png'
-import image5 from '/src/assets/things-to-do/food-1.png'
-import image6 from '/src/assets/things-to-do/drinks-1.png'
-import image7 from '/src/assets/things-to-do/hotels-1.png'
+import image1 from '/Assets/things-to-do/attraction-1.png'
+import image2 from '/Assets/things-to-do/artactivities-1.png'
+import image3 from '/Assets/things-to-do/museum-1.png'
+import image4 from '/Assets/things-to-do/souvenir-1.png'
+import image5 from '/Assets/things-to-do/food-1.png'
+import image6 from '/Assets/things-to-do/drinks-1.png'
+import image7 from '/Assets/things-to-do/hotels-1.png'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 

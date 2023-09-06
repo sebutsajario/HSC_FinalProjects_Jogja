@@ -23,7 +23,7 @@ export default function Museum() {
   return (
     <div className='flex flex-col min-h-screen '>
         <div className='bg-[#f1f8ff]  h-full flex flex-col justify-center mx-auto'>
-        <div className='bg-[url("/src/assets/museum/background-museum.svg")] bg-cover bg-center bg-no-repeat bg-fixed flex flex-col justify-center items-center '>
+        <div className='bg-[url("/Assets/museum/background-museum.svg")] bg-cover bg-center bg-no-repeat bg-fixed flex flex-col justify-center items-center '>
             <Navbar />
             <div className='w-screen sm:w-[70vw] h-[90vh] flex justify-center items-center px-10 pb-[7rem] flex-col'>
                 <h1 className='text-white text-5xl lg:text-[72px] italic text-center'>Museums</h1>
@@ -32,11 +32,6 @@ export default function Museum() {
         </div>
 
             <div className='bg-white shadow-lg border-spacing-3 px-5 '>
-                {/* <hr className='border' />
-                <div className="w-full md:w-[60%] mx-auto md:text-center">
-                    <h1 className='mb-2.5'>Museums at Yogyakarta</h1>
-                    <p className='mb-2.5'>Yogyakarta is a province with the nickname Student City or often also known as Special. Many students come to Jogja to seek knowledge or just to travel. One of the most popular tours in Yogyakarta is the Museum, here is a list of museums in Yogyakarta:</p>
-                </div> */}
                         <div className='flex flex-col md:flex-row md:px-[40px] md:justify-between lg:px-[80px] xl:px-[140px]'>
                             <div className='flex flex-col justify-center md:items-start w-full py-8'>
                                 <h1 className=' mt-5 mb-4 text-4xl font-medium tracking-tight leading-none md:text-5x1 xl:text-6x1  font-lora'>Museums</h1> 

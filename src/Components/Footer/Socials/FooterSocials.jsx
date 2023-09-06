@@ -1,5 +1,5 @@
 import React from 'react'
-import logoBlack from '/src/assets/wonderful-jogja-logo-black.svg'
+import logoBlack from '/src/assets/wonderful-jogja-logo-black-2.svg'
 import MemberTeam from './MemberTeam'
 
 function FooterSocials() {
