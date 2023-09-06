@@ -20,10 +20,17 @@ import ArtActivitiesPage from './Pages/Things-to-do/ArtActivitiesPage/ArtActivit
 import DetailArt from './ThingToDoComponents/ArtActivities/Pages/DetailArt'
 // Attraction
 
+//Souvenir
+import SouvenirPage from './Pages/Things-to-do/SouvenirPage/SouvenirPage'
+
+//Food
+import FoodPage from './Pages/Things-to-do/FoodPage/FoodPage'
+import DetailFood from './ThingToDoComponents/Foods/Pages/DetailFood'
+
 
 
 import './App.css'
-import SouvenirPage from './Pages/Things-to-do/SouvenirPage/SouvenirPage'
+
 
 
 function App() {
@@ -51,7 +58,11 @@ function App() {
 
                         {/* ========= Souvenir =========== */}
             <Route path='/things-to-do/souvenir-jogja' element={<SouvenirPage />}></Route>
-                      
+
+                        {/* ========= Food =========== */}
+            <Route path='/things-to-do/food-jogja' element={<FoodPage/>}></Route>
+            <Route path="/things-to-do/food-jogja/:id" element={<DetailFood />}/>
+            
           </Routes>
       </Router>
     </>
