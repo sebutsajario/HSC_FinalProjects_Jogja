@@ -25,7 +25,6 @@ export default function DetailMuseum() {
 
   const callApi = async()=>{
     axiosInstance.detail(id).then((res) =>{
-      console.log(res)
       setDetail(res)
     })
   }

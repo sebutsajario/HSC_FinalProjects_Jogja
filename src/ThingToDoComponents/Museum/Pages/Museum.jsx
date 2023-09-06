@@ -3,13 +3,11 @@ import CardList from '../Components/CardList'
 import Navbar from '../../../Components/Landing/Navbar/Navbar'
 // import axios from 'axios'
 
-import { useNavigate } from 'react-router-dom'
 
 import  axiosInstance from '/src/API/apiMuseum.js'
 
 export default function Museum() {
 
-    const navigateToHomePage = useNavigate ()
     const [museum, setMuseum] = useState([])
     const callApi = async() => {
         axiosInstance.museum().then((res) => {
@@ -19,7 +17,6 @@ export default function Museum() {
     useEffect(() => {
         callApi()
     }, [])
-    console.log(museum)
   return (
     <div className='flex flex-col min-h-screen '>
         <div className='bg-[#f1f8ff]  h-full flex flex-col justify-center mx-auto'>

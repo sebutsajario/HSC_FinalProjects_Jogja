@@ -4,6 +4,7 @@ import './navbarmid.css'
 
 const NavbarMid = () => {
     const navigateToPracticalTipsPage = useNavigate()
+    const navigateToMainPage = useNavigate()
 
     const [isHeadroomHovered, setIsHeadroomHovered] = useState(false);
     const [isHeadroomPinned, setIsHeadroomPinned] = useState(false);
@@ -16,12 +17,16 @@ const NavbarMid = () => {
       } ${isHeadroomPinned ? 'headroom--pinned' : ''}`}
     >
         <div className='flex gap-[4rem] '>
-            <a href="#thing-to-do">
-              <p className='text-[18px] w-[120px] font-Poppins transform hover:scale-105 hover:font-semibold transition-all cursor-pointer font-light text1'>Things to do</p>
-            </a>
-            <a href="#map">
-              <p className='text-[18px] w-[120px] font-Poppins transform hover:scale-105 hover:font-semibold transition-all cursor-pointer font-light text2'>Places to go</p>
-            </a>
+            <div onClick={() => navigateToMainPage('/')}>
+              <a href="#thing-to-do">
+                <p className='text-[18px] w-[120px] font-Poppins transform hover:scale-105 hover:font-semibold transition-all cursor-pointer font-light text1'>Things to do</p>
+              </a>
+            </div>
+            <div onClick={() => navigateToMainPage('/')}>
+              <a href="#map">
+                <p className='text-[18px] w-[120px] font-Poppins transform hover:scale-105 hover:font-semibold transition-all cursor-pointer font-light text2'>Places to go</p>
+              </a>
+            </div>
             <div onClick={() => navigateToPracticalTipsPage('/practical-tips-page')} >
               <p className='text-[18px] w-[120px] font-Poppins transform hover:scale-105 hover:font-semibold transition-all cursor-pointer font-light text3'>Practical tips</p>
             </div>
