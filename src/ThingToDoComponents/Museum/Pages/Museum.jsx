@@ -20,7 +20,7 @@ export default function Museum() {
   return (
     <div className='flex flex-col min-h-screen '>
         <div className='bg-[#f1f8ff]  h-full flex flex-col justify-center mx-auto'>
-        <div className='bg-[url("/Assets/museum/background-museum.svg")] bg-cover bg-center bg-no-repeat bg-fixed flex flex-col justify-center items-center '>
+        <div className='bg-[url("/Assets/museum/background-museum.png")] bg-cover bg-center bg-no-repeat bg-fixed flex flex-col justify-center items-center '>
             <Navbar />
             <div className='w-screen sm:w-[70vw] h-[90vh] flex justify-center items-center px-10 pb-[7rem] flex-col'>
                 <h1 className='text-white text-5xl lg:text-[72px] italic text-center'>Museums</h1>
