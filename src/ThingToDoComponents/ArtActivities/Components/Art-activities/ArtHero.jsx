@@ -3,7 +3,7 @@ import Navbar from '/src/Components/Landing/Navbar/Navbar'
 
 const ArtHero = () => {
     return (
-        <div className='bg-[url("/Assets/art-activities/background-art.png")] bg-cover bg-center bg-no-repeat bg-fixed flex flex-col justify-center items-center '>
+        <div className='bg-[url("/Assets/art-activities/background-art2.png")] bg-cover bg-center bg-no-repeat bg-fixed flex flex-col justify-center items-center '>
             <Navbar />
             <div className='w-screen sm:w-[70vw] h-[90vh] flex justify-center items-center px-10 pb-[7rem] flex-col'>
                 <h1 className='text-white text-5xl lg:text-[72px] italic text-center'>Art Activities</h1>
