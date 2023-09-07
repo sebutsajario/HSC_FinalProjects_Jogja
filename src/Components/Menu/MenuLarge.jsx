@@ -71,9 +71,9 @@ function MenuLarge() {
             onClick={() => navigateToMainPage('/')}>
               <button 
                   id='botButton' 
-                  className='text-button  text-3xl px-[6px] py-[1px] w-[3rem] h-[3rem] flex justify-center items-center z-[1] '
+                  className='text-button  text-[40px] px-[6px] py-[1px] w-[3rem] h-[3rem] flex justify-center items-center z-[1] '
                   >
-                  <ion-icon name="close-outline"></ion-icon>
+                  <i className='bx bx-x'></i>
               </button>
               <p className='font-Poppins'>Back to Main Page</p>
             </div>
