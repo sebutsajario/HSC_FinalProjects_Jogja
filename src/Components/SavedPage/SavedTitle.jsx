@@ -4,7 +4,6 @@ import { useNavigate } from 'react-router-dom'
 const SavedTitle = () => {
 
     const navigateToMainPage = useNavigate()
-    const navigateToMenuPage = useNavigate()
 
   return (
     <div>
@@ -17,7 +16,7 @@ const SavedTitle = () => {
                     id='botButton' 
                     className='text-button  text-3xl px-[6px] py-[1px] w-[3rem] h-[3rem] flex justify-center items-center z-[1] '
                     >
-                    <ion-icon name="close-outline"></ion-icon>
+                    <i className='bx bx-x'></i>
                 </button>
                 <p className='font-Poppins'>Back to Main Page</p>
             </div>
