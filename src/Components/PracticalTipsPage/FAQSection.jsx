@@ -17,7 +17,7 @@ const FAQSection = () => {
             id='botButton' 
             className='text-button  text-3xl px-[6px] py-[1px] w-[3rem] h-[3rem] flex justify-center items-center z-[1] '
           >
-            <ion-icon name="arrow-back-outline"></ion-icon>
+            <i className='bx bx-arrow-back'></i>
           </button>
           <p className='font-Poppins'>Back to Home Page</p>
         </div>

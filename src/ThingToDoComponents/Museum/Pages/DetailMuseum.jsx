@@ -39,13 +39,13 @@ export default function DetailMuseum() {
         <div className='w-screen h-[80px] flex justify-end items-center pr-4 gap-3
             sm:pr-5
         '>
-            <div className='flex gap-3 items-center bg-button2 rounded-xl w-[270px] cursor-pointer drop-shadow-md bottom-14'
+            <div className='flex gap-2 items-center bg-button2 rounded-xl w-[270px] cursor-pointer drop-shadow-md bottom-14'
                 onClick={() => navigateToMuseumPage('/things-to-do/museum-jogja')}>
                 <button 
                     id='botButton' 
                     className='text-button  text-3xl px-[6px] py-[1px] w-[3rem] h-[3rem] flex justify-center items-center z-[1] '
                     >
-                    <ion-icon name="close-outline"></ion-icon>
+                    <i className='bx bx-x'></i>
                 </button>
                 <p className='font-Poppins'>Back to Museum Page</p>
             </div>

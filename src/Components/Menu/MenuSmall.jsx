@@ -126,19 +126,19 @@ const MenuSmall = () => {
             lg:hidden
             '>
             <button className='bg-white text-button text-xl rounded-l-lg px-[6px] py-[1px] w-[2.5rem] h-[2.5rem] text-center relative left-1 drop-shadow-md'>
-                <ion-icon name="search-outline"></ion-icon>
+            <i className='bx bx-search'></i>
             </button>
 
             <button 
                 id='botButton' 
-                className='text-button bg-button2 text-3xl px-[6px] py-[1px] w-[3rem] h-[3rem] flex justify-center items-center rounded-xl z-[1] drop-shadow-md'
+                className='text-button bg-button2 text-[40px] px-[6px] py-[1px] w-[3rem] h-[3rem] flex justify-center items-center rounded-xl z-[1] drop-shadow-md'
                 onClick={() => navigateToMainPage('/')}
                 >
-                <ion-icon name="close-outline"></ion-icon>
+                <i className='bx bx-x'></i>
             </button>
 
             <button className='bg-white text-button text-xl rounded-r-lg px-[6px] py-[1px] w-[2.5rem] h-[2.5rem] text-center relative right-1 drop-shadow-md'> 
-                <ion-icon name="heart-outline"></ion-icon>
+            <i className='bx bx-heart'></i>
             </button>
         </div>
     </div>
