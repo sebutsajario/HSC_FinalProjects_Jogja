@@ -17,7 +17,7 @@ const Accordion = ({ question, answer }) => {
                     {question}
                 </h3>
                 <span className={`arrow ${isExpanded ? 'expanded' : ''}`}>
-                    <ion-icon name="caret-down-outline"></ion-icon>
+                    <i className='bx bx-chevron-down text-[30px]'></i>
                 </span>
             </div>
             {isExpanded && (
