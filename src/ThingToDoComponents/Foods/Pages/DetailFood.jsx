@@ -44,7 +44,7 @@ const DetailFood = () => {
                 <img src={detail.pic} alt="" className='w-full lg:min-h-[96vh] object-cover rounded-2xl drop-shadow-xl'/>
             </div>
             <div className='w-screen h-fit bg-[#F1F8FF] pt-5'>
-                <section className="px-5 md:w-[50%] md:mx-auto ">
+                <section className="px-5 md:w-[75%] md:mx-auto ">
                     <div className="flex flex-1  justify-between items-center mb-5">
                         <div>
                             <span className='font-Poppins'>Food</span>

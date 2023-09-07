@@ -5,7 +5,7 @@ import questionsData from '/src/Database/questionsData.json'
 function FaQArc() {
 
   return (
-      <div className='list w-screen h-fit flex flex-col justify-center mx-2 mt-2
+      <div className='list h-fit flex flex-col justify-center mx-2 mt-2
         lg:w-[50vw]
       '>
         {

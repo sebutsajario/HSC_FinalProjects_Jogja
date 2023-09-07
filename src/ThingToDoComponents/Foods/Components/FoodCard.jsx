@@ -12,7 +12,7 @@ const FoodCard = ({item , src , title , description}) => {
         setToggle(!toggle)
     }
   return (
-    <div className='w-full mb-5 lg:w-[25%] md:w-[30%] md:p-2'>
+    <div className='w-full mb-5  lg:w-[25%] md:w-[30%] md:p-2'>
             <div className="relative">
                 <img src={src} alt="" className='w-full h-60 rounded-lg mb-2 object-cover' />
                 <div onClick={clickLove} className='absolute bottom-0 right-0 bg-[#F1F8FF] w-[40px] h-[40px] opacity-90  rounded-br-md rounded-tl-md hover:bg-button hover:fill-white cursor-pointer'>
