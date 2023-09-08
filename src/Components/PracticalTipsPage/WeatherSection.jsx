@@ -1,5 +1,5 @@
 import React from 'react'
-import Clear from '/src/assets/Weather/clear.png'
+import Clear from '/Assets/Weather/clear.png'
 import Rainy from '/src/assets/Weather/darkcloud.svg'
 import RainDrop from '/src/assets/Weather/raindrop.svg'
 

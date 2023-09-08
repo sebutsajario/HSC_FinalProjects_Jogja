@@ -1,11 +1,18 @@
 import React from 'react'
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
+import L from 'leaflet'
 
-import hotelList from '../Components/ListHotel/hotelList.json'
+import hotelList from '/src/Database/hotelList.json'
 
 import "leaflet/dist/leaflet.css"
 
 const MapHotel = () => {
+
+  const markerIcon = new L.Icon ({
+    iconUrl:'/Assets/Leaflet/custom_marker1.png',
+    iconSize: [32, 32],
+    iconAnchor:[10,30],
+  })
     const position = [-7.81 , 110.37]
     return (
       <div className='flex justify-center items-center md:items-start pb-10 pt-5 flex-col h-fit'>
@@ -23,7 +30,7 @@ const MapHotel = () => {
   
   
         {hotelList.map((hotel, index) => (
-          <Marker key={index} position={hotel.position}>
+          <Marker key={index} position={hotel.position} icon={markerIcon}>
             <Popup>
               <div className='flex flex-col justify-center items-center' >
                 <h3>{hotel.title}</h3>

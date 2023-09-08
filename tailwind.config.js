@@ -24,12 +24,6 @@ export default {
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
     },
-    
-    width: {
-      // === Punya Nizar
-      // small device
-      sd: '320px'
-    },
 
     colors: {
 
@@ -40,7 +34,6 @@ export default {
       button2: '#DBEEFE',
       font1: '#FFF',
       font2: '#222222',
-      
     },
 
     fontFamily: {

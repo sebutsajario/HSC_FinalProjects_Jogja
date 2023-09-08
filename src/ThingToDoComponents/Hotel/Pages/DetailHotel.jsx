@@ -6,7 +6,7 @@ import ContactHotel from '../Components/ContactHotel'
 import ReuseNav from '/src/Components/ReuseableNav/ReuseNav'
 import Footer from '/src/Components/Footer/Footer'
 
-import ImgDetail from '/src/assets/hotel/gambar1.jpg'
+import ImgDetail from '/Assets/hotel/gambar1.jpg'
 
 
 const DetailHotel = () => {
@@ -15,6 +15,20 @@ const DetailHotel = () => {
     return (
         <div>
                 <ReuseNav />
+                <div className='w-screen h-[80px] flex justify-end items-center pl-4 gap-3
+                    sm:pr-5
+                '>
+                    <div className='flex gap-3 items-center bg-button2 rounded-xl w-[270px] cursor-pointer drop-shadow-md bottom-14'
+                        onClick={() => navigateToHotelPageJogja('/things-to-do/hotel-jogja')}>
+                        <button 
+                            id='botButton' 
+                            className='text-button  text-3xl px-[6px] py-[1px] w-[3rem] h-[3rem] flex justify-center items-center z-[1] '
+                            >
+                            <i className='bx bx-x'></i>
+                        </button>
+                        <p className='font-Poppins'>Back to Hotel Page</p>
+                    </div>
+                </div>
                 <div className='drop-shadow-xl'>
                     <img src={ImgDetail} className='' />
                 </div>
@@ -44,20 +58,6 @@ const DetailHotel = () => {
                             </div>
                             <ContactHotel />
                         </div>
-                    </div>
-                </div>
-                <div className='w-screen h-[80px] flex justify-start items-center pl-4 gap-3
-                    sm:pr-5
-                '>
-                    <div className='flex gap-3 items-center bg-button2 rounded-xl w-[270px] cursor-pointer drop-shadow-md bottom-14'
-                        onClick={() => navigateToHotelPageJogja('/things-to-do/hotel-jogja')}>
-                        <button 
-                            id='botButton' 
-                            className='text-button  text-3xl px-[6px] py-[1px] w-[3rem] h-[3rem] flex justify-center items-center z-[1] '
-                            >
-                            <ion-icon name="close-outline"></ion-icon>
-                        </button>
-                        <p className='font-Poppins'>Back to Hotel Page</p>
                     </div>
                 </div>
                 <Footer />

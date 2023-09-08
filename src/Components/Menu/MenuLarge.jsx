@@ -5,9 +5,9 @@ import { useNavigate } from 'react-router-dom'
 import './menularge.css'
 import blackLogo from '/src/assets/wonderful-jogja-logo-black-2.svg'
 
-import photo1 from '/src/assets/menu-jogja-photo1.png'
-import photo2 from '/src/assets/menu-jogja-photo2.png'
-import photo3 from '/src/assets/menu-jogja-photo3.png'
+import photo1 from '/Assets/menu/menu-jogja-photo1.png'
+import photo2 from '/Assets/menu/menu-jogja-photo2.png'
+import photo3 from '/Assets/menu/menu-jogja-photo3.png'
 
 function MenuLarge() {
 
@@ -24,9 +24,11 @@ function MenuLarge() {
   // Art Activities
   const navigateToArtActivitiesPageJogja = useNavigate ()
   // Attraction
-  const navigateToAttractionPage = useNavigate()
+  const navigateToAttractionPageJogja = useNavigate()
   // Souvenir
-  const navigateToSouvenirPage = useNavigate()
+  const navigateToSouvenirPageJogja = useNavigate()
+  // Food 
+  const navigateToFoodPageJogja = useNavigate()
 
 
   const [activeSubMenu, setActiveSubMenu] = useState('thingsToDo');
@@ -69,9 +71,9 @@ function MenuLarge() {
             onClick={() => navigateToMainPage('/')}>
               <button 
                   id='botButton' 
-                  className='text-button  text-3xl px-[6px] py-[1px] w-[3rem] h-[3rem] flex justify-center items-center z-[1] '
+                  className='text-button  text-[40px] px-[6px] py-[1px] w-[3rem] h-[3rem] flex justify-center items-center z-[1] '
                   >
-                  <ion-icon name="close-outline"></ion-icon>
+                  <i className='bx bx-x'></i>
               </button>
               <p className='font-Poppins'>Back to Main Page</p>
             </div>
@@ -82,8 +84,8 @@ function MenuLarge() {
             <>
               {
                 <div className='font-Poppins gap-8 flex flex-col text-xl' >
-                  <div onClick={() => navigateToAttractionPage('/things-to-do/attraction-jogja')} 
-                  className='flex justify-between items-center menu__text'>
+                  <div onClick={() => navigateToAttractionPageJogja('/things-to-do/attraction-jogja')} 
+                  className='flex justify-between items-center menu__text cursor-pointer'>
                     <p>Attraction</p>
                     <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
                   </div>
@@ -98,11 +100,12 @@ function MenuLarge() {
                     <p>Museum</p>
                   <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
                   </div>
-                  <a href="" className='flex justify-between items-center menu__text'>
+                  <div onClick={() => navigateToFoodPageJogja('/things-to-do/food-jogja')}
+                   className='flex justify-between items-center menu__text cursor-pointer'>
                     <p>Foods</p>
                     <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
-                  </a>
-                  <a href="" className='flex justify-between items-center menu__text'>
+                  </div>
+                  <a href="" className='flex justify-between items-center menu__text cursor-pointer'>
                     <p>Drinks</p>
                     <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
                   </a>
@@ -112,7 +115,8 @@ function MenuLarge() {
                     <p>Hotels</p>
                     <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
                   </div>
-                  <div onClick={() => navigateToSouvenirPage ('/things-to-do/souvenir-jogja')} className='flex justify-between items-center menu__text'>
+                  <div onClick={() => navigateToSouvenirPageJogja ('/things-to-do/souvenir-jogja')} 
+                  className='flex justify-between items-center menu__text cursor-pointer'>
                     <p>Souvenir</p>
                     <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
                   </div>

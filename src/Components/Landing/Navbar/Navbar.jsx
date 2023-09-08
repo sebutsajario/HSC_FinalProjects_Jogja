@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Headroom from 'react-headroom';
 import './navbar-headroom.css';
 
-import NavbarLang from './navbarLang';
+import NavbarLang from './NavbarLang';
 import NavbarLeft from './Navbar__Left/NavbarLeft';
 import NavbarMid from './Navbar__Middle/NavbarMid';
 import NavbarRight from './Navbar__Right/NavbarRight';

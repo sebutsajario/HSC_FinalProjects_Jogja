@@ -3,13 +3,11 @@ import CardList from '../Components/CardList'
 import Navbar from '../../../Components/Landing/Navbar/Navbar'
 // import axios from 'axios'
 
-import { useNavigate } from 'react-router-dom'
 
 import  axiosInstance from '/src/API/apiMuseum.js'
 
 export default function Museum() {
 
-    const navigateToHomePage = useNavigate ()
     const [museum, setMuseum] = useState([])
     const callApi = async() => {
         axiosInstance.museum().then((res) => {
@@ -19,11 +17,10 @@ export default function Museum() {
     useEffect(() => {
         callApi()
     }, [])
-    console.log(museum)
   return (
     <div className='flex flex-col min-h-screen '>
         <div className='bg-[#f1f8ff]  h-full flex flex-col justify-center mx-auto'>
-        <div className='bg-[url("/src/assets/museum/background-museum.svg")] bg-cover bg-center bg-no-repeat bg-fixed flex flex-col justify-center items-center '>
+        <div className='bg-[url("/Assets/museum/background-museum.png")] bg-cover bg-center bg-no-repeat bg-fixed flex flex-col justify-center items-center '>
             <Navbar />
             <div className='w-screen sm:w-[70vw] h-[90vh] flex justify-center items-center px-10 pb-[7rem] flex-col'>
                 <h1 className='text-white text-5xl lg:text-[72px] italic text-center'>Museums</h1>
@@ -32,18 +29,13 @@ export default function Museum() {
         </div>
 
             <div className='bg-white shadow-lg border-spacing-3 px-5 '>
-                {/* <hr className='border' />
-                <div className="w-full md:w-[60%] mx-auto md:text-center">
-                    <h1 className='mb-2.5'>Museums at Yogyakarta</h1>
-                    <p className='mb-2.5'>Yogyakarta is a province with the nickname Student City or often also known as Special. Many students come to Jogja to seek knowledge or just to travel. One of the most popular tours in Yogyakarta is the Museum, here is a list of museums in Yogyakarta:</p>
-                </div> */}
                         <div className='flex flex-col md:flex-row md:px-[40px] md:justify-between lg:px-[80px] xl:px-[140px]'>
                             <div className='flex flex-col justify-center md:items-start w-full py-8'>
                                 <h1 className=' mt-5 mb-4 text-4xl font-medium tracking-tight leading-none md:text-5x1 xl:text-6x1  font-lora'>Museums</h1> 
                                 <div className="flex ">
                                     Explore places
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6 ml-2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6 ml-2">
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                                     </svg>
                                 </div> 
                             </div>
