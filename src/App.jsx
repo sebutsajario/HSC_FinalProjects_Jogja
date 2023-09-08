@@ -27,6 +27,11 @@ import SouvenirPage from './Pages/Things-to-do/SouvenirPage/SouvenirPage'
 import FoodPage from './Pages/Things-to-do/FoodPage/FoodPage'
 import DetailFood from './ThingToDoComponents/Foods/Pages/DetailFood'
 
+//Drinks
+
+import DrinksPage from './Pages/Things-to-do/DrinksPage/DrinksPage'
+import DetailDrinks from './ThingToDoComponents/Drinks/Pages/DetailDrinks'
+
 
 
 import './App.css'
@@ -62,6 +67,10 @@ function App() {
                         {/* ========= Food =========== */}
             <Route path='/things-to-do/food-jogja' element={<FoodPage/>}></Route>
             <Route path="/things-to-do/food-jogja/:id" element={<DetailFood />}/>
+
+                        {/* ========= Drinks =========== */}
+            <Route path='/things-to-do/drinks-jogja' element={<DrinksPage/>}></Route>
+            <Route path="/things-to-do/drinks-jogja/:id" element={<DetailDrinks />}/>
             
           </Routes>
       </Router>

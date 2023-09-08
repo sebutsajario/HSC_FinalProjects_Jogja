@@ -1,0 +1,42 @@
+[
+        {
+            "id": 1,
+            "name": "Kopi Joss",
+            "src": "/Assets/drinks/kopi-joss.jpg",
+            "imageAlt": "Kopi Joss",
+            "price": "8000",
+            "description": "Kopi Joss is a captivating Indonesian coffee beverage originating from Yogyakarta, Java. Its unique appeal lies in its unconventional preparation method, where a cup of strong black coffee is dramatically enhanced by the addition of a piece of red-hot charcoal, creating a crackling sound that gives it the name \"Joss.\"\nThis intriguing process imparts a subtle smokiness to the coffee, complementing its bold, aromatic flavor. Typically served in small cups with a layer of frothy foam on top, Kopi Joss is a sensory delight, both in taste and experience. Beyond its distinctive taste, Kopi Joss holds cultural significance, representing the charm and authenticity of Yogyakarta's coffee culture. It's often enjoyed at street-side stalls, offering locals and tourists alike a unique and memorable coffee experience."
+        },
+        {
+            "id": 2,
+            "name": "Wedang Uwuh",
+            "src": "/Assets/drinks/wedang-uwuh.jpg",
+            "imageAlt": "Wedang Uwuh",
+            "price": "5000",
+            "description": "Wedang Uwuh is a traditional Javanese herbal drink that delights the senses with its aromatic and soothing qualities. Hailing from the lush landscapes of Indonesia, this fragrant concoction combines a medley of exotic spices, including clove, cinnamon, ginger, and lemongrass, creating a symphony of flavors that dance on the palate. Sweetened with palm sugar and often served hot, Wedang Uwuh offers a comforting warmth that is perfect for chasing away the chill on a cool evening or simply indulging in a moment of relaxation. Beyond its delightful taste, Wedang Uwuh is cherished for its potential health benefits, believed to aid digestion and boost overall well-being, making it a beloved and culturally significant beverage in Indonesian cuisine."
+        },
+        {
+            "id": 3,
+            "name": "Wedang Ronde",
+            "src": "/Assets/drinks/wedang-ronde.jpg",
+            "imageAlt": "Wedang Ronde",
+            "price": "5000",
+            "description": "Wedang Ronde is a delightful and heartwarming Indonesian dessert that enchants the taste buds with its unique combination of flavors and textures. Hailing from the vibrant culinary traditions of Java, this sweet and aromatic treat features glutinous rice flour dumplings filled with crushed peanuts, palm sugar, and a hint of ginger. These dumplings are served in a warm, fragrant ginger and lemongrass-infused broth, creating a harmonious blend of sweet and spicy notes that dance on the palate. Topped with crispy fried shallots, this comforting dessert is a beloved symbol of Indonesian hospitality and a favorite choice for those seeking a cozy and satisfying culinary experience."
+        },
+        {
+            "id": 4,
+            "name": "Es Jaipong",
+            "src": "/Assets/drinks/es-jaipong.jpg",
+            "imageAlt": "Es Jaipong",
+            "price": "5000",
+            "description": "Es Jaipong is a delightful and refreshing Indonesian beverage that captures the essence of tropical paradise in a single glass. Originating from the vibrant streets of West Java, this icy concoction is a colorful and captivating fusion of flavors. It features a medley of ingredients such as jackfruit, avocado, sweet coconut, grass jelly, and pandan-infused syrup, all bathed in a generous helping of coconut milk and crushed ice. The result is a harmonious symphony of sweet, creamy, and slightly herbal notes, offering a cooling respite from the tropical heat and a delightful journey for the taste buds. Es Jaipong embodies the rich diversity of Indonesian culinary traditions and is a beloved treat that brings joy and satisfaction with every sip."
+        },
+        {
+            "id": 5,
+            "name": "Rujak Es Krim",
+            "src": "/Assets/drinks/rujak-es-krim.jpg",
+            "imageAlt": "Rujak Es Krim",
+            "price": "7000",
+            "description": "Rujak Es Krim is a tantalizing Indonesian dessert that combines the contrasting elements of sweet and spicy in a delightful and unexpected way. This unique dessert typically consists of a medley of tropical fruits, such as pineapple, mango, and apple, bathed in a spicy and tangy tamarind-based sauce that packs a flavorful punch. What sets Rujak Es Krim apart is the addition of a scoop of creamy vanilla ice cream, which adds a delightful contrast to the bold flavors of the sauce and creates a tantalizing balance of temperatures and tastes. This sweet and savory symphony, often garnished with crunchy peanuts and fried shallots, makes Rujak Es Krim an unforgettable treat that excites the senses and showcases the culinary ingenuity of Indonesia."
+        }
+]

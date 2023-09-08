@@ -24,6 +24,7 @@ const ThingsCarousel = () => {
     const navigateToArtActivitiesPageJogja = useNavigate ()
     const navigateToSouvenirPageJogja = useNavigate()
     const navigateToFoodPageJogja = useNavigate()
+    const navigateToDrinksPageJogja = useNavigate()
     
   return (
         <div className='w-screen mt-10 bg-background1 flex thingSwiper '>
@@ -143,7 +144,7 @@ const ThingsCarousel = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='w-[240px] h-[400px] md:w-[300px] xl:w-[400px] cursor-pointer '>
+                    <div onClick={() => navigateToDrinksPageJogja('/things-to-do/drinks-jogja') } className='w-[240px] h-[400px] md:w-[300px] xl:w-[400px] cursor-pointer '>
                         <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg rounded-bl-none'>
                             <img className='object-cover w-full xl:relative xl:bottom-[100px]' src={image6} alt='' />
                         </div>
