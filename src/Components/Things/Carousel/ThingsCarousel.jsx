@@ -22,7 +22,7 @@ const ThingsCarousel = () => {
     const navigateToMuseumPageJogja = useNavigate ()
     const navigateToHotelPageJogja = useNavigate ()
     const navigateToArtActivitiesPageJogja = useNavigate ()
-    const navigateToSouvenirPageJogja = useNavigate()
+    const navigateToSouvenirPageJogja = useNavigate ()
     
   return (
         <div className='w-screen mt-10 bg-background1 flex thingSwiper '>
@@ -108,7 +108,8 @@ const ThingsCarousel = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='w-[240px] h-[400px] md:w-[300px] xl:w-[400px] cursor-pointer '>
+                    <div onClick={() => navigateToSouvenirPageJogja('/things-to-do/souvenir-jogja')} 
+                    className='w-[240px] h-[400px] md:w-[300px] xl:w-[400px] cursor-pointer '>
                         <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg rounded-bl-none'>
                             <img className='object-cover w-full xl:relative xl:bottom-[100px]' src={image4} alt='' />
                         </div>
@@ -117,7 +118,8 @@ const ThingsCarousel = () => {
                                 <i className='bx bx-heart text-button '></i>
                             </button>
                         </div>
-                        <div onClick={() => navigateToSouvenirPageJogja ('')} className='w-[195px] md:w-[255px] xl:w-[335px] h-fit pb-3 relative bottom-[52px] xl:bottom-[62px] pt-3 xl:pt-2 pl-2 bg-white z-[-1] rounded-b-lg'>
+                        <div 
+                             className='w-[195px] md:w-[255px] xl:w-[335px] h-fit pb-3 relative bottom-[52px] xl:bottom-[62px] pt-3 xl:pt-2 pl-2 bg-white z-[-1] rounded-b-lg'>
                             <h3 className='xl:text-[26px] font-semibold'>Souvenirs</h3>
                             <p className='text-[12px] xl:text-[14px] line-clamp-3'>Bring home a piece of cherished memories from Jogja through its diverse range of captivating souvenirs, each encapsulating the city's cultural richness and artistic spirit.</p>
                         </div>
