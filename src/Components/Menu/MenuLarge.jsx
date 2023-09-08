@@ -29,6 +29,8 @@ function MenuLarge() {
   const navigateToSouvenirPageJogja = useNavigate()
   // Food 
   const navigateToFoodPageJogja = useNavigate()
+  // Drinks
+  const navigateToDrinksPageJogja = useNavigate()
 
 
   const [activeSubMenu, setActiveSubMenu] = useState('thingsToDo');
@@ -105,10 +107,10 @@ function MenuLarge() {
                     <p>Foods</p>
                     <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
                   </div>
-                  <a href="" className='flex justify-between items-center menu__text cursor-pointer'>
+                  <div onClick={() => navigateToDrinksPageJogja('/things-to-do/drinks-jogja')} className='flex justify-between items-center menu__text cursor-pointer'>
                     <p>Drinks</p>
                     <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
-                  </a>
+                  </div>
                   <div className='flex justify-between items-center menu__text cursor-pointer'
                     onClick={() => navigateToHotelPageJogja ('/things-to-do/hotel-jogja')}
                   >
