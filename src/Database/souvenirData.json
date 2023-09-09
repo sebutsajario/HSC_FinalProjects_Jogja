@@ -1,0 +1,51 @@
+[
+    {
+        "id":1,
+        "pic":"/Assets/souvenir/blangkon.jpg",
+        "imageAlt":"Blangkon",
+        "title":"Blangkon Jogja",
+        "price":150000,
+        "description":"Blangkon Jogja is a traditional Javanese headdress originating from Yogyakarta, Indonesia. This iconic headwear is a symbol of Javanese culture and heritage, often worn during special occasions and traditional ceremonies."
+        
+    },
+    {   
+        "id":2,
+        "pic":"/Assets/souvenir/kain-lurik.jpg",
+        "imageAlt":"Kain Lurik",
+        "title":"Kain Lurik Jogja",
+        "price":"200000",
+        "description":"Kain Lurik Jogja is a traditional handwoven fabric from Yogyakarta, Indonesia. It is known for its distinctive striped patterns, typically consisting of alternating colored stripes against a plain background."
+    },
+    {
+        "id":3,
+        "pic":"/Assets/souvenir/kaos-jogja.jpg",
+        "imageAlt":"Kaos Jogja",
+        "title":"Kaos Jogja",
+        "price":75000,
+        "description":"Kaos Jogja refers to T-shirts and apparel inspired by the vibrant culture and artistic spirit of Yogyakarta, Indonesia. These T-shirts often feature unique and creative designs that showcase elements of Javanese tradition, such as batik motifs, wayang kulit (shadow puppetry), or iconic landmarks like the Kraton (Sultan's Palace)."
+    },
+    {
+        "id":4,
+        "pic":"/Assets/souvenir/kerajinan-batik-kayu.jpg",
+        "imageAlt":"Kerajinan Batik Kayu",
+        "title":"Kerajinan Batik Kayu Jogja",
+        "price":300000,
+        "description":"Kerajinan Batik Kayu Jogja refers to the traditional craft of wooden batik artistry originating from Yogyakarta, Indonesia. Skilled artisans intricately carve wooden panels with intricate batik patterns, replicating the exquisite designs found in traditional Javanese batik textiles. These wooden batik pieces are often used as decorative wall hangings, ornaments, or functional items like trays and coasters. "
+    },
+    {
+        "id":5,
+        "pic":"/Assets/foods/sateklathak.jpg",
+        "imageAlt":"SateKlathak",
+        "title":"Sate Klathak",
+        "price":30000,
+        "description":"Sate Klatak is a type of typical food originating from Bantul Regency made from mutton. With the specification of skewers made of iron bicycle bars. How to cook by burning and only seasoned with salt. How to cook each portion or menu generally consists of 2 skewers to 4 skewers."
+    },
+    {
+        "id":6,
+        "pic":"/Assets/souvenir/kerajinan-perak.jpg",
+        "imageAlt":"Kerajinan Perak",
+        "title":"Kerajinan Perak Jogja",
+        "price":500000,
+        "description":"Kerajinan Perak Jogja refers to the exquisite silver craftwork originating from Yogyakarta, Indonesia. Skilled artisans in Yogyakarta create intricate and ornate silver jewelry, home decor items, and ceremonial pieces using traditional silver-smithing techniques."
+    }
+]
