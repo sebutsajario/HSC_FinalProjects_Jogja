@@ -1,6 +1,7 @@
 import React , {useState, useEffect} from 'react'
 import ReuseNav from '../../../Components/ReuseableNav/ReuseNav'
 import Footer from '../../../Components/Footer/Footer'
+import BotButton from '../../../Components/Landing/Landing-bot/BotButton';
 
 import { useNavigate } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
@@ -69,9 +70,10 @@ const DetailDrinks = () => {
                         </div>
                     </section>
                 </div>
-                <div>
-                    <Footer />
+                <div className='flex justify-center items-center'>
+                    <BotButton />
                 </div>
+                <Footer />
             </div>
         )
 }

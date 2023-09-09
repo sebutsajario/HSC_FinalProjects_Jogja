@@ -13,7 +13,12 @@ function MenuLarge() {
 
   const navigateToMainPage = useNavigate ()
   const navigateToJogjaPage = useNavigate ()
+  
+  // practical-page
   const navigateToPracticalTipsPage = useNavigate()
+  const navigateToAirplaneTipsPage = useNavigate()
+  const navigateToMotorTipsPage = useNavigate()
+  const navigateToCarTipsPage = useNavigate()
   
 
   // =========== things-to-do
@@ -148,15 +153,29 @@ function MenuLarge() {
                   <div className='flex justify-between items-center menu__text cursor-pointer'
                     onClick={() => navigateToPracticalTipsPage ('/practical-tips-page')}
                   >
-                    <p>FAQ about Central Java</p>
+                    <p>Peoples and Cultures</p>
+                    <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
+                  </div>
+
+                  <div className='flex justify-between items-center menu__text cursor-pointer'
+                    onClick={() => navigateToAirplaneTipsPage ('/practical-tips-page/airplane')}
+                  >
+                    <p>Arriving with airplane</p>
                     <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
                   </div>
                   <div className='flex justify-between items-center menu__text cursor-pointer'
-                    onClick={() => navigateToPracticalTipsPage ('/practical-tips-page')}
+                    onClick={() => navigateToMotorTipsPage ('/practical-tips-page/motor')}
                   >
-                    <p>Arriving and getting around</p>
+                    <p>Arriving with motorcycle</p>
                     <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
                   </div>
+                  <div className='flex justify-between items-center menu__text cursor-pointer'
+                    onClick={() => navigateToCarTipsPage ('/practical-tips-page/car')}
+                  >
+                    <p>Arriving with car</p>
+                    <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
+                  </div>
+
                   <div className='flex justify-between items-center menu__text cursor-pointer'
                     onClick={() => navigateToPracticalTipsPage ('/practical-tips-page')}
                   >
