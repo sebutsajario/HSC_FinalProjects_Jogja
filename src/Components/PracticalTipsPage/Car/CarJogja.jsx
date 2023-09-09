@@ -2,7 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
 import Navbar from '../../Landing/Navbar/Navbar'
-
+import BotButton from '../../Landing/Landing-bot/BotButton'
 import Footer from '../../Footer/Footer'
 
 const CarJogja = () => {
@@ -77,6 +77,9 @@ const CarJogja = () => {
                     </ul>
                 </div>
             </div>
+        </div>
+        <div className='flex justify-center items-center'>
+            <BotButton />
         </div>
         <Footer />
     </div>
