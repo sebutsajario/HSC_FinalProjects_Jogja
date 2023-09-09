@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from '../../../Components/Landing/Navbar/Navbar'
 import Footer from '../../../Components/Footer/Footer'
 
+import BotButton from '../../../Components/Landing/Landing-bot/BotButton'
+
 import DrinksCard from '../Components/DrinksCard'
 import DrinksData from '/src/Database/drinksData.json'
 
@@ -42,7 +44,9 @@ const Drinks = () => {
                 ))}
             </section>
         </div>
-    
+        <div className='flex justify-center items-center'>
+            <BotButton />
+        </div>
         <Footer />
     </div>
   )

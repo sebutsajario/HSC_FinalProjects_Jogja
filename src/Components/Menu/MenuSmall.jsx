@@ -4,7 +4,13 @@ import { useNavigate } from 'react-router-dom'
 
 const MenuSmall = () => {
     const navigateToMainPage = useNavigate ()
+
+    // practical tips
     const navigateToPracticalTipsPage = useNavigate ()
+    const navigateToAirplaneTipsPage = useNavigate()
+    const navigateToMotorTipsPage = useNavigate()
+    const navigateToCarTipsPage = useNavigate()
+
     // ============= Things-to-do
     // museum
     const navigateToMuseumPageJogja = useNavigate ()
@@ -73,22 +79,11 @@ const MenuSmall = () => {
                 <h1 className='text-2xl'>Places to go</h1>
             </div>
             <div className=' bg-button2 flex flex-col gap-3 px-5 py-3 font-Poppins'>
-                <a href="" className='flex justify-between items-center menu__text'>
+                <div onClick={() => navigateToMainPage('/')} 
+                className='flex justify-between items-center menu__text'>
                     <p>Jogja</p>
                     <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
-                </a>
-                <a href="" className='flex justify-between items-center menu__text'>
-                    <p>Semarang</p>
-                    <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
-                </a>
-                <a href="" className='flex justify-between items-center menu__text'>
-                    <p>Dieng</p>
-                    <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
-                </a>
-                <a href="" className='flex justify-between items-center menu__text'>
-                    <p>Karimun Jawa</p>
-                    <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
-                </a>
+                </div>
             </div>
         </div>
 
@@ -104,9 +99,21 @@ const MenuSmall = () => {
                         <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
                     </div>
                     <div className='flex justify-between items-center menu__text'
-                        onClick={() => navigateToPracticalTipsPage ('/practical-tips-page')}
+                        onClick={() => navigateToAirplaneTipsPage ('/practical-tips-page/airplane')}
                     >
-                        <p>Arriving and getting around</p>
+                        <p>Arriving with airplane</p>
+                        <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
+                    </div>
+                    <div className='flex justify-between items-center menu__text'
+                        onClick={() => navigateToMotorTipsPage ('/practical-tips-page/motor')}
+                    >
+                        <p>Arriving with motorcycle</p>
+                        <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
+                    </div>
+                    <div className='flex justify-between items-center menu__text'
+                        onClick={() => navigateToCarTipsPage ('/practical-tips-page/car')}
+                    >
+                        <p>Arriving with car</p>
                         <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
                     </div>
                     <div className='flex justify-between items-center menu__text'

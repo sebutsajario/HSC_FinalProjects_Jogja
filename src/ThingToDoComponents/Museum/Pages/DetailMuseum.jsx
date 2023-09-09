@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import ReuseNav from '/src/Components/ReuseableNav/ReuseNav'
 import Footer from '/src/Components/Footer/Footer'
+import BotButton from '../../../Components/Landing/Landing-bot/BotButton';
 
 
 // Import Swiper styles
@@ -82,9 +83,10 @@ export default function DetailMuseum() {
                 </div>
             </section>
         </div>
-        <div>
-            <Footer />
+        <div className='flex justify-center items-center'>
+            <BotButton />
         </div>
+        <Footer />
     </div>
   )
 }

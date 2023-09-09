@@ -7,7 +7,11 @@ import ScrollToTop from './Utils/ScrollToTop'
 import Jogja from './Pages/Jogja'
 import MenuJogja from './Pages/MenuJogja'
 import SavedPageJogja from './Pages/SavedPageJogja'
+// Practical Tips Page
 import PracticalTipsPage from './Pages/PracticalTipsPage'
+import AirplaneJogja from './Components/PracticalTipsPage/Airplane/AirplaneJogja'
+import CarJogja from './Components/PracticalTipsPage/Car/CarJogja'
+import MotorJogja from './Components/PracticalTipsPage/Motor/MotorJogja'
 // ============  Thing-to-do path
 // museum
 import MuseumPageJogja from './Pages/Things-to-do/MuseumPage/MuseumPage'
@@ -48,7 +52,11 @@ function App() {
             <Route path='/' element={<Jogja />}> </Route>
             <Route path='/menu-jogja' element={<MenuJogja />}></Route>
             <Route path='/saved-page' element={<SavedPageJogja />}></Route>
+                        {/* ========= Practical Tips Page =========== */}
             <Route path='/practical-tips-page' element={<PracticalTipsPage />}></Route>
+            <Route path='/practical-tips-page/airplane' element={<AirplaneJogja />}></Route>
+            <Route path='/practical-tips-page/car' element={<CarJogja />}></Route>
+            <Route path='/practical-tips-page/motor' element={<MotorJogja />}></Route>
             {/* ================ Thing-to-do route ===================== */}
                         {/* ========= museum =========== */}
             <Route path='/things-to-do/museum-jogja' element={<MuseumPageJogja />}></Route>

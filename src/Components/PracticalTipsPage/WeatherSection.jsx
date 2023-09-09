@@ -7,20 +7,20 @@ import './weather.css'
 
 const WeatherSection = () => {
   return (
-    <div className="w-screen p-5 flex flex-col h-fit justify-center items-center rounded-l-xl lg:flex-row lg:items-start ">
+    <div className="w-screen p-5 flex flex-col h-fit justify-center items-center bg-background1 lg:flex-row lg:items-start ">
       <div className='h-fit flex
         lg:w-[50vw] lg:ml-[2rem] lg:mr-[1rem]
       '>
           <div className='mt-10
-            lg:flex lg:gap-10 lg:flex-col lg:justify-start
+            lg:flex lg:gap-10 lg:flex-col lg:justify-end
           '>
-              <h1 className='text-font2 w-fit border-t border-black pt-4
+              <h1 className='text-font2 w-fit border-t-2 border-black
                 sm:w-[17rem]
-                lg:font-bold lg:text-[36px] lg:w-[20rem] 
+                 lg:text-[32px] lg:w-[20rem] 
               ' >
                   Weather in Jogja
               </h1>
-              <p className='mt-2 text-font2 text-center font-Poppins
+              <p className='mt-2 text-font2 font-Poppins
                 sm:text-justify text-[16px]
                 lg:mt-0 lg:h-fit
               '>
