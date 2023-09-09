@@ -39,6 +39,7 @@ import DetailDrinks from './ThingToDoComponents/Drinks/Pages/DetailDrinks'
 
 
 import './App.css'
+import CartPage from './Pages/CartPage'
 
 
 
@@ -79,6 +80,10 @@ function App() {
                         {/* ========= Drinks =========== */}
             <Route path='/things-to-do/drinks-jogja' element={<DrinksPage/>}></Route>
             <Route path="/things-to-do/drinks-jogja/:id" element={<DetailDrinks />}/>
+            
+                     {/* ========= Cart =========== */}
+            <Route path='/cart-page/' element={<CartPage />}> </Route>
+        
             
           </Routes>
       </Router>
