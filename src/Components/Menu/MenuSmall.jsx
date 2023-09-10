@@ -134,19 +134,19 @@ const MenuSmall = () => {
         <div className='fixed z-[1600] bottom-10 flex justify-center items-center
             lg:hidden
             '>
-            <button className='bg-white text-button text-xl rounded-l-lg px-[6px] py-[1px] w-[2.5rem] h-[2.5rem] text-center relative left-1 drop-shadow-md'>
+            <button className='bg-white text-button text-[24px] rounded-l-lg  w-[3rem] h-[3rem] text-center relative left-1 drop-shadow-md flex justify-center items-center'>
             <i className='bx bx-search'></i>
             </button>
 
             <button 
                 id='botButton' 
-                className='text-button bg-button2 text-[40px] px-[6px] py-[1px] w-[3rem] h-[3rem] flex justify-center items-center rounded-xl z-[1] drop-shadow-md'
+                className='text-button bg-button2 text-[40px] px-[6px] py-[1px] w-[3.5rem] h-[3.5rem] flex justify-center items-center rounded-xl z-[1] drop-shadow-md'
                 onClick={() => navigateToMainPage('/')}
                 >
                 <i className='bx bx-x'></i>
             </button>
 
-            <button className='bg-white text-button text-xl rounded-r-lg px-[6px] py-[1px] w-[2.5rem] h-[2.5rem] text-center relative right-1 drop-shadow-md'> 
+            <button className='bg-white text-button text-[24px] rounded-r-lg  w-[3rem] h-[3rem] text-center relative right-1 drop-shadow-md flex justify-center items-center'> 
             <i className='bx bx-heart'></i>
             </button>
         </div>
