@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { useParams } from "react-router-dom";
+import { json, useParams } from "react-router-dom";
 import ImgSweper from "../Components/Atoms/ImgSweper";
 import axiosInstance from "../../../API/apiMuseum";
 
@@ -19,11 +19,12 @@ export default function DetailMuseum() {
   const navigateToMuseumPage = useNavigate();
 
   const [detail, setDetail] = useState({});
-  const { id } = useParams();
+  const { slug } = useParams();
 
   const callApi = async () => {
-    axiosInstance.detail(id).then((res) => {
-      setDetail(res);
+    axiosInstance.detail(slug).then((res) => {
+      const data = res[0];
+      setDetail(data);
     });
   };
 
@@ -53,7 +54,7 @@ export default function DetailMuseum() {
         </div>
       </div>
       <div className="lg:flex lg:items-center lg:justify-center mb-4">
-        <ImgSweper image={detail.src} />
+        <ImgSweper image={detail?.src} />
       </div>
       <div className="w-screen h-fit bg-[#F1F8FF] pt-5">
         <section className="px-5 md:w-[75%] md:mx-auto ">
@@ -75,9 +76,11 @@ export default function DetailMuseum() {
 
           <div>
             <h1 className="mb-5 font-bold md:text-5xl text-4xl font-Lora">
-              {detail.name}
+              {detail?.name}
             </h1>
-            <span className="mb-5 md:text-2xl font-semibold">Rp. 10.000</span>
+            <span className="mb-5 md:text-2xl font-semibold">
+              Rp. {detail?.["tiket-price"]}
+            </span>
             <p className="mt-2 text-[14px] md:text-2xl text-justify">
               {" "}
               {detail?.description}

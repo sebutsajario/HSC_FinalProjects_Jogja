@@ -1,14 +1,15 @@
-import React from 'react'
-import { SwiperSlide } from 'swiper/react';
+import React from "react";
 
-function ImgSweper({image}) {
+function ImgSweper({ image }) {
   return (
-        <>
-            <img src={`/Assets/museum/${image}.jpg`} className='w-full lg:min-h-[96vh] object-cover rounded-2xl drop-shadow-xl' alt="" />
-        </>
-     
-    
-  )
+    <>
+      <img
+        src={`/Assets/museum/${image}.jpg`}
+        className="w-full lg:min-h-[96vh] object-cover rounded-2xl drop-shadow-xl"
+        alt={"Image" + image}
+      />
+    </>
+  );
 }
 
-export default ImgSweper
+export default ImgSweper;
