@@ -14,13 +14,13 @@ const WeatherSection = () => {
           <div className='mt-10
             lg:flex lg:gap-10 lg:flex-col lg:justify-end
           '>
-              <h1 className='text-font2 w-fit border-t-2 border-black
+              <h1 className=' w-fit border-t-2 border-black
                 sm:w-[17rem]
                  lg:text-[32px] lg:w-[20rem] 
               ' >
                   Weather in Jogja
               </h1>
-              <p className='mt-2 text-font2 font-Poppins
+              <p className='mt-2  font-Poppins
                 sm:text-justify text-[16px]
                 lg:mt-0 lg:h-fit
               '>
