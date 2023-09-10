@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
-import L, { marker } from 'leaflet'
+import L from 'leaflet'
 
 
 // ==== Database local
@@ -21,9 +21,9 @@ function LeafletMap() {
   };
 
   const markerIcon = new L.Icon ({
-    iconUrl:'/Assets/Leaflet/custom_marker1.png',
-    iconSize: [32, 32],
-    iconAnchor:[10,30],
+    iconUrl:'/Assets/Leaflet/location.svg',
+    iconSize: [40, 40],
+    iconAnchor:[20,40],
   })
 
 
