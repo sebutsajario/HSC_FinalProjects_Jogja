@@ -8,8 +8,9 @@ function FooterWeather() {
     <div className=' mt-4
       sm:flex sm:justify-end
       lg:mt-[-10rem]
+      text-background1
     '>
-      <div className='w-screen p-7 h-[22rem] bg-[#2ebf77]
+      <div className='w-screen p-7 h-[22rem] bg-button
         sm:w-[25rem] sm:rounded-l-2xl 
         md:w-[40rem] md:pl-[5rem] 
         lg:w-[55rem] lg:pr-0
