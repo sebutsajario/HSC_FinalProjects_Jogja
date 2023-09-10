@@ -61,8 +61,8 @@ const ThingsCarousel = () => {
             >
                 <SwiperSlide>
                     <div className='w-[290px] h-[400px] sm:w-[240px] md:w-[300px] xl:w-[400px] cursor-pointer '>
-                        <div className='h-[240px] xl:h-[320px] xl:relative '>
-                            <img className='object-cover w-full h-[240px] xl:relative xl:h-[320px] xl:w-[400px] rounded-lg rounded-bl-none' src={image1} alt='' />
+                        <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden '>
+                            <img className='object-cover w-full h-[240px] xl:relative xl:h-[320px] xl:w-[400px] rounded-lg rounded-bl-none hover:scale-105 duration-500' src={image1} alt='' />
                             <div className='w-full flex justify-end relative bottom-12 xl:bottom-16'>
                                 <ButtonLove/>
                             </div>
@@ -77,8 +77,8 @@ const ThingsCarousel = () => {
                     <div 
                     onClick={() => navigateToArtActivitiesPageJogja('/things-to-do/art-activities-jogja')}
                     className='w-[290px] h-[400px] sm:w-[240px] md:w-[300px] xl:w-[400px] cursor-pointer '>
-                        <div className='h-[240px] xl:h-[320px] xl:relative rounded-lg rounded-bl-non'>
-                            <img className='object-cover w-full h-[240px] xl:relative xl:h-[320px] rounded-lg rounded-bl-none' src={image2} alt='' />
+                        <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg rounded-bl-non'>
+                            <img className='object-cover w-full h-[240px] xl:relative xl:h-[320px] rounded-lg rounded-bl-none hover:scale-105 duration-500' src={image2} alt='' />
                             <div className='w-full flex justify-end relative bottom-12 xl:bottom-16'>
                                 <ButtonLove/>
                             </div>
@@ -93,8 +93,8 @@ const ThingsCarousel = () => {
                     <div 
                     onClick={() => navigateToMuseumPageJogja('/things-to-do/museum-jogja')}
                     className='w-[290px] h-[400px] sm:w-[240px] md:w-[300px] xl:w-[400px] cursor-pointer '>
-                        <div className='h-[240px] xl:h-[320px] xl:relative rounded-lg rounded-bl-non'>
-                            <img className='object-cover w-full h-[240px] xl:relative xl:h-[320px] rounded-lg rounded-bl-none' src={image3} alt='' />
+                        <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg rounded-bl-non'>
+                            <img className='object-cover w-full h-[240px] xl:relative xl:h-[320px] rounded-lg rounded-bl-none hover:scale-105 duration-500' src={image3} alt='' />
                             <div className='w-full flex justify-end relative bottom-12 xl:bottom-16'>
                                 <ButtonLove/>
                             </div>
@@ -108,8 +108,8 @@ const ThingsCarousel = () => {
                 <SwiperSlide>
                     <div onClick={() => navigateToSouvenirPageJogja ('/things-to-do/souvenir-jogja')}
                     className='w-[290px] h-[400px] sm:w-[240px] md:w-[300px] xl:w-[400px] cursor-pointer '>
-                        <div className='h-[240px] xl:h-[320px] xl:relative rounded-lg rounded-bl-non'>
-                            <img className='object-cover w-full h-[240px] xl:relative xl:h-[320px] rounded-lg rounded-bl-none' src={image4} alt='' />
+                        <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg rounded-bl-non'>
+                            <img className='object-cover w-full h-[240px] xl:relative xl:h-[320px] rounded-lg rounded-bl-none hover:scale-105 duration-500' src={image4} alt='' />
                             <div className='w-full flex justify-end relative bottom-12 xl:bottom-16'>
                                 <ButtonLove/>
                             </div>
@@ -123,8 +123,8 @@ const ThingsCarousel = () => {
                 <SwiperSlide>
                     <div onClick={() => navigateToFoodPageJogja('/things-to-do/food-jogja')} 
                     className='w-[290px] h-[400px] sm:w-[240px] md:w-[300px] xl:w-[400px] cursor-pointer '>
-                        <div className='h-[240px] xl:h-[320px] xl:relative rounded-lg rounded-bl-non'>
-                            <img className='object-cover w-full h-[240px] xl:relative xl:h-[320px] rounded-lg rounded-bl-none' src={image5} alt='' />
+                        <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg rounded-bl-non'>
+                            <img className='object-cover w-full h-[240px] xl:relative xl:h-[320px] rounded-lg rounded-bl-none hover:scale-105 duration-500' src={image5} alt='' />
                             <div className='w-full flex justify-end relative bottom-12 xl:bottom-16'>
                                 <ButtonLove/>
                             </div>
@@ -137,8 +137,8 @@ const ThingsCarousel = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div onClick={() => navigateToDrinksPageJogja('/things-to-do/drinks-jogja') } className='w-[290px] h-[400px] sm:w-[240px] md:w-[300px] xl:w-[400px] cursor-pointer '>
-                        <div className='h-[240px] xl:h-[320px] xl:relative rounded-lg rounded-bl-non'>
-                            <img className='object-cover w-full h-[240px] xl:relative xl:h-[320px] rounded-lg rounded-bl-none' src={image6} alt='' />
+                        <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg rounded-bl-non'>
+                            <img className='object-cover w-full h-[240px] xl:relative xl:h-[320px] rounded-lg rounded-bl-none hover:scale-105 duration-500' src={image6} alt='' />
                             <div className='w-full flex justify-end relative bottom-12 xl:bottom-16'>
                                 <ButtonLove/>
                             </div>
@@ -153,8 +153,8 @@ const ThingsCarousel = () => {
                     <div
                     onClick={() => navigateToHotelPageJogja('/things-to-do/hotel-jogja') }
                      className='w-[290px] h-[400px] sm:w-[240px] md:w-[300px] xl:w-[400px] cursor-pointer '>
-                        <div className='h-[240px] xl:h-[320px] xl:relative rounded-lg rounded-bl-non'>
-                            <img className='object-cover w-full h-[240px] xl:relative xl:h-[320px] rounded-lg rounded-bl-none' src={image7} alt='' />
+                        <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg rounded-bl-non'>
+                            <img className='object-cover w-full h-[240px] xl:relative xl:h-[320px] rounded-lg rounded-bl-none hover:scale-105 duration-500' src={image7} alt='' />
                             <div className='w-full flex justify-end relative bottom-12 xl:bottom-16'>
                                 <ButtonLove/>
                             </div>
