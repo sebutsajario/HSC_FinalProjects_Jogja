@@ -61,7 +61,7 @@ const ThingsCarousel = () => {
             >
                 <SwiperSlide>
                     <div className='w-[290px] h-[400px] sm:w-[240px] md:w-[300px] xl:w-[400px] cursor-pointer '>
-                        <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden '>
+                        <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg '>
                             <img className='object-cover w-full h-[240px] xl:relative xl:h-[320px] xl:w-[400px] rounded-lg rounded-bl-none hover:scale-105 duration-500' src={image1} alt='' />
                             <div className='w-full flex justify-end relative bottom-12 xl:bottom-16'>
                                 <ButtonLove/>
@@ -77,7 +77,7 @@ const ThingsCarousel = () => {
                     <div 
                     onClick={() => navigateToArtActivitiesPageJogja('/things-to-do/art-activities-jogja')}
                     className='w-[290px] h-[400px] sm:w-[240px] md:w-[300px] xl:w-[400px] cursor-pointer '>
-                        <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg rounded-bl-non'>
+                        <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg'>
                             <img className='object-cover w-full h-[240px] xl:relative xl:h-[320px] rounded-lg rounded-bl-none hover:scale-105 duration-500' src={image2} alt='' />
                             <div className='w-full flex justify-end relative bottom-12 xl:bottom-16'>
                                 <ButtonLove/>
@@ -93,7 +93,7 @@ const ThingsCarousel = () => {
                     <div 
                     onClick={() => navigateToMuseumPageJogja('/things-to-do/museum-jogja')}
                     className='w-[290px] h-[400px] sm:w-[240px] md:w-[300px] xl:w-[400px] cursor-pointer '>
-                        <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg rounded-bl-non'>
+                        <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg'>
                             <img className='object-cover w-full h-[240px] xl:relative xl:h-[320px] rounded-lg rounded-bl-none hover:scale-105 duration-500' src={image3} alt='' />
                             <div className='w-full flex justify-end relative bottom-12 xl:bottom-16'>
                                 <ButtonLove/>
@@ -108,7 +108,7 @@ const ThingsCarousel = () => {
                 <SwiperSlide>
                     <div onClick={() => navigateToSouvenirPageJogja ('/things-to-do/souvenir-jogja')}
                     className='w-[290px] h-[400px] sm:w-[240px] md:w-[300px] xl:w-[400px] cursor-pointer '>
-                        <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg rounded-bl-non'>
+                        <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg'>
                             <img className='object-cover w-full h-[240px] xl:relative xl:h-[320px] rounded-lg rounded-bl-none hover:scale-105 duration-500' src={image4} alt='' />
                             <div className='w-full flex justify-end relative bottom-12 xl:bottom-16'>
                                 <ButtonLove/>
@@ -123,7 +123,7 @@ const ThingsCarousel = () => {
                 <SwiperSlide>
                     <div onClick={() => navigateToFoodPageJogja('/things-to-do/food-jogja')} 
                     className='w-[290px] h-[400px] sm:w-[240px] md:w-[300px] xl:w-[400px] cursor-pointer '>
-                        <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg rounded-bl-non'>
+                        <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg'>
                             <img className='object-cover w-full h-[240px] xl:relative xl:h-[320px] rounded-lg rounded-bl-none hover:scale-105 duration-500' src={image5} alt='' />
                             <div className='w-full flex justify-end relative bottom-12 xl:bottom-16'>
                                 <ButtonLove/>
@@ -137,7 +137,7 @@ const ThingsCarousel = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div onClick={() => navigateToDrinksPageJogja('/things-to-do/drinks-jogja') } className='w-[290px] h-[400px] sm:w-[240px] md:w-[300px] xl:w-[400px] cursor-pointer '>
-                        <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg rounded-bl-non'>
+                        <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg'>
                             <img className='object-cover w-full h-[240px] xl:relative xl:h-[320px] rounded-lg rounded-bl-none hover:scale-105 duration-500' src={image6} alt='' />
                             <div className='w-full flex justify-end relative bottom-12 xl:bottom-16'>
                                 <ButtonLove/>
@@ -153,7 +153,7 @@ const ThingsCarousel = () => {
                     <div
                     onClick={() => navigateToHotelPageJogja('/things-to-do/hotel-jogja') }
                      className='w-[290px] h-[400px] sm:w-[240px] md:w-[300px] xl:w-[400px] cursor-pointer '>
-                        <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg rounded-bl-non'>
+                        <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg'>
                             <img className='object-cover w-full h-[240px] xl:relative xl:h-[320px] rounded-lg rounded-bl-none hover:scale-105 duration-500' src={image7} alt='' />
                             <div className='w-full flex justify-end relative bottom-12 xl:bottom-16'>
                                 <ButtonLove/>
