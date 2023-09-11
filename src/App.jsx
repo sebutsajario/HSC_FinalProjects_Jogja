@@ -26,7 +26,7 @@ import DetailArt from './ThingToDoComponents/ArtActivities/Pages/DetailArt';
 
 //Souvenir
 import SouvenirPage from './Pages/Things-to-do/SouvenirPage/SouvenirPage';
-
+import DetailSouvenir from './ThingToDoComponents/Souvenir/Pages/DetailSouvenir'
 //Food
 import FoodPage from './Pages/Things-to-do/FoodPage/FoodPage';
 import DetailFood from './ThingToDoComponents/Foods/Pages/DetailFood';
@@ -106,6 +106,8 @@ function App() {
             path="/things-to-do/souvenir-jogja"
             element={<SouvenirPage />}
           ></Route>
+            <Route path="/things-to-do/souvenir-jogja/:id" 
+            element={<DetailSouvenir />}/>
 
           {/* ========= Food =========== */}
           <Route path="/things-to-do/food-jogja" element={<FoodPage />}></Route>
