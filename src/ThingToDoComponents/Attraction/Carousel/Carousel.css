@@ -1,0 +1,43 @@
+.carousel3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+}
+
+.carousel3 .swiper-slide {
+  width: 300px !important;
+}
+
+@media (min-width: 420px) {
+  .carousel3 .swiper-slide {
+    width: 300x !important;
+  }
+  .carousel3 .swiper-wrapper {
+    width: 360px !important;
+    padding: 10px;
+  }
+}
+
+.carousel3 .swiper-wrapper {
+  width: 280px !important;
+  padding: 10px;
+}
+
+@media (min-width: 500px) {
+  .carousel3 {
+    width: 30rem;
+    height: 480px;
+    margin: 0;
+    justify-content: start;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel3 {
+    width: 90vw;
+    height: 480px;
+    margin: 0;
+    justify-content: start;
+  }
+}

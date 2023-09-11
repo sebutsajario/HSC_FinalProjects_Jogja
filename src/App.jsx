@@ -1,43 +1,46 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // ============ Utils
-import ScrollToTop from "./Utils/ScrollToTop";
+import ScrollToTop from './Utils/ScrollToTop';
 
 // ============  Home/Landing page path
-import Jogja from "./Pages/Jogja";
-import MenuJogja from "./Pages/MenuJogja";
-import SavedPageJogja from "./Pages/SavedPageJogja";
+import Jogja from './Pages/Jogja';
+import MenuJogja from './Pages/MenuJogja';
+import SavedPageJogja from './Pages/SavedPageJogja';
 // Practical Tips Page
-import PracticalTipsPage from "./Pages/PracticalTipsPage";
-import AirplaneJogja from "./Components/PracticalTipsPage/Airplane/AirplaneJogja";
-import CarJogja from "./Components/PracticalTipsPage/Car/CarJogja";
-import MotorJogja from "./Components/PracticalTipsPage/Motor/MotorJogja";
+import PracticalTipsPage from './Pages/PracticalTipsPage';
+import AirplaneJogja from './Components/PracticalTipsPage/Airplane/AirplaneJogja';
+import CarJogja from './Components/PracticalTipsPage/Car/CarJogja';
+import MotorJogja from './Components/PracticalTipsPage/Motor/MotorJogja';
 // ============  Thing-to-do path
 // museum
-import MuseumPageJogja from "./Pages/Things-to-do/MuseumPage/MuseumPage";
-import DetailMuseum from "./ThingToDoComponents/Museum/Pages/DetailMuseum";
+import MuseumPageJogja from './Pages/Things-to-do/MuseumPage/MuseumPage';
+import DetailMuseum from './ThingToDoComponents/Museum/Pages/DetailMuseum';
 // hotel
-import HotelPageJogja from "./Pages/Things-to-do/HotelPage/HotelPage";
-import DetailHotel from "./ThingToDoComponents/Hotel/Pages/DetailHotel";
+import HotelPageJogja from './Pages/Things-to-do/HotelPage/HotelPage';
+import DetailHotel from './ThingToDoComponents/Hotel/Pages/DetailHotel';
 // Art Activities
-import ArtActivitiesPage from "./Pages/Things-to-do/ArtActivitiesPage/ArtActivitiesPage";
-import DetailArt from "./ThingToDoComponents/ArtActivities/Pages/DetailArt";
+import ArtActivitiesPage from './Pages/Things-to-do/ArtActivitiesPage/ArtActivitiesPage';
+import DetailArt from './ThingToDoComponents/ArtActivities/Pages/DetailArt';
 // Attraction
 
 //Souvenir
-import SouvenirPage from "./Pages/Things-to-do/SouvenirPage/SouvenirPage";
+import SouvenirPage from './Pages/Things-to-do/SouvenirPage/SouvenirPage';
 
 //Food
-import FoodPage from "./Pages/Things-to-do/FoodPage/FoodPage";
-import DetailFood from "./ThingToDoComponents/Foods/Pages/DetailFood";
+import FoodPage from './Pages/Things-to-do/FoodPage/FoodPage';
+import DetailFood from './ThingToDoComponents/Foods/Pages/DetailFood';
 
 //Drinks
 
-import DrinksPage from "./Pages/Things-to-do/DrinksPage/DrinksPage";
-import DetailDrinks from "./ThingToDoComponents/Drinks/Pages/DetailDrinks";
+import DrinksPage from './Pages/Things-to-do/DrinksPage/DrinksPage';
+import DetailDrinks from './ThingToDoComponents/Drinks/Pages/DetailDrinks';
 
-import "./App.css";
-import CartPage from "./Pages/CartPage";
+// Attraction
+import AttractionPage from './Pages/Things-to-do/AttractionPage/AttractionPage';
+
+import './App.css';
+import CartPage from './Pages/CartPage';
 
 function App() {
   return (
@@ -46,7 +49,7 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Jogja />}>
-            {" "}
+            {' '}
           </Route>
           <Route path="/menu-jogja" element={<MenuJogja />}></Route>
           <Route path="/saved-page" element={<SavedPageJogja />}></Route>
@@ -93,6 +96,10 @@ function App() {
             element={<DetailArt />}
           />
           {/* ========= Attraction =========== */}
+          <Route
+            path="/things-to-do/attraction-jogja"
+            element={<AttractionPage />}
+          ></Route>
 
           {/* ========= Souvenir =========== */}
           <Route
@@ -116,7 +123,7 @@ function App() {
 
           {/* ========= Cart =========== */}
           <Route path="/cart-page/" element={<CartPage />}>
-            {" "}
+            {' '}
           </Route>
         </Routes>
       </Router>
