@@ -63,7 +63,7 @@ const ThingsCarousel = () => {
                     <div className='w-[290px] h-[400px] sm:w-[240px] md:w-[300px] xl:w-[400px] cursor-pointer '>
                         <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg rounded-bl-none drop-shadow-md '>
                             <img className='object-cover w-full h-[240px] xl:relative xl:h-[320px] xl:w-[400px] rounded-lg rounded-bl-none hover:scale-105 duration-500' src={image1} alt='' />
-                            <div className='w-full flex justify-end relative bottom-12 xl:bottom-16'>
+                            <div className='w-full flex justify-end relative bottom-12 xl:bottom-[52px]'>
                                 <ButtonLove/>
                             </div>
                         </div>
@@ -78,7 +78,7 @@ const ThingsCarousel = () => {
                         <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg rounded-bl-none drop-shadow-md'>
                             <img onClick={() => navigateToArtActivitiesPageJogja('/things-to-do/art-activities-jogja')}
                             className='object-cover w-full h-[240px] xl:relative xl:h-[320px] rounded-lg rounded-bl-none hover:scale-105 duration-500' src={image2} alt='' />
-                            <div className='w-full flex justify-end relative bottom-12 xl:bottom-16'>
+                            <div className='w-full flex justify-end relative bottom-12 xl:bottom-[52px]'>
                                 <ButtonLove/>
                             </div>
                         </div>
@@ -93,7 +93,7 @@ const ThingsCarousel = () => {
                         <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg rounded-bl-none drop-shadow-md'>
                             <img onClick={() => navigateToMuseumPageJogja('/things-to-do/museum-jogja')}
                             className='object-cover w-full h-[240px] xl:relative xl:h-[320px] rounded-lg rounded-bl-none hover:scale-105 duration-500' src={image3} alt='' />
-                            <div className='w-full flex justify-end relative bottom-12 xl:bottom-16'>
+                            <div className='w-full flex justify-end relative bottom-12 xl:bottom-[52px]'>
                                 <ButtonLove/>
                             </div>
                         </div>
@@ -108,7 +108,7 @@ const ThingsCarousel = () => {
                         <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg rounded-bl-none drop-shadow-md'>
                             <img onClick={() => navigateToSouvenirPageJogja ('/things-to-do/souvenir-jogja')}
                             className='object-cover w-full h-[240px] xl:relative xl:h-[320px] rounded-lg rounded-bl-none hover:scale-105 duration-500' src={image4} alt='' />
-                            <div className='w-full flex justify-end relative bottom-12 xl:bottom-16'>
+                            <div className='w-full flex justify-end relative bottom-12 xl:bottom-[52px]'>
                                 <ButtonLove/>
                             </div>
                         </div>
@@ -123,7 +123,7 @@ const ThingsCarousel = () => {
                         <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg rounded-bl-none drop-shadow-md'>
                             <img onClick={() => navigateToFoodPageJogja('/things-to-do/food-jogja')} 
                             className='object-cover w-full h-[240px] xl:relative xl:h-[320px] rounded-lg rounded-bl-none hover:scale-105 duration-500' src={image5} alt='' />
-                            <div className='w-full flex justify-end relative bottom-12 xl:bottom-16'>
+                            <div className='w-full flex justify-end relative bottom-12 xl:bottom-[52px]'>
                                 <ButtonLove/>
                             </div>
                         </div>
@@ -138,7 +138,7 @@ const ThingsCarousel = () => {
                         <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg rounded-bl-none drop-shadow-md'>
                             <img onClick={() => navigateToDrinksPageJogja('/things-to-do/drinks-jogja') }
                             className='object-cover w-full h-[240px] xl:relative xl:h-[320px] rounded-lg rounded-bl-none hover:scale-105 duration-500' src={image6} alt='' />
-                            <div className='w-full flex justify-end relative bottom-12 xl:bottom-16'>
+                            <div className='w-full flex justify-end relative bottom-12 xl:bottom-[52px]'>
                                 <ButtonLove/>
                             </div>
                         </div>
@@ -153,7 +153,7 @@ const ThingsCarousel = () => {
                         <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg rounded-bl-none drop-shadow-md'>
                             <img onClick={() => navigateToHotelPageJogja('/things-to-do/hotel-jogja') }
                             className='object-cover w-full h-[240px] xl:relative xl:h-[320px] rounded-lg rounded-bl-none hover:scale-105 duration-500' src={image7} alt='' />
-                            <div className='w-full flex justify-end relative bottom-12 xl:bottom-16'>
+                            <div className='w-full flex justify-end relative bottom-12 xl:bottom-[52px]'>
                                 <ButtonLove/>
                             </div>
                         </div>
