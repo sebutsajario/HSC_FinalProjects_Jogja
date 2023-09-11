@@ -27,6 +27,7 @@ const ThingsCarousel = () => {
     const navigateToSouvenirPageJogja = useNavigate()
     const navigateToFoodPageJogja = useNavigate()
     const navigateToDrinksPageJogja = useNavigate()
+    const navigateToAttractionPageJogja = useNavigate()
     
   return (
         <div className='w-screen mt-10 bg-background1 flex thingSwiper '>
@@ -62,7 +63,8 @@ const ThingsCarousel = () => {
                 <SwiperSlide>
                     <div className='w-[290px] h-[400px] sm:w-[240px] md:w-[300px] xl:w-[400px] cursor-pointer '>
                         <div className='h-[240px] xl:h-[320px] xl:relative overflow-hidden rounded-lg rounded-bl-none drop-shadow-md '>
-                            <img className='object-cover w-full h-[240px] xl:relative xl:h-[320px] xl:w-[400px] rounded-lg rounded-bl-none hover:scale-105 duration-500' src={image1} alt='' />
+                            <img onClick={() => navigateToAttractionPageJogja('/things-to-do/attraction-jogja')}
+                            className='object-cover w-full h-[240px] xl:relative xl:h-[320px] xl:w-[400px] rounded-lg rounded-bl-none hover:scale-105 duration-500' src={image1} alt='' />
                             <div className='w-full flex justify-end relative bottom-12 xl:bottom-[52px]'>
                                 <ButtonLove/>
                             </div>

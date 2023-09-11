@@ -24,6 +24,8 @@ const MenuSmall = () => {
     const navigateToFoodPageJogja = useNavigate()
     //Drinks
     const navigateToDrinksPageJogja = useNavigate()
+    //attraction
+    const navigateToAttractionPageJogja = useNavigate()
 
   return (
     <div className='flex flex-col max-w-screen h-fit items-center
@@ -35,10 +37,11 @@ const MenuSmall = () => {
                 <h1 className='text-2xl'>Things to do</h1>
             </div>
             <div className='bg-button2 flex flex-col gap-3 px-5 py-3 font-Poppins'>
-                <a href="" className='flex justify-between items-center menu__text cursor-pointer'>
+                <div onClick={() => navigateToAttractionPageJogja('/things-to-do/attraction-jogja')}
+                className='flex justify-between items-center menu__text cursor-pointer'>
                     <p>Attraction</p>
                     <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
-                </a>
+                </div>
                 <div onClick={() => navigateToArtActivitiesPageJogja('/things-to-do/art-activities-jogja')}
                  className='flex justify-between items-center menu__text cursor-pointer'>
                     <p>Art Activities</p>
