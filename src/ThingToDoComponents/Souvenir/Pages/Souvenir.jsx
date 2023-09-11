@@ -3,7 +3,7 @@ import SouvenirContainer from '../Components/SouvenirContainer'
 
 const Souvenir = () => {
   return (
-    <div className='px-40 py-20 bg-amber-100'>
+    <div className='flex justify-center bg-amber-100'>
       <SouvenirContainer />
     </div>
   )

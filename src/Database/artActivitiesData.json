@@ -85,12 +85,49 @@
     },
     {
         "id": 10, 
-        "name": "Semar Gallery", 
+        "name": "Kersan Art Studio", 
         "position": {"lat": -7.8574077 , "lng": 110.3554058}, 
-        "pic":"/Assets/art-activities/SemarGallery.jpg", 
+        "pic":"/Assets/art-activities/kersan-art.jpg", 
         "link":"#",
-        "address": "Jl. Parangtritis Km 7 Cabean, Bantul 55188 Indonesia", 
-        "description": "Galeri Semar yang mengkhususkan diri dalam pembangunan kembali dan perbaikan rumah kayu tradisional khususnya rumah Jawa."
+        "address": "Jl. AS. Samawaat no 154, Ds Kersan, Tirtonirmolo, Kasihan, Tirtonirmolo, Kasihan, Bantul, Daerah Istimewa Yogyakarta 55184", 
+        "description": "Kersan Art Studio was founded in 2009 with a goal of encouraging communication between different artists. Appropriately, the studio is situated in a peaceful and spacious building with an open-air common area in the middle. During my visit, there were several people having a meeting in the common area, while it was also possible to meet a some of the artists whose work was being displayed. Kersan is an excellent place to enjoy abstract art in a friendly and open environment."
+    },
+    {
+        "id": 11, 
+        "name": "Cemeti Art House", 
+        "position": {"lat": -7.8574077 , "lng": 110.3554058}, 
+        "pic":"/Assets/art-activities/Cemeti_Art.jpg", 
+        "link":"#",
+        "address": "Jl. Mayjen D.I. Panjaitan No. 41, Mantrijeron, Kota Yogyakarta", 
+        "description": "Cemeti Art House is one of the oldest and most respected art spaces in the city. It was founded in 1988 and was one of the first galleries to help develop the careers of young artists, rather than merely provide a physical space for their art. Founded by a Dutch-Indonesian couple, Cemeti was also one of the first collectives to promote Indonesian artists abroad. At the same time, they also regularly welcome foreign artists to come and display their work in Jogja. Conveniently located on Jl. Mayjen D.I. Panjaitan, the space is easy to find for anyone who finds themselves in Mantrijeron."
+    },
+    {
+        "id": 12, 
+        "name": "Bentara Budaya", 
+        "position": {"lat": -7.8574077 , "lng": 110.3554058}, 
+        "pic":"/Assets/art-activities/Bentara-Budaya.jpeg", 
+        "link":"#",
+        "address": "Jln. Suroto 2, Kotabaru, Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55224", 
+        "description": "Located about a 10 minute walk from the Tugu Monument, Bentara Budaya is one of the city’s oldest art spaces. Founded in 1982, Bentara Budaya provides a platform for wood carvers and ceramic artists in addition to painters. The gallery also has sister organizations in Jakarta and Bali."
+    },
+    {
+        "id": 13, 
+        "name": "Bale Banjar Sangkring", 
+        "position": {"lat": -7.8574077 , "lng": 110.3554058}, 
+        "pic":"/Assets/art-activities/Bale_banjar.jpg", 
+        "link":"#",
+        "address": "Jl. Nitiprayan No.88 RT. 01 / RW. 20, Ngestiharjo, Kasihan, Ngestiharjo, Bantul, Daerah Istimewa Yogyakarta 55184", 
+        "description": "If the name ‘Bale Banjar’ sounds Balinese to you, then you’re not mistaken. Also, simply known as Sangkring Art Space, the gallery was founded by Balinese artist Putu Sutawijaya in 2007. ‘Bale banjar’ is the Balinese term for ‘local community association,’ and Sangkring’s founder has expressed traditional Balinese life and rituals as one of the main inspirations for his art. The art displayed at Sangkring Art Space, however, is anything but traditional."
+    },
+    {
+        "id": 14, 
+        "name": "SURVIVE! Garage", 
+        "position": {"lat": -7.8574077 , "lng": 110.3554058}, 
+        "pic":"/Assets/art-activities/SURVIVE_Garage.jpg", 
+        "link":"#",
+        "address": "Jl. Nitiprayan, Ngestiharjo, Kasihan, Bantul, Daerah Istimewa Yogyakarta 55184", 
+        "description": "SURVIVE! Garage is a respected art space and shop that also regularly hosts events. It’s one of the best places to purchase affordable art made by some of the city’s prominent local artists. If you can’t fit the artwork in your luggage, they also sell a great selection of t-shirts."
     }
+
 
 ]
