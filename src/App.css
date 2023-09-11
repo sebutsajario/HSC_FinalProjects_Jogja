@@ -2,15 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
 
 .leaflet-container {
-    height: 50rem;
+    height: 20rem;
     width: 90vw;
     border-radius: 20px;
     filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
 }
 
+@media (min-width:768px){
+    .leaflet-container {
+        width: 87vw;
+        height: 30rem;
+    }
+}
+
+
+
 @media (min-width:1024px){
     .leaflet-container {
         width: 87vw;
+        height: 40rem;
     }
 }
 
