@@ -67,7 +67,7 @@ const ThingsCarousel = () => {
                                 <ButtonLove/>
                             </div>
                         </div>
-                        <div className='bg-white py-3 pl-3 md:pl-5 w-[243px] sm:w-[195px] rounded-b-lg md:w-[254px] xl:w-[335px] drop-shadow-lg'>
+                        <div className='bg-white pr-2 py-3 pl-3 md:pl-5 w-[243px] sm:w-[195px] rounded-b-lg md:w-[254px] xl:w-[343px] drop-shadow-lg'>
                             <h3 className='xl:text-[26px] font-semibold'>Attraction</h3>
                             <p className='text-[12px] xl:text-[14px] line-clamp-3'>Experience the awe-inspiring allure of Yogyakarta, where ancient temples, vibrant arts, and genuine hospitality converge to create an unforgettable adventure for foreign explorers.</p>
                         </div>
@@ -82,7 +82,7 @@ const ThingsCarousel = () => {
                                 <ButtonLove/>
                             </div>
                         </div>
-                        <div className='bg-white py-3 pl-3 md:pl-5 w-[243px] sm:w-[195px] rounded-b-lg md:w-[254px] xl:w-[335px] drop-shadow-lg'>
+                        <div className='bg-white pr-2 py-3 pl-3 md:pl-5 w-[243px] sm:w-[195px] rounded-b-lg md:w-[254px] xl:w-[343px] drop-shadow-lg'>
                             <h3 className='xl:text-[26px] font-semibold'>Art Activities</h3>
                             <p className='text-[12px] xl:text-[14px] line-clamp-3'>Immerse yourself in the enchanting world of art in Yogyakarta, where a vibrant tapestry of creative workshops, galleries, and cultural experiences awaits your exploration.</p>
                         </div>
@@ -97,7 +97,7 @@ const ThingsCarousel = () => {
                                 <ButtonLove/>
                             </div>
                         </div>
-                        <div className='bg-white py-3 pl-3 md:pl-5 w-[243px] sm:w-[195px] rounded-b-lg md:w-[254px] xl:w-[335px] drop-shadow-lg'>
+                        <div className='bg-white pr-2 py-3 pl-3 md:pl-5 w-[243px] sm:w-[195px] rounded-b-lg md:w-[254px] xl:w-[343px] drop-shadow-lg'>
                             <h3 className='xl:text-[26px] font-semibold'>Museums</h3>
                             <p className='text-[12px] xl:text-[14px] line-clamp-3'>Jogja's historical museums offer a captivating journey through time, unveiling the rich tapestry of the city's past and heritage through captivating artifacts and exhibits.</p>
                         </div>
@@ -112,7 +112,7 @@ const ThingsCarousel = () => {
                                 <ButtonLove/>
                             </div>
                         </div>
-                        <div className='bg-white py-3 pl-3 md:pl-5 w-[243px] sm:w-[195px] rounded-b-lg md:w-[254px] xl:w-[335px] drop-shadow-lg'>
+                        <div className='bg-white pr-2 py-3 pl-3 md:pl-5 w-[243px] sm:w-[195px] rounded-b-lg md:w-[254px] xl:w-[343px] drop-shadow-lg'>
                             <h3 className='xl:text-[26px] font-semibold'>Souvenirs</h3>
                             <p className='text-[12px] xl:text-[14px] line-clamp-3'>Bring home a piece of cherished memories from Jogja through its diverse range of captivating souvenirs, each encapsulating the city's cultural richness and artistic spirit.</p>
                         </div>
@@ -127,7 +127,7 @@ const ThingsCarousel = () => {
                                 <ButtonLove/>
                             </div>
                         </div>
-                        <div className='bg-white py-3 pl-3 md:pl-5 w-[243px] sm:w-[195px] rounded-b-lg md:w-[254px] xl:w-[335px] drop-shadow-lg'>
+                        <div className='bg-white pr-2 py-3 pl-3 md:pl-5 w-[243px] sm:w-[195px] rounded-b-lg md:w-[254px] xl:w-[343px] drop-shadow-lg'>
                             <h3 className='xl:text-[26px] font-semibold'>Foods</h3>
                             <p className='text-[12px] xl:text-[14px] line-clamp-3'>Indulge in an array of uniquely flavorful culinary delights in Jogja, where traditional ingredients and cooking methods combine to create a taste experience unlike any other.</p>
                         </div>
@@ -142,7 +142,7 @@ const ThingsCarousel = () => {
                                 <ButtonLove/>
                             </div>
                         </div>
-                        <div className='bg-white py-3 pl-3 md:pl-5 w-[243px] sm:w-[195px] rounded-b-lg md:w-[254px] xl:w-[335px] drop-shadow-lg'>
+                        <div className='bg-white pr-2 py-3 pl-3 md:pl-5 w-[243px] sm:w-[195px] rounded-b-lg md:w-[254px] xl:w-[343px] drop-shadow-lg'>
                             <h3 className='xl:text-[26px] font-semibold'>Drinks</h3>
                             <p className='text-[12px] xl:text-[14px] line-clamp-3'>Quench your thirst with an enticing variety of refreshing drinks in Jogja, ranging from exotic tropical blends to locally-inspired beverages, offering a sip of the city's vibrant flavors.</p>
                         </div>
@@ -157,7 +157,7 @@ const ThingsCarousel = () => {
                                 <ButtonLove/>
                             </div>
                         </div>
-                        <div className='bg-white py-3 pl-3 md:pl-5 w-[243px] sm:w-[195px] rounded-b-lg md:w-[254px] xl:w-[335px] drop-shadow-lg'>
+                        <div className='bg-white pr-2 py-3 pl-3 md:pl-5 w-[243px] sm:w-[195px] rounded-b-lg md:w-[254px] xl:w-[343px] drop-shadow-lg'>
                             <h3 className='xl:text-[26px] font-semibold'>Hotels</h3>
                             <p className='text-[12px] xl:text-[14px] line-clamp-3'>Discover the perfect blend of luxury and tradition as Jogja's hotels offer a unique experience, where modern comforts harmoniously intertwine with the city's rich cultural heritage.</p>
                         </div>
