@@ -11,8 +11,8 @@ const IndexCard = () => {
         {attractionData.map((card) => (
           <CardSection
             key={card.id}
-            imageSrc={card.imageSrc}
-            title={card.title}
+            imageSrc={card.pic}
+            title={card.name}
             description={card.description}
           />
         ))}

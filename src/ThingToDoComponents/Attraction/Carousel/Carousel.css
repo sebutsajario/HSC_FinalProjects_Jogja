@@ -2,21 +2,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 550px;
+  height: 480px;
+  
+}
+
+.carousel3 .swiper-pagination-bullet {
+  background-color: #1D764A;
 }
 
 .carousel3 .swiper-slide {
   width: 300px !important;
 }
 
-@media (min-width: 420px) {
-  .carousel3 .swiper-slide {
-    width: 300x !important;
-  }
+
+@media (min-width:420px) {
   .carousel3 .swiper-wrapper {
-    width: 360px !important;
-    padding: 10px;
+      width: 360px !important;
+      padding: 10px;
   }
+  
+  
 }
 
 .carousel3 .swiper-wrapper {
@@ -24,20 +29,19 @@
   padding: 10px;
 }
 
-@media (min-width: 500px) {
+@media (min-width:500px ) {
   .carousel3 {
-    width: 30rem;
-    height: 480px;
-    margin: 0;
-    justify-content: start;
+      height: 480px;
+      margin: 0;
+      justify-content: start;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px ) {
   .carousel3 {
-    width: 90vw;
-    height: 480px;
-    margin: 0;
-    justify-content: start;
+      width: 100vw;
+      height: 480px;
+      margin: 0;
+      justify-content: start;
   }
 }
