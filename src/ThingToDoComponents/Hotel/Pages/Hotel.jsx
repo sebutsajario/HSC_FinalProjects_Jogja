@@ -21,14 +21,20 @@ const Hotel = () => {
                     <p className="mx-10 text-font1 font-poppins">Here are some of the many accommodation you find in Jogja</p>
                     </div>
                     <div className="space-x-4">
-                    <button className="text-white border-2 hover:border-[#1D764A] py-2 px-5 rounded-md font-lora">Road Map</button>
-                    <button className="text-white border-2 hover:border-[#1D764A] py-2 px-5 font-lora">Read More</button>
+                        <a href="#hotel-map">
+                            <button className="text-white border-2 hover:border-[#1D764A] py-2 px-5 rounded-md font-lora">Road Map</button>
+                        </a>
+                        <a href="#hotel-list">
+                            <button className="text-white border-2 hover:border-[#1D764A] py-2 px-5 font-lora">Read More</button>
+                        </a>
                     </div>
                 </div>
             </div>
-            <TitleHotel />
-            <HotelCarousel />
-            <div className='w-[100vw] bg-button2 flex justify-center items-center'>
+            <div id='hotel-list'>
+                <TitleHotel />
+                <HotelCarousel />
+            </div>
+            <div id='hotel-map' className='w-[100vw] bg-background1 flex justify-center items-center'>
                 <MapHotel />
             </div>
         </div>
