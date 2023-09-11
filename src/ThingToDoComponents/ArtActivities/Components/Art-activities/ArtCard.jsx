@@ -11,7 +11,7 @@ const ArtCard = ({ imageSrc, title, description }) => {
             <Link to={`/things-to-do/art-activities-jogja/detail-art`}>
                 <img className='rounded-lg mt-1 border' src={imageSrc} alt="image-card" />
             </Link>
-            <div className='flex justify-end h-0 relative bottom-12 xl:bottom-16'>
+            <div className='flex justify-end h-0 relative bottom-12 xl:bottom-[52px]'>
                 <ButtonLove />
             </div>
         </div>
