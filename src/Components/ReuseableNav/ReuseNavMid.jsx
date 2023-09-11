@@ -1,8 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import './ReuseNavMid.css'
 
+
 function ReuseNavMid() {
+
+  const navigateToPracticalTipsPage = useNavigate()
+
     return (
         <div
           className='flex items-center text-[#000]
@@ -16,7 +20,8 @@ function ReuseNavMid() {
                 <Link to="/#map">
                   <p className='text-[18px] w-[120px] font-Poppins transform hover:scale-105 hover:font-semibold transition-all cursor-pointer font-light text2'>Places to go</p>
                 </Link>
-                <p className='text-[18px] w-[120px] font-Poppins transform hover:scale-105 hover:font-semibold transition-all cursor-pointer font-light text3'>Practical tips</p>
+                <p onClick={() => navigateToPracticalTipsPage('/practical-tips-page')} 
+                className='text-[18px] w-[120px] font-Poppins transform hover:scale-105 hover:font-semibold transition-all cursor-pointer font-light text3'>Practical tips</p>
             </div>
         </div>
       )
