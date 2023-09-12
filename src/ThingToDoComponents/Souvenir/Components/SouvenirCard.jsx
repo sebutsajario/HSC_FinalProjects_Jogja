@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import SouvenirButton from './SouvenirButton'
 import { ReactComponent as Love } from '../../Museum/Assets/icon-love.svg'
+import ButtonLove from '../../../Components/Atoms/ButtonLove'
 
 const SouvenirCard = ({item, pic, title, desc, price}) => {
 
@@ -20,7 +21,7 @@ const SouvenirCard = ({item, pic, title, desc, price}) => {
           onClick={clickLove}
           className='absolute bottom-0 right-0 bg-[#F1F8FF] w-[40px] h-[40px] opacity-90 rounded-br-md rounded-tl-md hover:bg-button hover:fill-white cursor-pointer'
         >
-          <Love
+          <ButtonLove
             className={`p-2 ${
               toggle
                 ? 'bg-button fill-white rounded-br-md rounded-tl-md hover:bg-white hover:fill-button'
