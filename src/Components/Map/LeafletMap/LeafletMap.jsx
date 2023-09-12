@@ -10,6 +10,7 @@ import artActivitiesData from '/src/Database/artActivitiesData.json';
 // ================ CSS styles for leaflet-container ada di app.css
 
 import 'leaflet/dist/leaflet.css';
+import { Link } from 'react-router-dom';
 
 function LeafletMap() {
   const [activeCategory, setActiveCategory] = useState(museumsData);
@@ -65,11 +66,11 @@ function LeafletMap() {
                   alt={item.name}
                   width="100"
                 />
-                <a className=" text-white" href={item.link}>
+                <Link to={item.link}>
                   <button className="bg-button px-2 py-1 mt-2 rounded text-white cursor-pointer font-Poppins">
-                    Visit Site
+                    Read more
                   </button>
-                </a>
+                </Link>
               </div>
             </Popup>
           </Marker>
