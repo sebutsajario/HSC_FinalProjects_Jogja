@@ -4,63 +4,63 @@
         "name": "Museum Affandi", 
         "position": {"lat": -7.78106 , "lng": 110.3602408}, 
         "pic":"/Assets/museum/affandi.jpg", 
-        "link":"#"
+        "link":"/things-to-do/museum-jogja/museum-affandi"
     },
     {
         "id": 2, 
         "name": "Benteng Vredeburg", 
         "position": {"lat": -7.80028465 , "lng": 110.36635102726859}, 
         "pic":"/Assets/museum/vredeburg.jpg", 
-        "link":"#"
+        "link":"/things-to-do/museum-jogja/benteng-vredeburg"
     },
     {
         "id": 3, 
         "name": "Museum Sonobudoyo", 
         "position": {"lat": -7.80234425 , "lng": 110.36441291543042}, 
         "pic":"/Assets/museum/senobudoyo.jpg", 
-        "link":"#"
+        "link":"/things-to-do/museum-jogja/museum-senobudoyo"
     },
     {
         "id": 4, 
         "name": "Taman Pintar", 
         "position": {"lat": -7.8009251 , "lng": 110.3676488}, 
         "pic":"/Assets/museum/tamanpintar.jpg", 
-        "link":"#"
+        "link":"/things-to-do/museum-jogja/taman-pintar"
     },
     {
         "id": 5, 
         "name": "Museum Merapi", 
         "position": {"lat": -7.6004719 , "lng": 110.4491062}, 
         "pic":"/Assets/museum/merapi.jpg", 
-        "link":"#"
+        "link":"/things-to-do/museum-jogja/museum-merapi"
     },
     {
         "id": 6, 
         "name": "Monumen Jogja Kembali", 
         "position": {"lat": -7.7496238 , "lng": 110.36963439175416}, 
         "pic":"/Assets/museum/monjali.jpg", 
-        "link":"#"
+        "link":"/things-to-do/museum-jogja/minumen-jogja-kembali"
     },
     {
         "id": 7, 
         "name": "Museum Keraton Yogyakarta", 
         "position": {"lat": -7.80820795 , "lng": 110.36378395221467}, 
         "pic":"/Assets/museum/kraton.jpg", 
-        "link":"#"
+        "link":"/things-to-do/museum-jogja/museum-keraton-yogyakarta"
     },
     {
         "id": 8, 
         "name": "Museum Ullen Sentalu", 
         "position": {"lat": -7.59764835 , "lng": 110.42339618812312}, 
         "pic":"/Assets/museum/sentalu.jpg", 
-        "link":"#"
+        "link":"/things-to-do/museum-jogja/museum-ullen-sentalu"
     },
     {
         "id": 9, 
         "name": "Museum Pusat TNI AU Dirgantara Mandala", 
         "position": {"lat": -7.7897642000000005 , "lng": 110.41619378089325}, 
         "pic":"/Assets/museum/dirgantara.jpg", 
-        "link":"#"
+        "link":"/things-to-do/museum-jogja/museum-pusat-tni-au-dirgantara-mandala"
     }
 
 ]
