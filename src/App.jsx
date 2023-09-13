@@ -27,17 +27,21 @@ import DetailArt from './ThingToDoComponents/ArtActivities/Pages/DetailArt';
 //Souvenir
 import SouvenirPage from './Pages/Things-to-do/SouvenirPage/SouvenirPage';
 import DetailSouvenir from './ThingToDoComponents/Souvenir/Pages/DetailSouvenir'
+
 //Food
 import FoodPage from './Pages/Things-to-do/FoodPage/FoodPage';
 import DetailFood from './ThingToDoComponents/Foods/Pages/DetailFood';
 
 //Drinks
-
 import DrinksPage from './Pages/Things-to-do/DrinksPage/DrinksPage';
 import DetailDrinks from './ThingToDoComponents/Drinks/Pages/DetailDrinks';
 
 // Attraction
 import AttractionPage from './Pages/Things-to-do/AttractionPage/AttractionPage';
+
+// Auth
+import LoginPage from './Pages/Login';
+import RegisterPage from './Pages/Regiter';
 
 import './App.css';
 import CartPage from './Pages/CartPage';
@@ -127,6 +131,15 @@ function App() {
           <Route path="/cart-page/" element={<CartPage />}>
             {' '}
           </Route>
+
+          {/* ============ Auth ============ */}
+          <Route path="/login" element={<LoginPage/>} >
+            {' '}
+          </Route>
+          <Route path="/register" element={<RegisterPage/>} >
+            {' '}
+          </Route>
+
         </Routes>
       </Router>
     </>
