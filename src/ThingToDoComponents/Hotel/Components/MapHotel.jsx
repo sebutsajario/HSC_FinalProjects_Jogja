@@ -9,9 +9,9 @@ import "leaflet/dist/leaflet.css"
 const MapHotel = () => {
 
   const markerIcon = new L.Icon ({
-    iconUrl:'/Assets/Leaflet/custom_marker1.png',
+    iconUrl:'/Assets/Leaflet/hotel-location.svg',
     iconSize: [32, 32],
-    iconAnchor:[10,30],
+    iconAnchor:[16,28],
   })
     const position = [-7.81 , 110.37]
     return (

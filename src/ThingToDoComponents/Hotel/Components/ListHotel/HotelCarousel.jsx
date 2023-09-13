@@ -5,7 +5,6 @@ import './hotelCarousel.css'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
-
 import { FreeMode } from 'swiper/modules';
 
 
@@ -22,8 +21,8 @@ import {AiOutlineHeart} from 'react-icons/ai'
 function HotelCarousel() {
     return (
       <div className='flex flex-col justify-center items-center mb-10'>
-        <div className='container2 w-[95vw] h-[500px]'>
-         <section className='justify-items-center items-center'>
+        <div className='container2 w-[95vw] h-[500px] flex flex-col justify-center items-center'>
+         <section>
            <Swiper
             slidesPerView={1}
             spaceBetween={30}
@@ -31,13 +30,37 @@ function HotelCarousel() {
             pagination={{clickable: true,}}
             modules={[FreeMode, Pagination]}
             className="carousel2"
+            breakpoints={{
+              500: {
+              slidesPerView: 1.38,
+              spaceBetween: 10,
+              },
+              768: {
+              slidesPerView: 2.16,
+              spaceBetween: 10,
+              },
+              1024: {
+              slidesPerView: 2.88,
+              spaceBetween: 10,
+              }, 
+              1280: {
+              slidesPerView: 3.8,
+              spaceBetween: 10,
+              }, 
+              1440: {
+              slidesPerView: 4.05,
+              spaceBetween: 10,
+              }, 
+          
+          }}
+            
            >
              {HotelList.map((hotel, index) => (
                <SwiperSlide key={index}>
                  <div key={index} className='text-left shadow-lg h-[450px] bg-[#E8F4FE] rounded-xl card'>
-                   <Link to={`/things-to-do/hotel-jogja/hotel-detail`}>
-                    <img className='w-[240px] h-[320px] object-cover rounded-t-lg absolute hotel-image' src={hotel.image} alt={hotel.title} />
-                   </Link>
+                    <Link to={`/things-to-do/hotel-jogja/hotel-detail`}>
+                      <img className='w-[240px] h-[320px] object-cover rounded-t-lg absolute hotel-image' src={hotel.image} alt={hotel.title} />
+                    </Link>
                    <button className='relative rounded-r-lg p-3 w-13 h-12 bg-button2 text-button top-48'><AiOutlineHeart size={25} /></button>
                    <div className='shadow-xl p-4 space-y-4 relative bg-white w-[180px] h-[180px] rounded-r-lg top-48'>
                      <p className='text-end text-[14px]'>{hotel.price}/night</p>

@@ -24,6 +24,8 @@ const MenuSmall = () => {
     const navigateToFoodPageJogja = useNavigate()
     //Drinks
     const navigateToDrinksPageJogja = useNavigate()
+    //attraction
+    const navigateToAttractionPageJogja = useNavigate()
 
   return (
     <div className='flex flex-col max-w-screen h-fit items-center
@@ -35,10 +37,11 @@ const MenuSmall = () => {
                 <h1 className='text-2xl'>Things to do</h1>
             </div>
             <div className='bg-button2 flex flex-col gap-3 px-5 py-3 font-Poppins'>
-                <a href="" className='flex justify-between items-center menu__text cursor-pointer'>
+                <div onClick={() => navigateToAttractionPageJogja('/things-to-do/attraction-jogja')}
+                className='flex justify-between items-center menu__text cursor-pointer'>
                     <p>Attraction</p>
                     <i className='bx bx-right-arrow-alt text-button text-2xl font-bold'></i>
-                </a>
+                </div>
                 <div onClick={() => navigateToArtActivitiesPageJogja('/things-to-do/art-activities-jogja')}
                  className='flex justify-between items-center menu__text cursor-pointer'>
                     <p>Art Activities</p>
@@ -134,19 +137,19 @@ const MenuSmall = () => {
         <div className='fixed z-[1600] bottom-10 flex justify-center items-center
             lg:hidden
             '>
-            <button className='bg-white text-button text-xl rounded-l-lg px-[6px] py-[1px] w-[2.5rem] h-[2.5rem] text-center relative left-1 drop-shadow-md'>
+            <button className='bg-white text-button text-[24px] rounded-l-lg  w-[3rem] h-[3rem] text-center relative left-1 drop-shadow-md flex justify-center items-center'>
             <i className='bx bx-search'></i>
             </button>
 
             <button 
                 id='botButton' 
-                className='text-button bg-button2 text-[40px] px-[6px] py-[1px] w-[3rem] h-[3rem] flex justify-center items-center rounded-xl z-[1] drop-shadow-md'
+                className='text-button bg-button2 text-[40px] px-[6px] py-[1px] w-[3.5rem] h-[3.5rem] flex justify-center items-center rounded-xl z-[1] drop-shadow-md'
                 onClick={() => navigateToMainPage('/')}
                 >
                 <i className='bx bx-x'></i>
             </button>
 
-            <button className='bg-white text-button text-xl rounded-r-lg px-[6px] py-[1px] w-[2.5rem] h-[2.5rem] text-center relative right-1 drop-shadow-md'> 
+            <button className='bg-white text-button text-[24px] rounded-r-lg  w-[3rem] h-[3rem] text-center relative right-1 drop-shadow-md flex justify-center items-center'> 
             <i className='bx bx-heart'></i>
             </button>
         </div>
