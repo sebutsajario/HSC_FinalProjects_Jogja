@@ -7,6 +7,7 @@ import ScrollToTop from './Utils/ScrollToTop';
 import Jogja from './Pages/Jogja';
 import MenuJogja from './Pages/MenuJogja';
 import SavedPageJogja from './Pages/SavedPageJogja';
+import SearchPage from './Pages/SearchPage';
 // Practical Tips Page
 import PracticalTipsPage from './Pages/PracticalTipsPage';
 import AirplaneJogja from './Components/PracticalTipsPage/Airplane/AirplaneJogja';
@@ -57,6 +58,7 @@ function App() {
           </Route>
           <Route path="/menu-jogja" element={<MenuJogja />}></Route>
           <Route path="/saved-page" element={<SavedPageJogja />}></Route>
+          <Route path="/search-page" element={<SearchPage />}></Route>
           {/* ========= Practical Tips Page =========== */}
           <Route
             path="/practical-tips-page"
