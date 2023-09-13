@@ -1,14 +1,23 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+
 import ReuseNav from '../Components/ReuseableNav/ReuseNav';
 import Footer from '../Components/Footer/Footer';
 import DrinksData from '../Database/drinksData.json';
-import { Link } from 'react-router-dom';
 import BotButton from '../Components/Landing/Landing-bot/BotButton';
+import ListedSearch from '../Components/Search/ListedSearch';
 
 const SearchPage = () => {
   
   const data = DrinksData;
   const [text, setText] = useState ('');
+
+  const shouldDisplayList = text.trim() !== '';
+
+  const filteredItems = data.filter((item) => {
+    return item.name.toLowerCase().includes(text.toLowerCase());
+  });
+  const numberItemAvailable = filteredItems.length;
 
   return (
     <div>
@@ -24,26 +33,40 @@ const SearchPage = () => {
           </form>
         </div>
         {/* Search Result */}
-        <div>
-          {data.filter((item) => {
-            return text.toLowerCase() === '' ? item : item.name.toLocaleLowerCase().includes(text)
-          }).map((item) => (
-              <div className='w-[80vw] mx-auto' key={item.id}>
-                <Link to={`/things-to-do/drinks-jogja/${item.id}`}>
-                  <div className='flex flex-row justify-between mt-5'>
-                    <div className='w-[20vw] h-[20vw] max-h-[200px] max-w-[200px] mr-2 place-items-center'>
-                      <img className='object-cover rounded-xl w-full h-full' src={item.src} alt="" />
-                    </div>
-                    <div className='w-[60vw] h-[20vw] md:h-[20vw] md:ml-2 lg:w-[60vw] content-center flex-col flex-1 overflow-hidden'>
-                      <div className='text-sm md:text-lg lg:text-xl font-semibold hover:underline underline-offset-4'>{item.name}</div>
-                      <div className='text-xs leading-tight break-words md:text-sm lg:text-base'>{item.description}</div>
-                    </div>
-                  </div>
-                </Link>
+        {shouldDisplayList ? (
+          <div>
+            {numberItemAvailable > 0 ? (
+              <div className='w-[80vw] mx-auto mt-5'>
+                <p className="text-lg"> {numberItemAvailable} {numberItemAvailable === 1 ? 'Result' : 'Results'}</p>
               </div>
-          ))}
-        </div>
+            ) : (
+              <div className='w-[80vw] mx-auto mt-5'>
+                <p>No search results with keyword "{text}"</p>
+              </div>
+            )}
+            {numberItemAvailable > 0 ? (
+              filteredItems.map((item) => (
+                <div key={item.id} className='w-screen h-fit flex flex-col justify-center items-center p-5 gap-5 lg:py-10 lg:px-20' >
+                  <Link to={`/things-to-do/drinks-jogja/${item.id}`}>
+                    <div className='w-full h-fit cursor-pointer justify-center flex flex-col lg:flex-row'>
+                      <div className='  overflow-hidden rounded-lg lg:h-[200px] lg:w-[300px]'>
+                        <img className='rounded-lg hover:scale-105 duration-500 object-cover md:h-[300px] md:w-full lg:h-[200px] lg:w-[300px] xl:object-center '
+                          src={item.src} alt="" />
+                      </div>
+                      <div className='p-3 lg:w-2/3 lg:ml-5'>
+                        <h3 className='text-[22px]'>{item.name}</h3>
+                        <p className='line-clamp-2'>{item.description}</p>
+                      </div>
+                    </div>
+                  </Link>
+                </div>
+              ))
+            ) : null}
+          </div>
+        ) : null}
+        <ListedSearch />
       </div>
+      
       <Footer />
       <div className='flex justify-center'>
         <BotButton />
