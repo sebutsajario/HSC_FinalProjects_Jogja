@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 
-import { useNavigate } from 'react-router-dom';
-import { useParams } from 'react-router-dom';
 import axiosSouvenir from '../../../API/apiSouvenir';
-import ReuseNav from '../../../Components/ReuseableNav/ReuseNav';
+
 import SouvenirButton from '../Components/SouvenirButton';
+
+import ReuseNav from '../../../Components/ReuseableNav/ReuseNav';
+import BotButton from '../../../Components/Landing/Landing-bot/BotButton';
 import Footer from '/src/Components/Footer/Footer'
 
 const DetailSouvenir = () => {
@@ -60,6 +61,9 @@ const DetailSouvenir = () => {
         </Link>
         </div>
     </div>
+    </div>
+    <div className='flex justify-center items-center'>
+          <BotButton />
     </div>
     <Footer />
            

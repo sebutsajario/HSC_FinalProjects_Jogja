@@ -7,9 +7,7 @@ import SouvenirData from '/src/Database/souvenirData.json'
 
 const SouvenirContainer = () => {
   return (
-    <section className='mt-5 '>
-      <h1 className='mb-4 px-5'>Souvenir List</h1>
-      <div className='grid ggrid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 lg:px-10'>
       {SouvenirData.map((item, index) => (
         <SouvenirCard 
           key={index}
@@ -20,7 +18,6 @@ const SouvenirContainer = () => {
         />
       ))}
       </div>
-    </section>
   )
 }
 

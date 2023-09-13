@@ -34,18 +34,91 @@
     },
     {
         "id":5,
-        "pic":"/Assets/foods/sateklathak.jpg",
-        "imageAlt":"SateKlathak",
-        "title":"Sate Klathak",
-        "price":30000,
-        "description":"Sate Klatak is a type of typical food originating from Bantul Regency made from mutton. With the specification of skewers made of iron bicycle bars. How to cook by burning and only seasoned with salt. How to cook each portion or menu generally consists of 2 skewers to 4 skewers."
+        "pic":"/Assets/souvenir/keris1.png",
+        "imageAlt":"Keris (Traditional Dagger)",
+        "title":"Keris (Traditional Dagger)",
+        "price":1000000,
+        "description":"A keris is a Javanese ceremonial dagger with a distinctive wavy blade. While antique ones can be quite expensive, you can find decorative and smaller versions suitable for souvenirs."
     },
     {
         "id":6,
         "pic":"/Assets/souvenir/kerajinan-perak.jpg",
-        "imageAlt":"Kerajinan Perak",
-        "title":"Kerajinan Perak Jogja",
+        "imageAlt":"Yogyakarta Silver Crafts",
+        "title":"Yogyakarta Silver Crafts",
         "price":500000,
         "description":"Kerajinan Perak Jogja refers to the exquisite silver craftwork originating from Yogyakarta, Indonesia. Skilled artisans in Yogyakarta create intricate and ornate silver jewelry, home decor items, and ceremonial pieces using traditional silver-smithing techniques."
+    },
+    {
+        "id":7,
+        "pic":"/Assets/souvenir/wayang-kulit1.png",
+        "imageAlt":"Wayang Kulit (Shadow Puppets)",
+        "title":"Wayang Kulit (Shadow Puppets)",
+        "price":500000,
+        "description":"These intricately designed leather puppets are used in traditional Javanese shadow puppetry shows. They make for unique and decorative souvenirs."
+    },
+    {
+        "id":8,
+        "pic":"/Assets/souvenir/miniatire-gamelan1.png",
+        "imageAlt":"Gamelan Miniatures",
+        "title":"Gamelan Miniatures",
+        "price":625000,
+        "description":"Gamelan is traditional Javanese music played on an ensemble of percussion instruments. You can find miniature gamelan sets, which are beautifully crafted and make for great decorative items."
+    },
+    {
+        "id":9,
+        "pic":"/Assets/souvenir/batik1.png",
+        "imageAlt":"Batik Fabric",
+        "title":"Batik Fabric",
+        "price":150000,
+        "description":"Batik is a traditional Indonesian textile art that involves wax-resist dyeing. You can buy batik fabrics, clothing, or accessories like scarves and bags."
+    },
+    {
+        "id":10,
+        "pic":"/Assets/souvenir/gantungan1.png",
+        "imageAlt":"Wooden Crafts",
+        "title":"Wooden Crafts",
+        "price":15000,
+        "description":"Hand-carved wooden items such as masks, statues, and puppets are popular souvenirs. Look for items made from teak wood, which is abundant in the region."
+    },
+    {
+        "id":11,
+        "pic":"/Assets/souvenir/batu-akik1.png",
+        "imageAlt":"Batu Akik (Gemstones)",
+        "title":"Batu Akik (Gemstones)",
+        "price":2000000,
+        "description":"Indonesia is known for its gemstones, and you can find a variety of them in Jogja's markets. Look for agate stones or other gems that catch your eye."
+    },
+    {
+        "id":12,
+        "pic":"/Assets/souvenir/bamboo-rattan1.png",
+        "imageAlt":"Bamboo and Rattan Products",
+        "title":"Bamboo and Rattan Products",
+        "price":300000,
+        "description":"Handwoven baskets, bags, and other products made from bamboo and rattan are available in the markets of Jogja."
+    },
+    {
+        "id":13,
+        "pic":"/Assets/souvenir/spiceherbs-1.png",
+        "imageAlt":"Spices and Herbs",
+        "title":"Spices and Herbs",
+        "price":100000,
+        "description":"Indonesian cuisine is known for its flavorful spices. Consider bringing home some local spices like sambal (chili paste), Indonesian vanilla, or kopi tubruk (traditional Javanese coffee)."
+    },
+    {
+        "id":14,
+        "pic":"/Assets/souvenir/sandal1.png",
+        "imageAlt":"Sandal Jepit (Traditional Sandals)",
+        "title":"Sandal Jepit (Traditional Sandals)",
+        "price":50000,
+        "description":"These are simple rubber sandals often worn by locals. They are comfortable and make for practical souvenirs."
+    },
+    {
+        "id":15,
+        "pic":"/Assets/souvenir/painting1.png",
+        "imageAlt":"Jogja Art Prints and Paintings",
+        "title":"Jogja Art Prints and Paintings",
+        "price":1500000,
+        "description":"Many local artists create beautiful paintings and art prints inspired by the culture and scenery of Jogja. These can be excellent additions to your home decor."
     }
+
 ]
