@@ -2,9 +2,9 @@ import React from 'react'
 
 const TitleHotel = () => {
     return (
-        <div className='h-full w-full lg:flex lg:gap-10 px-2 mb-5 mx-auto md:px-40'>
+        <div className='h-fit w-screen lg:flex lg:gap-10 px-2 mb-5 mx-auto md:px-40'>
             <div className='col-span-6'>
-                <h1 className=' border-t border-black pt-4 font-lora lg:w-[18rem]' >
+                <h1 className=' border-t border-black pt-4 font-lora md:text-center lg:w-[18rem]' >
                     Hotels and hostels
                 </h1>
             </div>
