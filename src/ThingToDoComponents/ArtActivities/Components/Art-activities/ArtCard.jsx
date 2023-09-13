@@ -7,9 +7,9 @@ const ArtCard = ({ imageSrc, title, description }) => {
 
     return (
     <div className='w-[280px] sm:w-[240px] md:w-[233px] lg:w-[310px] xl:w-[400px] mb-[20px] lg:mb-[30px] bg-white px-3 py-2 flex flex-col  rounded-lg justify-center break-inside-avoid'>
-        <div className='h-fit '>
+        <div className='h-fit rounded-lg mt-1 border overflow-hidden'>
             <Link to={`/things-to-do/art-activities-jogja/detail-art`}>
-                <img className='rounded-lg mt-1 border' src={imageSrc} alt="image-card" />
+                <img className='hover:scale-105 duration-300' src={imageSrc} alt="image-card" />
             </Link>
             <div className='flex justify-end h-0 relative bottom-12 xl:bottom-[52px]'>
                 <ButtonLove />
