@@ -9,6 +9,7 @@ const NavbarRight = () => {
 
     const navigateToMenuJogja = useNavigate ()  
     const navigateToSavedPageJogja = useNavigate ()  
+    const navigateToSearchPageJogja = useNavigate ()
 
   return (
     <div className={`flex gap-[1rem] w-fit h-[40px] 
@@ -25,11 +26,11 @@ const NavbarRight = () => {
                 </div>
             </div>
         </a>
-        <a href="">
-            <div className='w-[40px] p-[8px] text-2xl h-[40px] flex justify-center items-center rounded-lg hover:bg-button2 transition duration-300 ease-in-out  icon'>
+        <div 
+            onClick={() => navigateToSearchPageJogja('/search-page')}
+            className='w-[40px] p-[8px] text-2xl h-[40px] flex justify-center items-center rounded-lg hover:bg-button2 transition duration-300 ease-in-out  icon'>
                 <i className='bx bx-search-alt'></i>
-            </div>
-        </a>
+        </div>
         <div 
             onClick={() => navigateToSavedPageJogja('/saved-page')}
             className='p-[8px] text-2xl w-[40px] flex items-center justify-center rounded-lg hover:bg-button2 transition duration-300 ease-in-out cursor-pointer icon'>

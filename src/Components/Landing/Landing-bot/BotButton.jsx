@@ -5,11 +5,12 @@ const BotButton = () => {
 
   const navigateToMenuJogja = useNavigate ()  
   const navigateToSavedPage = useNavigate ()
+  const navigateToSearchPage = useNavigate ()
   return (
     <div className='fixed z-[1500] bottom-10 flex justify-center items-center
       lg:hidden
     '>
-      <button className='bg-white text-button text-xl rounded-l-lg px-[6px] py-[1px] w-[2.5rem] h-[2.5rem] text-center relative left-1 drop-shadow-md'>
+      <button onClick={() => navigateToSearchPage('/search-page')} className='bg-white text-button text-xl rounded-l-lg px-[6px] py-[1px] w-[2.5rem] h-[2.5rem] text-center relative left-1 drop-shadow-md'>
       <i className='bx bx-search'></i>
       </button>
 
