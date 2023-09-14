@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link, useNavigate, useParams } from 'react-router-dom'
 
 import axiosSouvenir from '../../../API/apiSouvenir';
 
@@ -11,6 +11,7 @@ import Footer from '/src/Components/Footer/Footer'
 
 const DetailSouvenir = () => {
 
+    const navigateToSouvenirPage = useNavigate()
     const [detail, setDetail] = useState([])
     const {id} = useParams()
     const callApi = async() => {
@@ -26,11 +27,22 @@ const DetailSouvenir = () => {
   return (
     <div className='min-h-screen'>
     <ReuseNav />
+    <div className='w-screen h[80px] flex justify-end items-center pt-4 gap-3 sm:pr-5'>
+        <div className='flex gap-3 items-center bg-button2 rounded-xl w-[270px] cursor-pointer drop-shadow-md bottom-14' 
+        onClick={() => navigateToSouvenirPage('/things-to-do/souvenir-jogja')}>
+          <button id='botbutton' 
+          className='text-button text-3xl px-[6px] py-[1px] w-[3rem] flex justify-center items-center z[1]'>
+            <i className='bx bx-x'></i>
+          </button>
+          <p className='font-Poppins'>Back to Souvenir Page</p>
+        </div>
+
+      </div>
     <div className='grid md:grid-cols-2 m-auto '>
     <div className='object-cover grid-cols-4 shrink-0 lg:grid-cols-12 min-w-fit'>
       <img className='w-full' src={detail.pic} alt='Souvenir' />
     </div>
-    <div className=' flex-col justify-start md:items-start w-full py-8 mt-20'>
+    <div className='flex-col justify-start md:items-start w-full py-8 '>
       <div className='flex flex-row px-5 justify-between space-x-4'>
         <div className='flex flex-row space-x-4'>
             <button type='button' className='flex flex-wrap items-center space-x-2'>
@@ -52,12 +64,14 @@ const DetailSouvenir = () => {
       </div>
       <div className='flex flex-col max-w-7x1 nx-auto px-4 sm:px-6 md:px-8'>
       <p className='mt-4 max-w-3x1 space-y-6'>{detail.description}</p>
-      <h3 className='text-2xl'>Rp. {detail.price}</h3>
+      <h3 className='mt-4 text-2xl'>Rp. {detail.price}</h3>
       </div>
       <div className='mt-4 max-w-7x1 nx-auto px-4 sm:px-6 md:px-8'>
         <Link to={'/cart-page/'}>
-        <button className='bg-button text-lg justify-center mx-auto py-2 px-3 text-white rounded-md my-5 font-Poppinsy'>Add to Cart</button>
-       
+        <button className='w[180px] bg-button flex items-center px-4 py-2 rounded-xl'>
+          <p className='text-white me-1 font-Poppins'>Add to Cart</p>
+          <i className='bx bx-cart-alt text-[30px] text-white ml-3'></i>
+          </button>
         </Link>
         </div>
     </div>

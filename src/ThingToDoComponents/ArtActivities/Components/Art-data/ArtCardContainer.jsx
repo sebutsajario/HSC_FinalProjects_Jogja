@@ -32,12 +32,13 @@ const ArtCardContainer = () => {
           <div
             id="section_card"
             className="container3 cursor-pointer">
-              {artActivitiesData.map((card, index) => (
-                  <ArtCard
-                    key={index}
-                    imageSrc={card.pic}
-                    title={card.name}
-                    description={card.description}
+              {artActivitiesData.map((item, index) => (
+                  <ArtCard 
+                  key={index}
+                  item={item.id}
+                  pic={item.pic}
+                  name={item.name}
+                  description={item.description}
                   />
             ))}
               

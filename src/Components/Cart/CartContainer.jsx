@@ -11,7 +11,7 @@ const CartContainer = () => {
           Clear Cart List
         </button>
       </div>
-      <hr className='mt-5 flex border-5 border-blue-500 cursor-pointer hover:border-red-500 duration-500' />
+      <div className="mx-auto mt-4 border-t border-gray-300 w-[96%]"></div>
       <div className='mt-5 grid grid-cols-1 md:grid-cols-2'>
         <div className='flex flex-col px-5'>
           <div className='flex px-10 justify-between w-auto '>
