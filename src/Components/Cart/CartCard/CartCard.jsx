@@ -22,12 +22,9 @@ const incrementQuantity = () => {
         <div className="flex flex-col justify-between p-4 leading-normal">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Product Name</h5>
         </div>
-        <div className='px-2 md:px-10'>
-          <div className='flex flex-col md:flex-row md:items-center md:space-x-4 md:mb-2'>
-            <div>
-            <p>Rp. 300,000</p>
-            </div>
-            <div className="flex justify-center items-center border-gray-100">
+        <div className='grid grid-cols-1 px-6 mt-4'>
+          <p>Rp. 300000</p>
+          <div className="mt-2 flex justify-center items-center border-gray-100">
               <span onClick={decrementQuantity} className="cursor-pointer rounded-l bg-gray-100 py-1 px-3.5 duration-100 hover:bg-button hover:text-white"> - </span>
               <input className="h-8 w-8 border bg-white text-center text-xs outline-none"
                 type="number"
@@ -37,7 +34,6 @@ const incrementQuantity = () => {
                 />
               <span onClick={incrementQuantity} className="cursor-pointer rounded-r bg-gray-100 py-1 px-3 duration-100 hover:bg-button hover:text-white"> + </span>
             </div>
-          </div>
         </div>
       </div>
     </div>

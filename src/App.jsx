@@ -98,7 +98,7 @@ function App() {
             element={<ArtActivitiesPage />}
           ></Route>
           <Route
-            path="/things-to-do/art-activities-jogja/detail-art"
+            path="/things-to-do/art-activities-jogja/:id"
             element={<DetailArt />}
           />
           {/* ========= Attraction =========== */}
