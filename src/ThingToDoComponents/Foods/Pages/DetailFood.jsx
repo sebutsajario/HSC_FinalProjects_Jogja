@@ -62,8 +62,8 @@ const DetailFood = () => {
                     
                     <div>
                         <h1 className="mb-5 font-bold text-4xl font-Lora">{detail.title}</h1>
-                        <span className='mb-5 font-semibold'><span>Rp.</span> {detail.price}</span>
-                        <p className="mt-2 text-[12px] text-justify"> {detail.description}</p>
+                        <span className='mb-5 text-[16px] font-semibold'><span>Rp.</span> {detail.price}</span>
+                        <p className="mt-2 text-[18px] text-justify"> {detail.description}</p>
                             <div className='flex justify-center items-center my-5 '>
                                 <button className='bg-button w-[160px] flex items-center px-4 py-2 rounded-xl'>
                                     <p className='text-white me-1 font-Poppins'>Order Food </p>
