@@ -69,6 +69,7 @@ export default function Museum() {
                 return (
                   <CardList
                     key={index}
+                    id={item.id}
                     item={item.slug}
                     title={item?.name}
                     src={item?.src}
