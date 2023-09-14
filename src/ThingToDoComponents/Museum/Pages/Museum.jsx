@@ -3,18 +3,19 @@ import CardList from "../Components/CardList";
 import Navbar from "../../../Components/Landing/Navbar/Navbar";
 // import axios from 'axios'
 
-import axiosInstance from "/src/API/apiMuseum.js";
+import axiosInstance from "/src/API/apiCall.js";
 
 export default function Museum() {
   const [museum, setMuseum] = useState([]);
   const callApi = async () => {
-    axiosInstance.museum().then((res) => {
+    axiosInstance.items(6).then((res) => {
       setMuseum(res);
     });
   };
   useEffect(() => {
     callApi();
   }, []);
+  console.log(museum);
   return (
     <div className="flex flex-col min-h-screen ">
       <div className="bg-[#f1f8ff]  h-full flex flex-col justify-center mx-auto">

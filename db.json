@@ -1,0 +1,410 @@
+{
+    "category": [
+        {
+            "id": 1,
+            "name": "Art Activities",
+            "slug": "art-activities-jogja"
+        },
+        {
+            "id": 2,
+            "name": "Attraction",
+            "slug": "attraction-jogja"
+        },
+        {
+            "id": 3,
+            "name": "Drinks",
+            "slug": "drinks-jogja"
+        },
+        {
+            "id": 4,
+            "name": "Foods",
+            "slug": "foods-jogja"
+        },
+        {
+            "id": 5,
+            "name": "Hotel",
+            "slug": "hotel-jogja"
+        },
+        {
+            "id": 6,
+            "name": "Museum",
+            "slug": "museum-jogja"
+        },
+        {
+            "id": 5,
+            "name": "Souvenir",
+            "slug": "souvenir-jogja"
+        }
+    ],
+    "items": [
+        {
+            "id": 1,
+            "category_id": 1,
+            "name": "Pendhapa Art Space",
+            "position": {
+                "lat": -7.82854195,
+                "lng": 110.35732105
+            },
+            "src": "/Assets/art-activities/PendhapaArt.jpg",
+            "slug": "pendhapa-art-space",
+            "address": "Jl. Ring Road Selatan Tegal Krapyak RT.01 Panggungharjo, Sewon, Bantul, Yogyakarta",
+            "description": "Pendhapa Art Space atau lebih dikenal dengan sebutan PAS awalnya adalah bangunan perluasan untuk proses kreatif dari Studio Satiaji Sculpture & Artwork milik Dunadi (pematung). Studio tersebut bergerak di bidang produksi pembuatan karya seni tiga dimensi. Pendhapa Art Space mulai dibangun bertahap dan dirancang sendiri pada tahun 2006 oleh Dunadi (perupa tiga dimensi dan pemilik PAS), pada awalnya Pendhapa Art Space bernama Pendopo Sapto Aji dan merupakan gedung serbaguna yang mulai dibuka untuk umum pada tahun 2011, dan berkembang menjadi art space pada tahun 2013. Tahun 2015 memulai menginisiasi program seni secara mandiri bernama STARTUP."
+        },
+        {
+            "id": 2,
+            "category_id": 1,
+            "name": "Leksa Ganesha Batik Gallery",
+            "position": {
+                "lat": -7.8719651,
+                "lng": 110.351002
+            },
+            "src": "/Assets/art-activities/LeksaGaneshaBatik2.jpg",
+            "slug": "leksa-ganesha-batik-gallery",
+            "address": "Jl. Parangtritis KM 8,5 Gatak, Timbulharjo, Sewon 55797 Indonesia",
+            "description": "Benteng Vredeburg adalah saksi sejarah betapa kuatnya pengaruh Belanda dalam menjajah Indonesia. Karena posisinya yang strategis di tengah kota, tepatnya di depan Keraton Yogyakarta, Benteng Vredeburg telah merekam peristiwa-peristiwa penting dan telah mengalami perubahan fungsi dari waktu ke waktu."
+        },
+        {
+            "id": 3,
+            "category_id": 1,
+            "name": "Gajah Gallery Yogyakarta",
+            "position": {
+                "lat": -7.8241993,
+                "lng": 110.344032
+            },
+            "src": "/Assets/art-activities/GajahGalleryYogyakarta.jpg",
+            "slug": "gajah-gallery-yogyakarta",
+            "address": "Jln. Bugisan Selatan, Keloran, Bantul Yogyakarta 55181",
+            "description": "Sejak 1996, Gajah Gallery telah menjadi badan pelopor di ranah seni rupa Asia Tenggara, mewakilkan seniman kawakan seperti Yunizar, Ashley Bickerton, Suzann Victor, Li Jin, dan juga seniman muda seperti Erizal As. Setelah 20 tahun berada dalam kancah seni rupa, Gajah Gallery meresmikan cabang di Yogyakarta, pusat seni Indonesia. Gajah Gallery Yogyakarta bercita- cita untuk membina pertukaran seni antara Singapura dan Indonesia, dan juga memperkenalkan dan mengembangkan nama seniman regional dalam ranah internasional."
+        },
+        {
+            "id": 4,
+            "category_id": 1,
+            "name": "Yanto Craft",
+            "position": {
+                "lat": -7.7957892,
+                "lng": 110.3536407
+            },
+            "src": "/Assets/art-activities/YantoCraft.jpg",
+            "slug": "yanto-craft",
+            "address": "Jl. Lintas selatan gunungkidul Jalan gua Maria tritis, Yogyakarta 55871 Indonesia",
+            "description": "Yanto Craft adalah Toko Seni & Kerajinan"
+        },
+        {
+            "id": 5,
+            "category_id": 1,
+            "name": "Langgeng Art Foundation",
+            "position": {
+                "lat": -7.8180486,
+                "lng": 110.3550026
+            },
+            "src": "/Assets/art-activities/LanggengArt Foundation.jpg",
+            "slug": "langgeng-art-foundation",
+            "address": "Jln. Suryodiningratan 37, 55141 Indonesia",
+            "description": "Langgeng Art Foundation adalah sebuah Yayasan yang bergerak di bidang seni. Didirikan oleh seorang kolektor karya seni yang cukup kondang di Yogyakarta. Galeri ini kerap menjadi tempat art exhibition para seniman-seniman lokal maupun luar kota. Juga tempat manggung band-band indie. Di lantai atas saya melihat ada beberapa sketsa dan karya seni rupa yang dipamerkan."
+        },
+        {
+            "id": 6,
+            "category_id": 1,
+            "name": "Lana Gallery",
+            "position": {
+                "lat": -7.8242108,
+                "lng": 110.3691192
+            },
+            "src": "/Assets/art-activities/LanaGallery.jpg",
+            "slug": "lana-gallery",
+            "address": "Jl. Menukan no. 276, 55153 Indonesia",
+            "description": "Lana Gallery. Galeri seni yang terletak di Jl. Menukan, dan menghadirkan beragam koleksi seni yang menarik"
+        },
+        {
+            "id": 7,
+            "category_id": 1,
+            "name": "Jogja Gallery",
+            "position": {
+                "lat": -7.802826,
+                "lng": 110.3657125
+            },
+            "src": "/Assets/art-activities/JogjaGallery.jpg",
+            "slug": "jogja-gallery",
+            "address": "Jl. Pekapalan No. 7 Alun-Alun Utara, 55131 Indonesia",
+            "description": "Jogja Gallery adalah sebuah galeri seni visual di Yogyakarta yang berdiri sejak 19 September 2006, diresmikan oleh Sri Sultan Hamengku Buwono X dan berlokasi di Jl. Perkapalan No. 7, alun-alun utara, Yogyakarta."
+        },
+        {
+            "id": 8,
+            "category_id": 1,
+            "name": "Batik Master Class",
+            "position": {
+                "lat": -7.7569181,
+                "lng": 110.4883159
+            },
+            "src": "/Assets/art-activities/BatikMasterClass.jpg",
+            "slug": "batik-master-class",
+            "address": "Bener, RT.02/RW.02, Bugisan, Kec. Prambanan, Kabupaten Klaten, Jawa Tengah 57454",
+            "description": "Batik Master Class with Full Process by Alga Lova Tour"
+        },
+        {
+            "id": 9,
+            "category_id": 1,
+            "name": "Semar Gallery",
+            "position": {
+                "lat": -7.8574077,
+                "lng": 110.3554058
+            },
+            "src": "/Assets/art-activities/SemarGallery.jpg",
+            "slug": "semar-gallery",
+            "address": "Jl. Parangtritis Km 7 Cabean, Bantul 55188 Indonesia",
+            "description": "Galeri Semar yang mengkhususkan diri dalam pembangunan kembali dan perbaikan rumah kayu tradisional khususnya rumah Jawa."
+        },
+        {
+            "id": 10,
+            "category_id": 1,
+            "name": "Kersan Art Studio",
+            "position": {
+                "lat": -7.8574077,
+                "lng": 110.3554058
+            },
+            "src": "/Assets/art-activities/kersan-art.jpg",
+            "slug": "kersan-art-studio",
+            "address": "Jl. AS. Samawaat no 154, Ds Kersan, Tirtonirmolo, Kasihan, Tirtonirmolo, Kasihan, Bantul, Daerah Istimewa Yogyakarta 55184",
+            "description": "Kersan Art Studio was founded in 2009 with a goal of encouraging communication between different artists. Appropriately, the studio is situated in a peaceful and spacious building with an open-air common area in the middle. During my visit, there were several people having a meeting in the common area, while it was also possible to meet a some of the artists whose work was being displayed. Kersan is an excellent place to enjoy abstract art in a friendly and open environment."
+        },
+        {
+            "id": 11,
+            "category_id": 1,
+            "name": "Cemeti Art House",
+            "position": {
+                "lat": -7.8574077,
+                "lng": 110.3554058
+            },
+            "src": "/Assets/art-activities/Cemeti_Art.jpg",
+            "slug": "cemeti-art-house",
+            "address": "Jl. Mayjen D.I. Panjaitan No. 41, Mantrijeron, Kota Yogyakarta",
+            "description": "Cemeti Art House is one of the oldest and most respected art spaces in the city. It was founded in 1988 and was one of the first galleries to help develop the careers of young artists, rather than merely provide a physical space for their art. Founded by a Dutch-Indonesian couple, Cemeti was also one of the first collectives to promote Indonesian artists abroad. At the same time, they also regularly welcome foreign artists to come and display their work in Jogja. Conveniently located on Jl. Mayjen D.I. Panjaitan, the space is easy to find for anyone who finds themselves in Mantrijeron."
+        },
+        {
+            "id": 12,
+            "category_id": 1,
+            "name": "Bentara Budaya",
+            "position": {
+                "lat": -7.8574077,
+                "lng": 110.3554058
+            },
+            "src": "/Assets/art-activities/Bentara-Budaya.jpeg",
+            "slug": "bentara-budaya",
+            "address": "Jln. Suroto 2, Kotabaru, Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55224",
+            "description": "Located about a 10 minute walk from the Tugu Monument, Bentara Budaya is one of the city’s oldest art spaces. Founded in 1982, Bentara Budaya provides a platform for wood carvers and ceramic artists in addition to painters. The gallery also has sister organizations in Jakarta and Bali."
+        },
+        {
+            "id": 13,
+            "category_id": 1,
+            "name": "Bale Banjar Sangkring",
+            "position": {
+                "lat": -7.8574077,
+                "lng": 110.3554058
+            },
+            "src": "/Assets/art-activities/Bale_banjar.jpg",
+            "slug": "bale-banjar-sangkring",
+            "address": "Jl. Nitiprayan No.88 RT. 01 / RW. 20, Ngestiharjo, Kasihan, Ngestiharjo, Bantul, Daerah Istimewa Yogyakarta 55184",
+            "description": "If the name ‘Bale Banjar’ sounds Balinese to you, then you’re not mistaken. Also, simply known as Sangkring Art Space, the gallery was founded by Balinese artist Putu Sutawijaya in 2007. ‘Bale banjar’ is the Balinese term for ‘local community association,’ and Sangkring’s founder has expressed traditional Balinese life and rituals as one of the main inspirations for his art. The art displayed at Sangkring Art Space, however, is anything but traditional."
+        },
+        {
+            "id": 14,
+            "category_id": 1,
+            "name": "SURVIVE! Garage",
+            "position": {
+                "lat": -7.8574077,
+                "lng": 110.3554058
+            },
+            "src": "/Assets/art-activities/SURVIVE_Garage.jpg",
+            "slug": "survive-garage",
+            "address": "Jl. Nitiprayan, Ngestiharjo, Kasihan, Bantul, Daerah Istimewa Yogyakarta 55184",
+            "description": "SURVIVE! Garage is a respected art space and shop that also regularly hosts events. It’s one of the best places to purchase affordable art made by some of the city’s prominent local artists. If you can’t fit the artwork in your luggage, they also sell a great selection of t-shirts."
+        },
+        {
+            "id": 15,
+            "category_id": 6,
+            "name": "Museum Affandi",
+            "slug": "museum-affandi",
+            "src": "affandi",
+            "price": 25000,
+            "address": "Jl. Laksda Adisucipto No.167, Papringan, Caturtunggal",
+            "position": {
+                "lat": -7.78106,
+                "lng": 110.3602408
+            },
+            "description": "The Affandi Museum is a historical museum located in Yogyakarta Province, precisely on Jalan Kab. Sleman"
+        },
+        {
+            "id": 16,
+            "category_id": 6,
+            "name": "Benteng Vredeburg",
+            "slug": "benteng-vredeburg",
+            "src": "vredeburg",
+            "price": 70000,
+            "address": "Jl. Margo Mulyo No.6, Ngupasan",
+            "position": {
+                "lat": -7.80028465,
+                "lng": 110.36635102726859
+            },
+            "description": "Vredeburg Fort is a historical witness to how strong the Dutch influence was in colonizing Indonesia. Due to its strategic position in the middle of the city, precisely in front of the Yogyakarta Palace, Fort Vredeburg has recorded important events and has undergone changes in function over time."
+        },
+        {
+            "id": 17,
+            "category_id": 6,
+            "name": "Museum Sonobudoyo",
+            "slug": "museum-senobudoyo",
+            "src": "senobudoyo",
+            "price": 15000,
+            "position": {
+                "lat": -7.80234425,
+                "lng": 110.36441291543042
+            },
+            "address": "Jalan Trikora No. 6 Yogyakarta",
+            "description": "Sonobudoyo Museum is a museum of Javanese history and culture, including classical Javanese architectural buildings. This museum holds a collection of Javanese culture and history which is considered the most complete after the National Museum of the Republic of Indonesia in Jakarta. Apart from ceramics from the Neolithic era and bronze statues from the 8th century, this museum also stores several forms of wayang kulit, various ancient weapons (including keris and Javanese masks)."
+        },
+        {
+            "id": 18,
+            "category_id": 6,
+            "name": "Taman Pintar",
+            "slug": "taman-pintar",
+            "src": "tamanpintar",
+            "price": 10000,
+            "address": "Jl. Panembahan Senopati No.1-3, Ngupasan",
+            "position": {
+                "lat": -7.8009251,
+                "lng": 110.3676488
+            },
+            "description": "Taman Pintar Yogyakarta combines museums and science so that it can break the public stigma that museums don't only talk about the past, museums can also talk about the future."
+        },
+        {
+            "id": 19,
+            "category_id": 6,
+            "name": "Museum Merapi",
+            "slug": "museum-merapi",
+            "src": "merapi",
+            "price": 10000,
+            "address": "Jl. Boyong, Dusun Banteng, Desa Hargobinangun",
+            "position": {
+                "lat": -7.6004719,
+                "lng": 110.4491062
+            },
+            "description": "This museum was created to tell about existing volcanoes, especially Merapi. You can observe various types of volcanoes and their eruptions in the world through the museum panels. Apart from that, you can see artifacts from the 2006 Merapi eruption in the form of motorbike carcasses, household utensils, as well as photos of the 2010 eruption, complementing photos of eruptions from various volcanoes in Chile, Italy, Hawaii, USA, and so on."
+        },
+        {
+            "id": 20,
+            "category_id": 6,
+            "name": "Monumen Jogja Kembali",
+            "slug": "minumen-jogja-kembali",
+            "src": "monjali",
+            "price": 25000,
+            "address": "Jongkang, Sariharjo, Ngaglik, Kabupaten Sleman",
+            "position": {
+                "lat": -7.7496238,
+                "lng": 110.36963439175416
+            },
+            "description": "The Yogya Return Monument Museum, commonly known as the Jogja Return Monument, abbreviated as Monjali, is a museum of the history of the Indonesian independence struggle in the Special Region of Yogyakarta and is managed by the Ministry of Tourism and Creative Economy."
+        },
+        {
+            "id": 21,
+            "category_id": 6,
+            "name": "Museum Keraton Yogyakarta",
+            "slug": "museum-keraton-yogyakarta",
+            "src": "kraton",
+            "price": 35000,
+            "address": "Jl. Rotowijayan Blok No. 1, Panembahan",
+            "position": {
+                "lat": -7.80820795,
+                "lng": 110.36378395221467
+            },
+            "description": "The Yogyakarta Palace, as one of the main pillars of the founding of the Republic of Indonesia, certainly has a long history of struggle from the Colonial era until now. This long history is certainly useful for the future of the younger generation to be able to know and understand the struggles that have been carried out. Therefore, the Yogyakarta Palace as a cultural institution and national struggle is obliged to document its struggle to the public by building a tourist museum as a center for documenting the history of the struggle of the Yogyakarta Palace."
+        },
+        {
+            "id": 22,
+            "category_id": 6,
+            "name": "Museum Ullen Sentalu",
+            "slug": "museum-ullen-sentalu",
+            "src": "sentalu",
+            "price": 20000,
+            "address": "Jl. Boyong No.KM 25, Kaliurang, Hargobinangun",
+            "position": {
+                "lat": -7.59764835,
+                "lng": 110.42339618812312
+            },
+            "description": "The Ullen Sentalu Museum tells a lot about the civilization of the Mataram Kingdom which was divided into 4 palaces in Solo and Yogyakarta, namely Kasunanan Surakarta, Sultanate of Yogyakarta, Praja Mangkunegaran, and Kadipaten Pakualaman."
+        },
+        {
+            "id": 23,
+            "category_id": 6,
+            "name": "Museum Pusat TNI AU Dirgantara Mandala",
+            "slug": "museum-pusat-tni-au-dirgantara-mandala",
+            "src": "dirgantara",
+            "price": 17000,
+            "address": "Komplek TNI AU Lanud Adisutjipto, Jl Raya Solo",
+            "position": {
+                "lat": -7.7897642000000005,
+                "lng": 110.41619378089325
+            },
+            "description": "The Indonesian Air Force Dirgantara Mandala Central Museum is a museum initiated by the Indonesian Air Force which contains historical collections, most of which are aircraft that have served within the Indonesian Air Force."
+        },
+        {
+            "id":24,
+            "category_id": 4,
+            "src":"/Assets/foods/apem.jpg",
+            "imageAlt":"Apem",
+            "name":"Javanese Apem Cake",
+            "slug": "javanese-apem-cake",
+            "price":10000,
+            "description":"Apem (also known as appam in its native India) is a food made from rice flour that is left overnight by mixing eggs, coconut milk, sugar and tape and a little salt then burned or steamed. The Ngapem tradition was started by the Kanoman Palace in Cirebon, since the time of Sunan Gunung Jati as a form of spreading Islam in Java."
+            
+        },
+        {   
+            "id":25,
+            "category_id": 4,
+            "src":"/Assets/foods/bakmijawa.jpg",
+            "imageAlt":"Bakmi",
+            "name":"Javanese Noodles",
+            "slug": "javanase-noodles",
+            "price":"20000",
+            "description":"Javanese noodles or Javanese noodles are boiled noodles cooked with Javanese spices from Java, Indonesia. Most Javanese noodles are boiled noodles, so abroad (Malaysia and Singapore) Javanese noodles are known as me rebus, but there are actually variations of fried noodles from Javanese noodles."
+        },
+        {
+            "id": 26,
+            "category_id": 4,
+            "src":"/Assets/foods/geplak.jpg",
+            "imageAlt":"Geplak",
+            "name":"Geplak Bantul Cake",
+            "slug": "geplek-bantul-cake",
+            "price":5000,
+            "description":"Jogja Geplak is one of the traditional snacks originating from Jogja. This snack is famous for its chewy texture and delicious sweetness. Made from natural ingredients such as shredded coconut, coconut sugar, and water, Geplak is a popular dish that is often found in various events or as souvenirs typical of Jogja."
+        },
+        {
+            "id": 27,
+            "category_id": 4,
+            "src":"/Assets/foods/Gudeg.jpg",
+            "imageAlt":"Gudek ",
+            "name":"Gudeg",
+            "slug": "gudek",
+            "price":25000,
+            "description":"Gudeg has been known by the people of Indonesia, especially as a typical food from Yogyakarta City. This popularity is also what makes Yogyakarta known as Gudeg City. Gudeg is a traditional food made from young jackfruit (jackfruit) boiled for several hours with coconut sugar and coconut milk. Equipped with various additional spices."
+        },
+        {
+            "id":28,
+            "category_id": 4,
+            "src":"/Assets/foods/sateklathak.jpg",
+            "imageAlt":"SateKlathak",
+            "name":"Sate Klathak",
+            "slug": "sate-klathak",
+            "price":30000,
+            "description":"Sate Klatak is a type of typical food originating from Bantul Regency made from mutton. With the specification of skewers made of iron bicycle bars. How to cook by burning and only seasoned with salt. How to cook each portion or menu generally consists of 2 skewers to 4 skewers."
+        },
+        {
+            "id":29,
+            "category_id": 4,
+            "src":"/Assets/foods/sotokadipiro.jpg",
+            "imageAlt":"sotokadipiro",
+            "name":"Soto Kadipiro",
+            "slug": "soto-kadipiro",
+            "price":35000,
+            "description":"Soto Kadipiro was originally sold under Karto Wijoyo. Around 1928 he settled in the Kadipiro area. Until now, it has been the third generation, namely Sri Sundari's mother (59). Named Soto Kadipiro because it takes the name of the place, namely Kadipiro. Soto Kadipiro became legendary because it maintained the deliciousness of soto for more than 90 years."
+        }
+    ]
+}
