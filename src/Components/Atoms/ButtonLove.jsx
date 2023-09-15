@@ -5,6 +5,7 @@ const ButtonLove = () => {
   const toggleIcon = () => {
     setIsSolid((prevIsSolid) => !prevIsSolid);
   };
+
   return (
     <div>
       <button
