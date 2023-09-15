@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { ReactComponent as Love } from "../Assets/icon-love.svg";
 import ButtonLove from "../../../Components/Atoms/ButtonLove";
 
@@ -7,21 +7,18 @@ import Button from "./Atoms/Button";
 
 function CardList({ ...props }) {
   const { title, src, address, item, id } = props;
-  const [toggle, setToggle] = useState(false);
+  const [favorite, setFavorite] = useState([1, 2]);
 
-  const clickLove = () => {
-    setToggle(!toggle);
-  };
   return (
     <div className="w-full mb-5 lg:w-[25%] md:w-[30%] md:p-2">
       <div className="relative mb-2 overflow-hidden rounded-lg ">
         <img
-          src={`/Assets/museum/${src ?? "default"}.jpg`}
-          alt=""
+          src={src ?? "default"}
+          alt={"Image" + title}
           className="w-full h-60 object-cover hover:scale-105 duration-300"
         />
         <div className="flex justify-end relative bottom-12 xl:bottom-[52px] h-0">
-          <ButtonLove id={id} />
+          <ButtonLove />
         </div>
       </div>
       <div className="h-[90px]">

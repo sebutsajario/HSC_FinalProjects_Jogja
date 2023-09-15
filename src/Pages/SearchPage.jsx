@@ -19,6 +19,7 @@ const SearchPage = () => {
   // const numberItemAvailable = filteredItems.length;
   const [text, setText] = useState("");
   const [items, setItems] = useState([]);
+  const [category, setCategory] = useState([]);
   const callApi = async () => {
     try {
       const response = await axiosInstance.allitems(text);
@@ -27,8 +28,18 @@ const SearchPage = () => {
       console.error(error);
     }
   };
+
+  const callApiCategory = async () => {
+    try {
+      const response = await axiosInstance.category();
+      setCategory(response);
+    } catch (error) {
+      console.log(error);
+    }
+  };
   useEffect(() => {
     callApi();
+    callApiCategory();
   }, [text]);
 
   return (
@@ -92,12 +103,20 @@ const SearchPage = () => {
         ) : null} */}
         <div className="w-screen h-fit flex flex-col justify-center items-start p-5 gap-5 lg:py-10 lg:px-20">
           <div className="w-[80vw] mx-auto font-semibold text-[20px]">
-            <p>See also</p>
+            <p>See also {items.length} items</p>
           </div>
           {items ? (
-            items.map((item, i) => {
+            items.slice(0, 15).map((item, i) => {
+              // console.log(item);
+              const categorySlug = category.find(
+                (res) => res.id === item.category_id
+              );
+              // console.log(categorySlug.slug);
               return (
-                <Link key={i} to={"/things-to-do/food-jogja/1"}>
+                <Link
+                  key={i}
+                  to={`/things-to-do/${categorySlug.slug}/${item.slug}`}
+                >
                   <div className="w-full h-fit cursor-pointer justify-start flex flex-col lg:flex-row">
                     <div className="  overflow-hidden rounded-lg lg:h-[200px] lg:w-[300px]">
                       <img

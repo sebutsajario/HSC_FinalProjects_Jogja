@@ -79,9 +79,9 @@ export default function DetailMuseum() {
               {detail?.name}
             </h1>
             <span className="mb-5 md:text-2xl font-semibold">
-              Rp. {detail?.["tiket-price"]}
+              Rp. {detail?.price}
             </span>
-            <p className="mt-2 text-[14px] md:text-2xl text-justify">
+            <p className="mt-2 text-[14px] md:text-xl text-justify">
               {" "}
               {detail?.description}
             </p>
