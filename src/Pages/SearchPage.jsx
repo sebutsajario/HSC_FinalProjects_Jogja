@@ -42,6 +42,12 @@ const SearchPage = () => {
     callApiCategory();
   }, [text]);
 
+  function filterCategory(categoryId) {
+    const categorySlug = category.find((res) => res.id === categoryId);
+    const data = categorySlug ? categorySlug.slug : "";
+    return data;
+  }
+
   return (
     <div>
       <ReuseNav />
@@ -108,15 +114,9 @@ const SearchPage = () => {
           {items ? (
             items.slice(0, 15).map((item, i) => {
               // console.log(item);
-              const categorySlug = category.find(
-                (res) => res.id === item.category_id
-              );
-              // console.log(categorySlug.slug);
+              const categorySlug = filterCategory(item.category_id);
               return (
-                <Link
-                  key={i}
-                  to={`/things-to-do/${categorySlug.slug}/${item.slug}`}
-                >
+                <Link key={i} to={`/things-to-do/${categorySlug}/${item.slug}`}>
                   <div className="w-full h-fit cursor-pointer justify-start flex flex-col lg:flex-row">
                     <div className="  overflow-hidden rounded-lg lg:h-[200px] lg:w-[300px]">
                       <img
