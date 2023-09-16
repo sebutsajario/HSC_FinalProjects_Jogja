@@ -1,28 +1,49 @@
-import React from 'react';
-import { BsTrash3 } from 'react-icons/bs';
-import CartCard from './CartCard/CartCard';
+import React from "react";
+import CartCard from "./CartCard/CartCard";
 
 const CartContainer = () => {
   return (
     <section>
-      <div className='flex flex-wrap mt-5 justify-between px-10'>
-        <h1 className='text-4xl'>Cart</h1>
-        <button className='bg-white hover:bg-button text-gray-800 hover:text-white font-semibold py-2 px-4 border border-gray-400 rounded shadow'>
+      <div className="flex flex-wrap mt-5 justify-between px-10">
+        <h1 className="text-4xl">Cart</h1>
+        <button className="bg-white hover:bg-button text-gray-800 hover:text-white font-semibold py-2 px-4 border border-gray-400 rounded shadow">
           Clear Cart List
         </button>
       </div>
       <div className="mx-auto mt-4 border-t border-gray-300 w-[96%]"></div>
-      <div className='mt-5 grid grid-cols-1 md:grid-cols-2'>
-        <div className='flex flex-col px-5'>
-          <div className='flex px-10 justify-between w-auto '>
-            <h3>Title Product</h3>
-            <button>
-              <BsTrash3 size={20} />
-            </button>
-          </div>
+      <div className="mt-5 grid grid-cols-1 md:grid-cols-2">
+        <div className="flex flex-col px-5">
           <CartCard />
         </div>
-        <div className='md:hidden mt-5'>test2</div>
+        <div className="flex flex-col mt-5 w-full sm:w-[90%] h-[90%] justify-center px-5 sm:px-10 shadow-lg">
+          <h3 className="font-bold">Pricing & Shipping Fee</h3>
+          <hr className="w-full border-gray-100 mt-4" />
+          <div className="flex flex-wrap justify-between mt-5">
+            <p>Subtotal</p>
+            <p>Price</p>
+          </div>
+          <div className="flex flex-wrap justify-between mt-5">
+            <p>Shipping Fee</p>
+            <p>Price</p>
+          </div>
+          <div className="flex flex-wrap justify-start mt-5 mb-5">
+            <input
+              type="text"
+              className="w-full sm:w-[350px] p-2 sm:mr-4 text-gray-900 border border-gray-300 rounded-sm bg-gray-50 sm:text-xs focus:ring-green-500 focus:border-green-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-green-500 dark:focus:border-green-500"
+            />
+            <button className="w-full sm:w-[230px] bg-button text-white text-[18px] p-3 rounded-md">
+              Apply
+            </button>
+          </div>
+          <div className="flex flex-wrap justify-between mt-5 mb-5 font-bold">
+            <p>Total</p>
+            <p>Price</p>
+          </div>
+          <button className="w-full bg-button text-white text-[18px] py-3 mb-5 rounded-md">
+            {" "}
+            Checkout
+          </button>
+        </div>
       </div>
     </section>
   );
