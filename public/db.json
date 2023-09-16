@@ -1,0 +1,800 @@
+{
+    "category": [
+        {
+            "id": 1,
+            "name": "Art Activities",
+            "slug": "art-activities-jogja"
+        },
+        {
+            "id": 2,
+            "name": "Attraction",
+            "slug": "attraction-jogja"
+        },
+        {
+            "id": 3,
+            "name": "Drinks",
+            "slug": "drinks-jogja"
+        },
+        {
+            "id": 4,
+            "name": "Foods",
+            "slug": "food-jogja"
+        },
+        {
+            "id": 5,
+            "name": "Hotel",
+            "slug": "hotel-jogja"
+        },
+        {
+            "id": 6,
+            "name": "Museum",
+            "slug": "museum-jogja"
+        },
+        {
+            "id": 7,
+            "name": "Souvenir",
+            "slug": "souvenir-jogja"
+        }
+    ],
+    "items": [
+        {
+            "id": 1,
+            "category_id": 1,
+            "name": "Pendhapa Art Space",
+            "position": {
+                "lat": -7.82854195,
+                "lng": 110.35732105
+            },
+            "src": "/Assets/art-activities/PendhapaArt.jpg",
+            "slug": "pendhapa-art-space",
+            "address": "Jl. Ring Road Selatan Tegal Krapyak RT.01 Panggungharjo, Sewon, Bantul, Yogyakarta",
+            "description": "Pendhapa Art Space atau lebih dikenal dengan sebutan PAS awalnya adalah bangunan perluasan untuk proses kreatif dari Studio Satiaji Sculpture & Artwork milik Dunadi (pematung). Studio tersebut bergerak di bidang produksi pembuatan karya seni tiga dimensi. Pendhapa Art Space mulai dibangun bertahap dan dirancang sendiri pada tahun 2006 oleh Dunadi (perupa tiga dimensi dan pemilik PAS), pada awalnya Pendhapa Art Space bernama Pendopo Sapto Aji dan merupakan gedung serbaguna yang mulai dibuka untuk umum pada tahun 2011, dan berkembang menjadi art space pada tahun 2013. Tahun 2015 memulai menginisiasi program seni secara mandiri bernama STARTUP."
+        },
+        {
+            "id": 2,
+            "category_id": 1,
+            "name": "Leksa Ganesha Batik Gallery",
+            "position": {
+                "lat": -7.8719651,
+                "lng": 110.351002
+            },
+            "src": "/Assets/art-activities/LeksaGaneshaBatik2.jpg",
+            "slug": "leksa-ganesha-batik-gallery",
+            "address": "Jl. Parangtritis KM 8,5 Gatak, Timbulharjo, Sewon 55797 Indonesia",
+            "description": "Benteng Vredeburg adalah saksi sejarah betapa kuatnya pengaruh Belanda dalam menjajah Indonesia. Karena posisinya yang strategis di tengah kota, tepatnya di depan Keraton Yogyakarta, Benteng Vredeburg telah merekam peristiwa-peristiwa penting dan telah mengalami perubahan fungsi dari waktu ke waktu."
+        },
+        {
+            "id": 3,
+            "category_id": 1,
+            "name": "Gajah Gallery Yogyakarta",
+            "position": {
+                "lat": -7.8241993,
+                "lng": 110.344032
+            },
+            "src": "/Assets/art-activities/GajahGalleryYogyakarta.jpg",
+            "slug": "gajah-gallery-yogyakarta",
+            "address": "Jln. Bugisan Selatan, Keloran, Bantul Yogyakarta 55181",
+            "description": "Sejak 1996, Gajah Gallery telah menjadi badan pelopor di ranah seni rupa Asia Tenggara, mewakilkan seniman kawakan seperti Yunizar, Ashley Bickerton, Suzann Victor, Li Jin, dan juga seniman muda seperti Erizal As. Setelah 20 tahun berada dalam kancah seni rupa, Gajah Gallery meresmikan cabang di Yogyakarta, pusat seni Indonesia. Gajah Gallery Yogyakarta bercita- cita untuk membina pertukaran seni antara Singapura dan Indonesia, dan juga memperkenalkan dan mengembangkan nama seniman regional dalam ranah internasional."
+        },
+        {
+            "id": 4,
+            "category_id": 1,
+            "name": "Yanto Craft",
+            "position": {
+                "lat": -7.7957892,
+                "lng": 110.3536407
+            },
+            "src": "/Assets/art-activities/YantoCraft.jpg",
+            "slug": "yanto-craft",
+            "address": "Jl. Lintas selatan gunungkidul Jalan gua Maria tritis, Yogyakarta 55871 Indonesia",
+            "description": "Yanto Craft adalah Toko Seni & Kerajinan"
+        },
+        {
+            "id": 5,
+            "category_id": 1,
+            "name": "Langgeng Art Foundation",
+            "position": {
+                "lat": -7.8180486,
+                "lng": 110.3550026
+            },
+            "src": "/Assets/art-activities/LanggengArt Foundation.jpg",
+            "slug": "langgeng-art-foundation",
+            "address": "Jln. Suryodiningratan 37, 55141 Indonesia",
+            "description": "Langgeng Art Foundation adalah sebuah Yayasan yang bergerak di bidang seni. Didirikan oleh seorang kolektor karya seni yang cukup kondang di Yogyakarta. Galeri ini kerap menjadi tempat art exhibition para seniman-seniman lokal maupun luar kota. Juga tempat manggung band-band indie. Di lantai atas saya melihat ada beberapa sketsa dan karya seni rupa yang dipamerkan."
+        },
+        {
+            "id": 6,
+            "category_id": 1,
+            "name": "Lana Gallery",
+            "position": {
+                "lat": -7.8242108,
+                "lng": 110.3691192
+            },
+            "src": "/Assets/art-activities/LanaGallery.jpg",
+            "slug": "lana-gallery",
+            "address": "Jl. Menukan no. 276, 55153 Indonesia",
+            "description": "Lana Gallery. Galeri seni yang terletak di Jl. Menukan, dan menghadirkan beragam koleksi seni yang menarik"
+        },
+        {
+            "id": 7,
+            "category_id": 1,
+            "name": "Jogja Gallery",
+            "position": {
+                "lat": -7.802826,
+                "lng": 110.3657125
+            },
+            "src": "/Assets/art-activities/JogjaGallery.jpg",
+            "slug": "jogja-gallery",
+            "address": "Jl. Pekapalan No. 7 Alun-Alun Utara, 55131 Indonesia",
+            "description": "Jogja Gallery adalah sebuah galeri seni visual di Yogyakarta yang berdiri sejak 19 September 2006, diresmikan oleh Sri Sultan Hamengku Buwono X dan berlokasi di Jl. Perkapalan No. 7, alun-alun utara, Yogyakarta."
+        },
+        {
+            "id": 8,
+            "category_id": 1,
+            "name": "Batik Master Class",
+            "position": {
+                "lat": -7.7569181,
+                "lng": 110.4883159
+            },
+            "src": "/Assets/art-activities/BatikMasterClass.jpg",
+            "slug": "batik-master-class",
+            "address": "Bener, RT.02/RW.02, Bugisan, Kec. Prambanan, Kabupaten Klaten, Jawa Tengah 57454",
+            "description": "Batik Master Class with Full Process by Alga Lova Tour"
+        },
+        {
+            "id": 9,
+            "category_id": 1,
+            "name": "Semar Gallery",
+            "position": {
+                "lat": -7.8574077,
+                "lng": 110.3554058
+            },
+            "src": "/Assets/art-activities/SemarGallery.jpg",
+            "slug": "semar-gallery",
+            "address": "Jl. Parangtritis Km 7 Cabean, Bantul 55188 Indonesia",
+            "description": "Galeri Semar yang mengkhususkan diri dalam pembangunan kembali dan perbaikan rumah kayu tradisional khususnya rumah Jawa."
+        },
+        {
+            "id": 10,
+            "category_id": 1,
+            "name": "Kersan Art Studio",
+            "position": {
+                "lat": -7.8574077,
+                "lng": 110.3554058
+            },
+            "src": "/Assets/art-activities/kersan-art.jpg",
+            "slug": "kersan-art-studio",
+            "address": "Jl. AS. Samawaat no 154, Ds Kersan, Tirtonirmolo, Kasihan, Tirtonirmolo, Kasihan, Bantul, Daerah Istimewa Yogyakarta 55184",
+            "description": "Kersan Art Studio was founded in 2009 with a goal of encouraging communication between different artists. Appropriately, the studio is situated in a peaceful and spacious building with an open-air common area in the middle. During my visit, there were several people having a meeting in the common area, while it was also possible to meet a some of the artists whose work was being displayed. Kersan is an excellent place to enjoy abstract art in a friendly and open environment."
+        },
+        {
+            "id": 11,
+            "category_id": 1,
+            "name": "Cemeti Art House",
+            "position": {
+                "lat": -7.8574077,
+                "lng": 110.3554058
+            },
+            "src": "/Assets/art-activities/Cemeti_Art.jpg",
+            "slug": "cemeti-art-house",
+            "address": "Jl. Mayjen D.I. Panjaitan No. 41, Mantrijeron, Kota Yogyakarta",
+            "description": "Cemeti Art House is one of the oldest and most respected art spaces in the city. It was founded in 1988 and was one of the first galleries to help develop the careers of young artists, rather than merely provide a physical space for their art. Founded by a Dutch-Indonesian couple, Cemeti was also one of the first collectives to promote Indonesian artists abroad. At the same time, they also regularly welcome foreign artists to come and display their work in Jogja. Conveniently located on Jl. Mayjen D.I. Panjaitan, the space is easy to find for anyone who finds themselves in Mantrijeron."
+        },
+        {
+            "id": 12,
+            "category_id": 1,
+            "name": "Bentara Budaya",
+            "position": {
+                "lat": -7.8574077,
+                "lng": 110.3554058
+            },
+            "src": "/Assets/art-activities/Bentara-Budaya.jpeg",
+            "slug": "bentara-budaya",
+            "address": "Jln. Suroto 2, Kotabaru, Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55224",
+            "description": "Located about a 10 minute walk from the Tugu Monument, Bentara Budaya is one of the city’s oldest art spaces. Founded in 1982, Bentara Budaya provides a platform for wood carvers and ceramic artists in addition to painters. The gallery also has sister organizations in Jakarta and Bali."
+        },
+        {
+            "id": 13,
+            "category_id": 1,
+            "name": "Bale Banjar Sangkring",
+            "position": {
+                "lat": -7.8574077,
+                "lng": 110.3554058
+            },
+            "src": "/Assets/art-activities/Bale_banjar.jpg",
+            "slug": "bale-banjar-sangkring",
+            "address": "Jl. Nitiprayan No.88 RT. 01 / RW. 20, Ngestiharjo, Kasihan, Ngestiharjo, Bantul, Daerah Istimewa Yogyakarta 55184",
+            "description": "If the name ‘Bale Banjar’ sounds Balinese to you, then you’re not mistaken. Also, simply known as Sangkring Art Space, the gallery was founded by Balinese artist Putu Sutawijaya in 2007. ‘Bale banjar’ is the Balinese term for ‘local community association,’ and Sangkring’s founder has expressed traditional Balinese life and rituals as one of the main inspirations for his art. The art displayed at Sangkring Art Space, however, is anything but traditional."
+        },
+        {
+            "id": 14,
+            "category_id": 1,
+            "name": "SURVIVE! Garage",
+            "position": {
+                "lat": -7.8574077,
+                "lng": 110.3554058
+            },
+            "src": "/Assets/art-activities/SURVIVE_Garage.jpg",
+            "slug": "survive-garage",
+            "address": "Jl. Nitiprayan, Ngestiharjo, Kasihan, Bantul, Daerah Istimewa Yogyakarta 55184",
+            "description": "SURVIVE! Garage is a respected art space and shop that also regularly hosts events. It’s one of the best places to purchase affordable art made by some of the city’s prominent local artists. If you can’t fit the artwork in your luggage, they also sell a great selection of t-shirts."
+        },
+        {
+            "id": 15,
+            "category_id": 6,
+            "name": "Museum Affandi",
+            "slug": "museum-affandi",
+            "src": "/Assets/museum/affandi.jpg",
+            "price": 25000,
+            "address": "Jl. Laksda Adisucipto No.167, Papringan, Caturtunggal",
+            "position": {
+                "lat": -7.78106,
+                "lng": 110.3602408
+            },
+            "description": "The Affandi Museum is a historical museum located in Yogyakarta Province, precisely on Jalan Kab. Sleman"
+        },
+        {
+            "id": 16,
+            "category_id": 6,
+            "name": "Benteng Vredeburg",
+            "slug": "benteng-vredeburg.jpg",
+            "src": "/Assets/museum/vredeburg.jpg",
+            "price": 70000,
+            "address": "Jl. Margo Mulyo No.6, Ngupasan",
+            "position": {
+                "lat": -7.80028465,
+                "lng": 110.36635102726859
+            },
+            "description": "Vredeburg Fort is a historical witness to how strong the Dutch influence was in colonizing Indonesia. Due to its strategic position in the middle of the city, precisely in front of the Yogyakarta Palace, Fort Vredeburg has recorded important events and has undergone changes in function over time."
+        },
+        {
+            "id": 17,
+            "category_id": 6,
+            "name": "Museum Sonobudoyo",
+            "slug": "museum-senobudoyo",
+            "src": "/Assets/museum/senobudoyo.jpg",
+            "price": 15000,
+            "position": {
+                "lat": -7.80234425,
+                "lng": 110.36441291543042
+            },
+            "address": "Jalan Trikora No. 6 Yogyakarta",
+            "description": "Sonobudoyo Museum is a museum of Javanese history and culture, including classical Javanese architectural buildings. This museum holds a collection of Javanese culture and history which is considered the most complete after the National Museum of the Republic of Indonesia in Jakarta. Apart from ceramics from the Neolithic era and bronze statues from the 8th century, this museum also stores several forms of wayang kulit, various ancient weapons (including keris and Javanese masks)."
+        },
+        {
+            "id": 18,
+            "category_id": 6,
+            "name": "Taman Pintar",
+            "slug": "taman-pintar",
+            "src": "/Assets/museum/tamanpintar.jpg",
+            "price": 10000,
+            "address": "Jl. Panembahan Senopati No.1-3, Ngupasan",
+            "position": {
+                "lat": -7.8009251,
+                "lng": 110.3676488
+            },
+            "description": "Taman Pintar Yogyakarta combines museums and science so that it can break the public stigma that museums don't only talk about the past, museums can also talk about the future."
+        },
+        {
+            "id": 19,
+            "category_id": 6,
+            "name": "Museum Merapi",
+            "slug": "museum-merapi",
+            "src": "/Assets/museum/merapi.jpg",
+            "price": 10000,
+            "address": "Jl. Boyong, Dusun Banteng, Desa Hargobinangun",
+            "position": {
+                "lat": -7.6004719,
+                "lng": 110.4491062
+            },
+            "description": "This museum was created to tell about existing volcanoes, especially Merapi. You can observe various types of volcanoes and their eruptions in the world through the museum panels. Apart from that, you can see artifacts from the 2006 Merapi eruption in the form of motorbike carcasses, household utensils, as well as photos of the 2010 eruption, complementing photos of eruptions from various volcanoes in Chile, Italy, Hawaii, USA, and so on."
+        },
+        {
+            "id": 20,
+            "category_id": 6,
+            "name": "Monumen Jogja Kembali",
+            "slug": "minumen-jogja-kembali",
+            "src": "/Assets/museum/monjali.jpg",
+            "price": 25000,
+            "address": "Jongkang, Sariharjo, Ngaglik, Kabupaten Sleman",
+            "position": {
+                "lat": -7.7496238,
+                "lng": 110.36963439175416
+            },
+            "description": "The Yogya Return Monument Museum, commonly known as the Jogja Return Monument, abbreviated as Monjali, is a museum of the history of the Indonesian independence struggle in the Special Region of Yogyakarta and is managed by the Ministry of Tourism and Creative Economy."
+        },
+        {
+            "id": 21,
+            "category_id": 6,
+            "name": "Museum Keraton Yogyakarta",
+            "slug": "museum-keraton-yogyakarta",
+            "src": "/Assets/museum/kraton.jpg",
+            "price": 35000,
+            "address": "Jl. Rotowijayan Blok No. 1, Panembahan",
+            "position": {
+                "lat": -7.80820795,
+                "lng": 110.36378395221467
+            },
+            "description": "The Yogyakarta Palace, as one of the main pillars of the founding of the Republic of Indonesia, certainly has a long history of struggle from the Colonial era until now. This long history is certainly useful for the future of the younger generation to be able to know and understand the struggles that have been carried out. Therefore, the Yogyakarta Palace as a cultural institution and national struggle is obliged to document its struggle to the public by building a tourist museum as a center for documenting the history of the struggle of the Yogyakarta Palace."
+        },
+        {
+            "id": 22,
+            "category_id": 6,
+            "name": "Museum Ullen Sentalu",
+            "slug": "museum-ullen-sentalu",
+            "src": "/Assets/museum/sentalu.jpg",
+            "price": 20000,
+            "address": "Jl. Boyong No.KM 25, Kaliurang, Hargobinangun",
+            "position": {
+                "lat": -7.59764835,
+                "lng": 110.42339618812312
+            },
+            "description": "The Ullen Sentalu Museum tells a lot about the civilization of the Mataram Kingdom which was divided into 4 palaces in Solo and Yogyakarta, namely Kasunanan Surakarta, Sultanate of Yogyakarta, Praja Mangkunegaran, and Kadipaten Pakualaman."
+        },
+        {
+            "id": 23,
+            "category_id": 6,
+            "name": "Museum Pusat TNI AU Dirgantara Mandala",
+            "slug": "museum-pusat-tni-au-dirgantara-mandala",
+            "src": "/Assets/museum/dirgantara.jpg",
+            "price": 17000,
+            "address": "Komplek TNI AU Lanud Adisutjipto, Jl Raya Solo",
+            "position": {
+                "lat": -7.7897642000000005,
+                "lng": 110.41619378089325
+            },
+            "description": "The Indonesian Air Force Dirgantara Mandala Central Museum is a museum initiated by the Indonesian Air Force which contains historical collections, most of which are aircraft that have served within the Indonesian Air Force."
+        },
+        {
+            "id":24,
+            "category_id": 4,
+            "src":"/Assets/foods/apem.jpg",
+            "imageAlt":"Apem",
+            "name":"Javanese Apem Cake",
+            "slug": "javanese-apem-cake",
+            "price":10000,
+            "description":"Apem (also known as appam in its native India) is a food made from rice flour that is left overnight by mixing eggs, coconut milk, sugar and tape and a little salt then burned or steamed. The Ngapem tradition was started by the Kanoman Palace in Cirebon, since the time of Sunan Gunung Jati as a form of spreading Islam in Java."
+            
+        },
+        {   
+            "id":25,
+            "category_id": 4,
+            "src":"/Assets/foods/bakmijawa.jpg",
+            "imageAlt":"Bakmi",
+            "name":"Javanese Noodles",
+            "slug": "javanase-noodles",
+            "price":"20000",
+            "description":"Javanese noodles or Javanese noodles are boiled noodles cooked with Javanese spices from Java, Indonesia. Most Javanese noodles are boiled noodles, so abroad (Malaysia and Singapore) Javanese noodles are known as me rebus, but there are actually variations of fried noodles from Javanese noodles."
+        },
+        {
+            "id": 26,
+            "category_id": 4,
+            "src":"/Assets/foods/geplak.jpg",
+            "imageAlt":"Geplak",
+            "name":"Geplak Bantul Cake",
+            "slug": "geplek-bantul-cake",
+            "price":5000,
+            "description":"Jogja Geplak is one of the traditional snacks originating from Jogja. This snack is famous for its chewy texture and delicious sweetness. Made from natural ingredients such as shredded coconut, coconut sugar, and water, Geplak is a popular dish that is often found in various events or as souvenirs typical of Jogja."
+        },
+        {
+            "id": 27,
+            "category_id": 4,
+            "src":"/Assets/foods/Gudeg.jpg",
+            "imageAlt":"Gudek ",
+            "name":"Gudeg",
+            "slug": "gudek",
+            "price":25000,
+            "description":"Gudeg has been known by the people of Indonesia, especially as a typical food from Yogyakarta City. This popularity is also what makes Yogyakarta known as Gudeg City. Gudeg is a traditional food made from young jackfruit (jackfruit) boiled for several hours with coconut sugar and coconut milk. Equipped with various additional spices."
+        },
+        {
+            "id":28,
+            "category_id": 4,
+            "src":"/Assets/foods/sateklathak.jpg",
+            "imageAlt":"SateKlathak",
+            "name":"Sate Klathak",
+            "slug": "sate-klathak",
+            "price":30000,
+            "description":"Sate Klatak is a type of typical food originating from Bantul Regency made from mutton. With the specification of skewers made of iron bicycle bars. How to cook by burning and only seasoned with salt. How to cook each portion or menu generally consists of 2 skewers to 4 skewers."
+        },
+        {
+            "id":29,
+            "category_id": 4,
+            "src":"/Assets/foods/sotokadipiro.jpg",
+            "imageAlt":"sotokadipiro",
+            "name":"Soto Kadipiro",
+            "slug": "soto-kadipiro",
+            "price":35000,
+            "description":"Soto Kadipiro was originally sold under Karto Wijoyo. Around 1928 he settled in the Kadipiro area. Until now, it has been the third generation, namely Sri Sundari's mother (59). Named Soto Kadipiro because it takes the name of the place, namely Kadipiro. Soto Kadipiro became legendary because it maintained the deliciousness of soto for more than 90 years."
+        },
+        {
+            "id": 30,
+            "src": "/Assets/attraction/tugu.jpg",
+            "category_id": 2,
+            "name": "Tugu Yogyakarta",
+            "slug": "tugu-yogyakarta",
+            "position": {"lat": -7.7829218 , "lng": 110.3645008},
+            "description": "Tugu Jogja, also known as Tugu Pal or Tugu Yogyakarta, is an  iconic monument located in the heart of Yogyakarta, Indonesia. This monument serves as a symbol of the city and holds great historical and cultural significance."
+          },
+          {
+            "id": 31,
+            "src": "/Assets/attraction/malioboro-jogja.jpg",
+            "category_id": 2,
+            "name": "Malioboro",
+            "slug": "malioboro",
+            "position": {"lat": -7.7925711 , "lng": 110.3612296},
+            "description": "Malioboro is a bustling and iconic street located in the heart of Yogyakarta, Indonesia. It is renowned for its vibrant atmosphere, rich cultural heritage, and diverse shopping and dining experiences."
+          },
+          {
+            "id": 32,
+            "src": "/Assets/attraction/goajomblang.jpg",
+            "category_id": 2,
+            "name": "Goa Jomblang",
+            "slug": "goa-jomblang",
+            "position": {"lat": -8.0281509 , "lng": 110.6357558},
+            "description": "Goa Jomblang is a remarkable natural cave located in the Gunungkidul region of Yogyakarta, Indonesia. This cave is renowned for its otherworldly beauty and unique geological features."
+          },
+          {
+            "id": 33,
+            "src": "/Assets/attraction/bukitpunguk.jpg",
+            "category_id": 2,
+            "name": "Bukit Punguk",
+            "slug": "bukit-punguk",
+            "position": {"lat": -7.9583642 , "lng": 110.4381873},
+            "description": "Bukit Panguk is a picturesque hill located in Bantul, Yogyakarta, Indonesia. This hill offers breathtaking panoramic views of the surrounding landscape and has become a popular destination for nature lovers and photography enthusiasts."
+          },
+          {
+            "id": 34,
+            "src": "/Assets/attraction/bukit paralayang.jpg",
+            "category_id": 2,
+            "name": "Bukit Paralayang",
+            "slug": "bukit-paralayang",
+            "position": {"lat": -8.0268498 , "lng": 110.3433373},
+            "description": "Bukit Paralayang Jogja, also known as Paragliding Hill Jogja, is a scenic hill located in Yogyakarta, Indonesia, that has become a popular spot for paragliding enthusiasts and tourists seeking breathtaking panoramic views."
+          },
+          {
+            "id": 35,
+            "src": "/Assets/attraction/candiratuboko.jpg",
+            "category_id": 2,
+            "name": "Candi Ratu Boko",
+            "slug": "candi-ratu-boko",
+            "position": {"lat": -7.7705363 , "lng": 110.4868409},
+            "description": "Bukit Paralayang Jogja, also known as Paragliding Hill Jogja, is a scenic hill located in Yogyakarta, Indonesia, that has become a popular spot for paragliding enthusiasts and tourists seeking breathtaking panoramic views."
+          },
+          {
+            "id": 36,
+            "src": "/Assets/attraction/tamansari.jpg",
+            "category_id": 2,
+            "name": "Taman Sari",
+            "slug": "taman-sari",
+            "position": {"lat": -7.810062 , "lng": 110.3548447},
+            "description": "Taman Sari, also known as the Water Castle, is a historic cultural complex located in Yogyakarta, Indonesia. This unique site is famous for its intricate architecture, serene water features, and its role as a royal pleasure garden."
+          },
+          {
+            "id": 37,
+            "src": "/Assets/attraction/prambanan.jpg",
+            "category_id": 2,
+            "name": "Candi Prambanan",
+            "slug": "candi-prambanan",
+            "position": {"lat": -7.7520153 , "lng": 110.4888925},
+            "description": "Prambanan is a magnificent Hindu temple complex located in Central Java, Indonesia, near the city of Yogyakarta. This UNESCO World Heritage site is renowned for its exquisite architecture and historical significance."
+          },
+          {
+            "id": 38,
+            "src": "/Assets/attraction/Desa Wisata Nglinggo.jpg",
+            "category_id": 2,
+            "name": "Desa Wisata Nglinggo",
+            "slug": "desa-wisata-nglinggo",
+            "position": {"lat": -7.6476627 , "lng": 110.1393031},
+            "description": "Nglinggon Village in Kulon Progo, Yogyakarta, is a picturesque tourist destination celebrated for its natural beauty, traditional Javanese culture, and serene rural atmosphere."
+          },
+          {
+            "id": 39,
+            "src": "/Assets/attraction/Jurang-Tembelan.jpg",
+            "category_id": 2,
+            "name": "Jurang Tembelan",
+            "slug": "jurang-tembelan",
+            "position": {"lat": -7.940018 , "lng": 110.4272508},
+            "description": "Jurang Tembelan, located in Yogyakarta, Indonesia, is a natural wonder known for its dramatic cliffs, lush greenery, and serene surroundings."
+          },
+          {
+            "id": 40,
+            "name": "Kopi Joss",
+            "slug": "kopi-joss",
+            "category_id": 3,
+            "src": "/Assets/drinks/kopi-joss.jpg",
+            "imageAlt": "Kopi Joss",
+            "price": "8000",
+            "description": "Kopi Joss is a captivating Indonesian coffee beverage originating from Yogyakarta, Java. Its unique appeal lies in its unconventional preparation method, where a cup of strong black coffee is dramatically enhanced by the addition of a piece of red-hot charcoal, creating a crackling sound that gives it the name \"Joss.\"\nThis intriguing process imparts a subtle smokiness to the coffee, complementing its bold, aromatic flavor. Typically served in small cups with a layer of frothy foam on top, Kopi Joss is a sensory delight, both in taste and experience. Beyond its distinctive taste, Kopi Joss holds cultural significance, representing the charm and authenticity of Yogyakarta's coffee culture. It's often enjoyed at street-side stalls, offering locals and tourists alike a unique and memorable coffee experience."
+        },
+        {
+            "id": 41,
+            "name": "Wedang Uwuh",
+            "slug": "wedang-uwuh",
+            "category_id": 3,
+            "src": "/Assets/drinks/wedang-uwuh.jpg",
+            "imageAlt": "Wedang Uwuh",
+            "price": "5000",
+            "description": "Wedang Uwuh is a traditional Javanese herbal drink that delights the senses with its aromatic and soothing qualities. Hailing from the lush landscapes of Indonesia, this fragrant concoction combines a medley of exotic spices, including clove, cinnamon, ginger, and lemongrass, creating a symphony of flavors that dance on the palate. Sweetened with palm sugar and often served hot, Wedang Uwuh offers a comforting warmth that is perfect for chasing away the chill on a cool evening or simply indulging in a moment of relaxation. Beyond its delightful taste, Wedang Uwuh is cherished for its potential health benefits, believed to aid digestion and boost overall well-being, making it a beloved and culturally significant beverage in Indonesian cuisine."
+        },
+        {
+            "id": 42,
+            "name": "Wedang Ronde",
+            "slug": "wedang-ronde",
+            "category_id": 3,
+            "src": "/Assets/drinks/wedang-ronde.jpg",
+            "imageAlt": "Wedang Ronde",
+            "price": "5000",
+            "description": "Wedang Ronde is a delightful and heartwarming Indonesian dessert that enchants the taste buds with its unique combination of flavors and textures. Hailing from the vibrant culinary traditions of Java, this sweet and aromatic treat features glutinous rice flour dumplings filled with crushed peanuts, palm sugar, and a hint of ginger. These dumplings are served in a warm, fragrant ginger and lemongrass-infused broth, creating a harmonious blend of sweet and spicy notes that dance on the palate. Topped with crispy fried shallots, this comforting dessert is a beloved symbol of Indonesian hospitality and a favorite choice for those seeking a cozy and satisfying culinary experience."
+        },
+        {
+            "id": 43,
+            "name": "Es Jaipong",
+            "slug": "es-jaipong",
+            "category_id": 3,
+            "src": "/Assets/drinks/es-jaipong.jpg",
+            "imageAlt": "Es Jaipong",
+            "price": "5000",
+            "description": "Es Jaipong is a delightful and refreshing Indonesian beverage that captures the essence of tropical paradise in a single glass. Originating from the vibrant streets of West Java, this icy concoction is a colorful and captivating fusion of flavors. It features a medley of ingredients such as jackfruit, avocado, sweet coconut, grass jelly, and pandan-infused syrup, all bathed in a generous helping of coconut milk and crushed ice. The result is a harmonious symphony of sweet, creamy, and slightly herbal notes, offering a cooling respite from the tropical heat and a delightful journey for the taste buds. Es Jaipong embodies the rich diversity of Indonesian culinary traditions and is a beloved treat that brings joy and satisfaction with every sip."
+        },
+        {
+            "id": 44,
+            "name": "Rujak Es Krim",
+            "slug": "rujak-es-krim",
+            "category_id": 3,
+            "src": "/Assets/drinks/rujak-es-krim.jpg",
+            "imageAlt": "Rujak Es Krim",
+            "price": "7000",
+            "description": "Rujak Es Krim is a tantalizing Indonesian dessert that combines the contrasting elements of sweet and spicy in a delightful and unexpected way. This unique dessert typically consists of a medley of tropical fruits, such as pineapple, mango, and apple, bathed in a spicy and tangy tamarind-based sauce that packs a flavorful punch. What sets Rujak Es Krim apart is the addition of a scoop of creamy vanilla ice cream, which adds a delightful contrast to the bold flavors of the sauce and creates a tantalizing balance of temperatures and tastes. This sweet and savory symphony, often garnished with crunchy peanuts and fried shallots, makes Rujak Es Krim an unforgettable treat that excites the senses and showcases the culinary ingenuity of Indonesia."
+        },
+        {
+            "id": 45,
+            "category_id": 5,
+            "src": "/Assets/hotel/gambar3.jpg",
+            "name": "Hotel Diana Jogja",
+            "slug": "hotel-diana-jogja",
+            "price": "Rp. 300.000",
+            "rate": "4.8",
+            "route": "hotel-Diana-Jogja",
+            "position" : {"lat": -7.8181536 , "lng": 110.3612179}
+          },
+        {
+            "id": 46,
+            "category_id": 5,
+            "src": "/Assets/hotel/gambar4.jpg",
+            "name": "Burza Hotel Yogyakarta",
+            "slug": "burza-hotel-yogyakarta",
+            "price": "Rp. 1.300.000",
+            "rate": "5.0",
+            "route": "hotel-Burza-Yogyakarta",
+            "position" : {"lat": -7.8240632 , "lng": 110.3619968}
+          },
+        {
+            "id": 47,
+            "category_id": 5,
+            "src": "/Assets/hotel/gambar1.jpg",
+            "name": "Liberta Malioboro",
+            "slug": "liberta-malioboro",
+            "price": "Rp. 700.000",
+            "rate": "4.7",
+            "route": "hotel-Liberta-Malioboro",
+            "position" : {"lat": -7.7915068 , "lng": 110.3569917}
+          },
+        {
+            "id": 48,
+            "category_id": 5,
+            "src": "/Assets/hotel/gambar7.jpg",
+            "name": "KJ Hotel Yogyakarta",
+            "slug": "kj-hotel-yogyakarta",
+            "price": "Rp. 300.000",
+            "rate": "4.9",
+            "route": "hotel-KJ-Yogyakarta",
+            "position" : {"lat": -7.8224374 , "lng": 110.3647706}
+          },
+        {
+            "id": 49,
+            "category_id": 5,
+            "src": "/Assets/hotel/gambar2.jpg",
+            "name": "Tjokro Style Yogyakarta",
+            "slug": "tjokro-style-yogyakarta",
+            "price": "Rp. 400.000",
+            "rate": "4.9",
+            "route": "hotel-Tjokro-Style-Yogyakarta",
+            "position" : {"lat": -7.8167179 , "lng": 110.3780268}
+          },
+        {
+            "id": 50,
+            "category_id": 5,
+            "src": "/Assets/hotel/gambar8.jpg",
+            "name": "Zest Hotel Yogyakarta",
+            "slug": "zest-hotel-yogyakarta",
+            "price": "Rp. 450.000",
+            "rate": "4.7",
+            "route": "hotel-Zest-Yogyakarta",
+            "position" : {"lat": -7.7991574 , "lng": 110.3706981}
+          },
+        {
+            "id": 51,
+            "category_id": 5,
+            "src": "/Assets/hotel/gambar9.jpg",
+            "name": "Ayyarta Hotel Malioboro",
+            "slug": "ayyarta-hotel-malioboro",
+            "price": "Rp. 800.000",
+            "rate": "5.0",
+            "route": "hotel-Ayyarta-Malioboro",
+            "position" : {"lat": -7.8012782 , "lng": 110.3544266}
+          },
+        {
+            "id": 52,
+            "category_id": 5,
+            "src": "/Assets/hotel/gambar10.jpg",
+            "name":"Puri Pangeran Hotel",
+            "slug": "puri-pangeran-hotel",
+            "price": "Rp. 600.000",
+            "rate": "4.9",
+            "route": "hotel-Puri-Pangeran",
+            "position" : {"lat": -7.8007226 , "lng": 110.3720191}
+          },
+        {
+            "id": 53,
+            "category_id": 5,
+            "src": "/Assets/hotel/gambar6.jpg",
+            "name": "Kalya Hotel",
+            "slug": "kalya-hotel",
+            "price": "Rp. 150.000",
+            "rate": "4.7",
+            "route": "hotel-Kalya-Hotel",
+            "position" : {"lat": -7.8135239 , "lng": 110.3988326}
+          },
+          {
+            "id":54,
+            "category_id": 7,
+            "src":"/Assets/souvenir/blangkon.jpg",
+            "imageAlt":"Blangkon",
+            "name":"Blangkon Jogja",
+            "slug": "blangkon-jogja",
+            "price":150000,
+            "description":"Blangkon Jogja is a traditional Javanese headdress originating from Yogyakarta, Indonesia. This iconic headwear is a symbol of Javanese culture and heritage, often worn during special occasions and traditional ceremonies."
+            
+        },
+        {   
+            "id":55,
+            "category_id": 7,
+            "src":"/Assets/souvenir/kain-lurik.jpg",
+            "imageAlt":"Kain Lurik",
+            "name":"Kain Lurik Jogja",
+            "slug": "kain-lurik-jogja",
+            "price":"200000",
+            "description":"Kain Lurik Jogja is a traditional handwoven fabric from Yogyakarta, Indonesia. It is known for its distinctive striped patterns, typically consisting of alternating colored stripes against a plain background."
+        },
+        {
+            "id":56,
+            "category_id": 7,
+            "src":"/Assets/souvenir/kaos-jogja.jpg",
+            "imageAlt":"Kaos Jogja",
+            "name":"Kaos Jogja",
+            "slug": "kaos-jogja",
+            "price":75000,
+            "description":"Kaos Jogja refers to T-shirts and apparel inspired by the vibrant culture and artistic spirit of Yogyakarta, Indonesia. These T-shirts often feature unique and creative designs that showcase elements of Javanese tradition, such as batik motifs, wayang kulit (shadow puppetry), or iconic landmarks like the Kraton (Sultan's Palace)."
+        },
+        {
+            "id":57,
+            "category_id": 7,
+            "src":"/Assets/souvenir/kerajinan-batik-kayu.jpg",
+            "imageAlt":"Kerajinan Batik Kayu",
+            "name":"Kerajinan Batik Kayu Jogja",
+            "slug": "kerajinan-batik-kayu-jogja",
+            "price":300000,
+            "description":"Kerajinan Batik Kayu Jogja refers to the traditional craft of wooden batik artistry originating from Yogyakarta, Indonesia. Skilled artisans intricately carve wooden panels with intricate batik patterns, replicating the exquisite designs found in traditional Javanese batik textiles. These wooden batik pieces are often used as decorative wall hangings, ornaments, or functional items like trays and coasters. "
+        },
+        {
+            "id":58,
+            "category_id": 7,
+            "src":"/Assets/souvenir/keris1.png",
+            "imageAlt":"Keris (Traditional Dagger)",
+            "name":"Keris (Traditional Dagger)",
+            "slug": "keris-tradition-dagger",
+            "price":1000000,
+            "description":"A keris is a Javanese ceremonial dagger with a distinctive wavy blade. While antique ones can be quite expensive, you can find decorative and smaller versions suitable for souvenirs."
+        },
+        {
+            "id":59,
+            "category_id": 7,
+            "src":"/Assets/souvenir/kerajinan-perak.jpg",
+            "imageAlt":"Yogyakarta Silver Crafts",
+            "name":"Yogyakarta Silver Crafts",
+            "slug": "yogyakarta-silver-crafts",
+            "price":500000,
+            "description":"Kerajinan Perak Jogja refers to the exquisite silver craftwork originating from Yogyakarta, Indonesia. Skilled artisans in Yogyakarta create intricate and ornate silver jewelry, home decor items, and ceremonial pieces using traditional silver-smithing techniques."
+        },
+        {
+            "id":60,
+            "category_id": 7,
+            "src":"/Assets/souvenir/wayang-kulit1.png",
+            "imageAlt":"Wayang Kulit (Shadow Puppets)",
+            "name":"Wayang Kulit (Shadow Puppets)",
+            "slug": "wayang-kulit-shadow-puppets",
+            "price":500000,
+            "description":"These intricately designed leather puppets are used in traditional Javanese shadow puppetry shows. They make for unique and decorative souvenirs."
+        },
+        {
+            "id":61,
+            "category_id": 7,
+            "src":"/Assets/souvenir/miniatire-gamelan1.png",
+            "imageAlt":"Gamelan Miniatures",
+            "name":"Gamelan Miniatures",
+            "slug": "gamelan-miniatures",
+            "price":625000,
+            "description":"Gamelan is traditional Javanese music played on an ensemble of percussion instruments. You can find miniature gamelan sets, which are beautifully crafted and make for great decorative items."
+        },
+        {
+            "id":62,
+            "category_id": 7,
+            "src":"/Assets/souvenir/batik1.png",
+            "imageAlt":"Batik Fabric",
+            "name":"Batik Fabric",
+            "slug": "batik-fabric",
+            "price":150000,
+            "description":"Batik is a traditional Indonesian textile art that involves wax-resist dyeing. You can buy batik fabrics, clothing, or accessories like scarves and bags."
+        },
+        {
+            "id":63,
+            "category_id": 7,
+            "src":"/Assets/souvenir/gantungan1.png",
+            "imageAlt":"Wooden Crafts",
+            "name":"Wooden Crafts",
+            "slug": "wooden-crafts",
+            "price":15000,
+            "description":"Hand-carved wooden items such as masks, statues, and puppets are popular souvenirs. Look for items made from teak wood, which is abundant in the region."
+        },
+        {
+            "id":64,
+            "category_id": 7,
+            "src":"/Assets/souvenir/batu-akik1.png",
+            "imageAlt":"Batu Akik (Gemstones)",
+            "name":"Batu Akik (Gemstones)",
+            "slug": "batu-akik",
+            "price":2000000,
+            "description":"Indonesia is known for its gemstones, and you can find a variety of them in Jogja's markets. Look for agate stones or other gems that catch your eye."
+        },
+        {
+            "id":65,
+            "category_id": 7,
+            "src":"/Assets/souvenir/bamboo-rattan1.png",
+            "imageAlt":"Bamboo and Rattan Products",
+            "name":"Bamboo and Rattan Products",
+            "slug": "bamboo-and-rattan-products",
+            "price":300000,
+            "description":"Handwoven baskets, bags, and other products made from bamboo and rattan are available in the markets of Jogja."
+        },
+        {
+            "id":66,
+            "category_id": 7,
+            "src":"/Assets/souvenir/spiceherbs-1.png",
+            "imageAlt":"Spices and Herbs",
+            "name":"Spices and Herbs",
+            "slug": "spices-and-herbs",
+            "price":100000,
+            "description":"Indonesian cuisine is known for its flavorful spices. Consider bringing home some local spices like sambal (chili paste), Indonesian vanilla, or kopi tubruk (traditional Javanese coffee)."
+        },
+        {
+            "id":67,
+            "category_id": 7,
+            "src":"/Assets/souvenir/sandal1.png",
+            "imageAlt":"Sandal Jepit (Traditional Sandals)",
+            "name":"Sandal Jepit (Traditional Sandals)",
+            "slug": "sandal-jepit",
+            "price":50000,
+            "description":"These are simple rubber sandals often worn by locals. They are comfortable and make for practical souvenirs."
+        },
+        {
+            "id":68,
+            "category_id": 7,
+            "src":"/Assets/souvenir/painting1.png",
+            "imageAlt":"Jogja Art Prints and Paintings",
+            "name":"Jogja Art Prints and Paintings",
+            "slug": "jogja-art-prints-and-paintings",
+            "price":1500000,
+            "description":"Many local artists create beautiful paintings and art prints inspired by the culture and scenery of Jogja. These can be excellent additions to your home decor."
+        }
+    ]
+}

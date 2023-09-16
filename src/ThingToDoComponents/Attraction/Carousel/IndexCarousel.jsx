@@ -1,22 +1,30 @@
-import React from 'react'
-import AttractionCarouselCard from './Carousel';
-import attractionData from '/src/Database/attractionData.json';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import React, { useEffect, useState } from "react";
+import AttractionCarouselCard from "./Carousel";
+import attractionData from "/src/Database/attractionData.json";
+import { Swiper, SwiperSlide } from "swiper/react";
 
-import { Autoplay, Pagination } from 'swiper/modules';
+import { Autoplay, Pagination } from "swiper/modules";
 
-
-import 'swiper/css/free-mode';
-import 'swiper/css/pagination';
-import 'swiper/css';
-import './Carousel.css'
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+import "swiper/css";
+import "./Carousel.css";
+import axiosInstance from "../../../API/apiCall";
 
 const IndexCarousel = () => {
-    return (
-      <div className='mt-5 flex justify-center items-center bg-background1 py-7 md:px-20 lg:px-[50px] xl:px-16'>
+  const [attractions, setAttractions] = useState([]);
+  const callApi = async () => {
+    axiosInstance.items(2).then((res) => {
+      setAttractions(res);
+    });
+  };
+  useEffect(() => {
+    callApi();
+  }, []);
+  return (
+    <div className="mt-5 flex justify-center items-center bg-background1 py-7 md:px-20 lg:px-[50px] xl:px-16">
       <Swiper
-        
-        className='carousel3'
+        className="carousel3"
         spaceBetween={10}
         loop={true}
         slidesPerView={1}
@@ -26,38 +34,38 @@ const IndexCarousel = () => {
           delay: 2500,
           disableOnInteraction: false,
         }}
-        modules={[Autoplay , Pagination]}
+        modules={[Autoplay, Pagination]}
         breakpoints={{
           500: {
-          slidesPerView: 1,
-          spaceBetween: 40,
+            slidesPerView: 1,
+            spaceBetween: 40,
           },
           768: {
-          slidesPerView: 2,
-          spaceBetween: 10,
+            slidesPerView: 2,
+            spaceBetween: 10,
           },
           1024: {
-          slidesPerView: 3,
-          spaceBetween: 10,
-          }, 
+            slidesPerView: 3,
+            spaceBetween: 10,
+          },
           1280: {
-          slidesPerView: 4,
-          spaceBetween: 10,
-          }, 
-      
-      }}
+            slidesPerView: 4,
+            spaceBetween: 10,
+          },
+        }}
       >
-        {attractionData.map(activity => (
+        {attractions.map((activity) => (
           <SwiperSlide key={activity.id}>
             <AttractionCarouselCard
-            imageSrc={activity.pic}
-            title={activity.name} />
+              item={activity.slug}
+              imageSrc={activity.src}
+              title={activity.name}
+            />
           </SwiperSlide>
         ))}
-
       </Swiper>
     </div>
-    )
+  );
 };
 
 export default IndexCarousel;
