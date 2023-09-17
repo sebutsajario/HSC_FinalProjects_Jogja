@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom'
 
 const ListedSearch = () => {
   return (
-    <div className='w-screen h-fit flex flex-col justify-center items-center p-5 gap-5 lg:py-10 lg:px-20'>
+    <div className='w-screen h-fit flex flex-col justify-center items-center p-5 gap-5 lg:px-20'>
         <div className='w-[80vw] mx-auto font-semibold text-[20px]'>
             <p>See also</p>
         </div>
-        <Link to={'/things-to-do/food-jogja/1'}>
+        <Link to={'/things-to-do/food-jogja/javanese-apem-cake'}>
             <div className='w-full h-fit cursor-pointer justify-center flex flex-col lg:flex-row'>
                 <div className='  overflow-hidden rounded-lg lg:h-[200px] lg:w-[300px]'>
                     <img className='rounded-lg hover:scale-105 duration-500 object-cover md:h-[300px] md:w-full lg:h-[200px] lg:w-[300px] xl:object-center ' src="/Assets/foods/apem.jpg" alt="" />
@@ -18,7 +18,7 @@ const ListedSearch = () => {
                 </div>
             </div>
         </Link>
-        <Link to={'/things-to-do/drinks-jogja/3'}>
+        <Link to={'/things-to-do/drinks-jogja/wedang-ronde'}>
             <div className='w-full h-fit cursor-pointer justify-center flex flex-col lg:flex-row'>
                 <div className=' overflow-hidden rounded-lg lg:h-[200px] lg:w-[300px]'>
                     <img className='rounded-lg hover:scale-105 duration-500 object-cover md:h-[300px] md:w-full lg:h-[200px] lg:w-[300px] xl:object-center ' src="/Assets/drinks/wedang-ronde.jpg" alt="" />
@@ -29,15 +29,17 @@ const ListedSearch = () => {
                 </div>
             </div>
         </Link>
+        <Link to={'/things-to-do/souvenir-jogja/batu-akik'}>
         <div className='w-full h-fit cursor-pointer justify-center flex flex-col lg:flex-row'>
             <div className=' overflow-hidden rounded-lg lg:h-[200px] lg:w-[300px]'>
                 <img className='rounded-lg hover:scale-105 duration-500 object-cover md:h-[300px] md:w-full lg:h-[200px] lg:w-[300px] xl:object-center ' src="/Assets/souvenir/batu-akik1.png" alt="" />
             </div>
             <div className='p-3 lg:w-2/3 lg:ml-5'>
-                <h3 className='text-[22px]'>Batu Akik (Gemstones) #belum di link</h3>
+                <h3 className='text-[22px]'>Batu Akik (Gemstones)</h3>
                 <p className='line-clamp-2'>Indonesia is known for its gemstones, and you can find a variety of them in Jogja's markets. Look for agate stones or other gems that catch your eye.</p>
             </div>
         </div>
+        </Link>
         <div className='w-full h-fit cursor-pointer justify-center flex flex-col lg:flex-row'>
             <div className=' overflow-hidden rounded-lg lg:h-[200px] lg:w-[300px]'>
                 <img className='rounded-lg hover:scale-105 duration-500 object-cover md:h-[300px] md:w-full lg:h-[200px] lg:w-[300px] xl:object-center ' src="/Assets/attraction/prambanan.jpg" alt="" />
@@ -47,15 +49,17 @@ const ListedSearch = () => {
                 <p className='line-clamp-2'>Prambanan is a magnificent Hindu temple complex located in Central Java, Indonesia, near the city of Yogyakarta. This UNESCO World Heritage site is renowned for its exquisite architecture and historical significance.</p>
             </div>
         </div>
+        <Link to={'/things-to-do/art-activities-jogja/batik-master-class'}>
         <div className='w-full h-fit cursor-pointer justify-center flex flex-col lg:flex-row'>
             <div className=' overflow-hidden rounded-lg lg:h-[200px] lg:w-[300px]'>
                 <img className='rounded-lg hover:scale-105 duration-500 object-cover md:h-[300px] md:w-full lg:h-[200px] lg:w-[300px] xl:object-center ' src="/Assets/art-activities/BatikMasterClass.jpg" alt="" />
             </div>
             <div className='p-3 lg:w-2/3 lg:ml-5'>
-                <h3 className='text-[22px]'>Batik Master Class #belum di link</h3>
-                <p className='line-clamp-2'>Batik Master Class with Full Process by Alga Lova Tour</p>
+                <h3 className='text-[22px]'>Batik Master Class</h3>
+                <p className='line-clamp-2'>We'll start this experience fist of all introducing about Batik and some tools which we will use, and also the way to do properly. Then We will learn how to make batik until the end of the process led by the local people, and also we can take the result of painting batik as the souvenir.</p>
             </div>
         </div>
+        </Link>
     </div>
   )
 }

@@ -87,7 +87,7 @@
             "src": "/Assets/art-activities/YantoCraft.jpg",
             "slug": "yanto-craft",
             "address": "Jl. Lintas selatan gunungkidul Jalan gua Maria tritis, Yogyakarta 55871 Indonesia",
-            "description": "Yanto Craft adalah Toko Seni & Kerajinan"
+            "description": "Yanto Craft is a craft and arts shop that displays or exhibits its crafts made from clay such as masks, flower vases, etc. Here you can also buy these crafts at affordable prices. The complexity of crafts has its own value."
         },
         {
             "id": 5,
@@ -139,7 +139,7 @@
             "src": "/Assets/art-activities/BatikMasterClass.jpg",
             "slug": "batik-master-class",
             "address": "Bener, RT.02/RW.02, Bugisan, Kec. Prambanan, Kabupaten Klaten, Jawa Tengah 57454",
-            "description": "Batik Master Class with Full Process by Alga Lova Tour"
+            "description": "We'll start this experience fist of all introducing about Batik and some tools which we will use, and also the way to do properly. Then We will learn how to make batik until the end of the process led by the local people, and also we can take the result of painting batik as the souvenir."
         },
         {
             "id": 9,
@@ -555,7 +555,8 @@
             "price": "Rp. 300.000",
             "rate": "4.8",
             "route": "hotel-Diana-Jogja",
-            "position" : {"lat": -7.8181536 , "lng": 110.3612179}
+            "position" : {"lat": -7.8181536 , "lng": 110.3612179},
+            "description": "Diana Hotel Jogja strategically located close to central city, restaurant and shopping centre. Only 30 minutes away from Adisucipto Airport and Tugu Railway Station."
           },
         {
             "id": 46,
@@ -566,7 +567,8 @@
             "price": "Rp. 1.300.000",
             "rate": "5.0",
             "route": "hotel-Burza-Yogyakarta",
-            "position" : {"lat": -7.8240632 , "lng": 110.3619968}
+            "position" : {"lat": -7.8240632 , "lng": 110.3619968},
+            "description": "The 101 beautifully appointed rooms are reflecting the ambiance of bygone era wrapped in modern comfort facilities, enabling its occupant to celebrate a glorious past without losing the beauty of contemporary living."
           },
         {
             "id": 47,
@@ -577,7 +579,8 @@
             "price": "Rp. 700.000",
             "rate": "4.7",
             "route": "hotel-Liberta-Malioboro",
-            "position" : {"lat": -7.7915068 , "lng": 110.3569917}
+            "position" : {"lat": -7.7915068 , "lng": 110.3569917},
+            "description":"This hotel got a certificate of excellence by having nice and clean rooms also several top amenities like a great restaurant, bar/lounge, pool, spa, room & laundry service, dry cleaning, multilingual staff, concierge, airport transportation, business center with internet access, banquet room, meeting rooms, and conference facilities. "
           },
         {
             "id": 48,
@@ -588,7 +591,8 @@
             "price": "Rp. 300.000",
             "rate": "4.9",
             "route": "hotel-KJ-Yogyakarta",
-            "position" : {"lat": -7.8224374 , "lng": 110.3647706}
+            "position" : {"lat": -7.8224374 , "lng": 110.3647706},
+            "description":"This hotel got a certificate of excellence by having nice and clean rooms also several top amenities like a great restaurant, bar/lounge, pool, spa, room & laundry service, dry cleaning, multilingual staff, concierge, airport transportation, business center with internet access, banquet room, meeting rooms, and conference facilities. "
           },
         {
             "id": 49,
@@ -599,7 +603,8 @@
             "price": "Rp. 400.000",
             "rate": "4.9",
             "route": "hotel-Tjokro-Style-Yogyakarta",
-            "position" : {"lat": -7.8167179 , "lng": 110.3780268}
+            "position" : {"lat": -7.8167179 , "lng": 110.3780268},
+            "description":"This hotel got a certificate of excellence by having nice and clean rooms also several top amenities like a great restaurant, bar/lounge, pool, spa, room & laundry service, dry cleaning, multilingual staff, concierge, airport transportation, business center with internet access, banquet room, meeting rooms, and conference facilities. "
           },
         {
             "id": 50,
@@ -610,7 +615,8 @@
             "price": "Rp. 450.000",
             "rate": "4.7",
             "route": "hotel-Zest-Yogyakarta",
-            "position" : {"lat": -7.7991574 , "lng": 110.3706981}
+            "position" : {"lat": -7.7991574 , "lng": 110.3706981},
+            "description":"This hotel got a certificate of excellence by having nice and clean rooms also several top amenities like a great restaurant, bar/lounge, pool, spa, room & laundry service, dry cleaning, multilingual staff, concierge, airport transportation, business center with internet access, banquet room, meeting rooms, and conference facilities. "
           },
         {
             "id": 51,
@@ -621,7 +627,8 @@
             "price": "Rp. 800.000",
             "rate": "5.0",
             "route": "hotel-Ayyarta-Malioboro",
-            "position" : {"lat": -7.8012782 , "lng": 110.3544266}
+            "position" : {"lat": -7.8012782 , "lng": 110.3544266},
+            "description":"This hotel got a certificate of excellence by having nice and clean rooms also several top amenities like a great restaurant, bar/lounge, pool, spa, room & laundry service, dry cleaning, multilingual staff, concierge, airport transportation, business center with internet access, banquet room, meeting rooms, and conference facilities. "
           },
         {
             "id": 52,
@@ -632,7 +639,8 @@
             "price": "Rp. 600.000",
             "rate": "4.9",
             "route": "hotel-Puri-Pangeran",
-            "position" : {"lat": -7.8007226 , "lng": 110.3720191}
+            "position" : {"lat": -7.8007226 , "lng": 110.3720191},
+            "description":"This hotel got a certificate of excellence by having nice and clean rooms also several top amenities like a great restaurant, bar/lounge, pool, spa, room & laundry service, dry cleaning, multilingual staff, concierge, airport transportation, business center with internet access, banquet room, meeting rooms, and conference facilities. "
           },
         {
             "id": 53,
@@ -643,7 +651,8 @@
             "price": "Rp. 150.000",
             "rate": "4.7",
             "route": "hotel-Kalya-Hotel",
-            "position" : {"lat": -7.8135239 , "lng": 110.3988326}
+            "position" : {"lat": -7.8135239 , "lng": 110.3988326},
+            "description":"This hotel got a certificate of excellence by having nice and clean rooms also several top amenities like a great restaurant, bar/lounge, pool, spa, room & laundry service, dry cleaning, multilingual staff, concierge, airport transportation, business center with internet access, banquet room, meeting rooms, and conference facilities. "
           },
           {
             "id":54,
