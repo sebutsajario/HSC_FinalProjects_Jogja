@@ -28,7 +28,7 @@ const NavbarRight = () => {
         </a>
         <div 
             onClick={() => navigateToSearchPageJogja('/search-page')}
-            className='w-[40px] p-[8px] text-2xl h-[40px] flex justify-center items-center rounded-lg hover:bg-button2 transition duration-300 ease-in-out  icon'>
+            className='w-[40px] p-[8px] text-2xl h-[40px] flex justify-center items-center rounded-lg hover:bg-button2 transition duration-300 ease-in-out cursor-pointer icon'>
                 <i className='bx bx-search-alt'></i>
         </div>
         <div 

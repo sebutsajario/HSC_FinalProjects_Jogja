@@ -34,7 +34,7 @@
 
 /* pagination dots */
 .thingSwiper .swiper-pagination {
-    display: none;
+    display: block;
 }
 
 .thingSwiper .swiper-pagination-bullet {

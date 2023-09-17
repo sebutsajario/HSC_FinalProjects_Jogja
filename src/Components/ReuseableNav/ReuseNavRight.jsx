@@ -23,7 +23,7 @@ function ReuseNavRight() {
             </div>
         </a>
         <div onClick={() => navigateToSearchPageJogja ('/search-page')}
-                className='w-[40px] p-[8px] text-2xl h-[40px] flex justify-center items-center rounded-lg hover:bg-button2 transition duration-300 ease-in-out  text-[#000]'>
+                className='w-[40px] p-[8px] text-2xl h-[40px] flex justify-center items-center rounded-lg hover:bg-button2 transition duration-300 ease-in-out cursor-pointer  text-[#000]'>
                 <i className='bx bx-search-alt'></i>
         </div>
         <div 
